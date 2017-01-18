@@ -1,3 +1,4 @@
+#to run "pip install pdfminer"
 from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter
 from pdfminer.converter import TextConverter
 from pdfminer.layout import LAParams
@@ -31,5 +32,11 @@ def find_paragraphs(text):
     paragraphs_with_fragments = text.split("\n\n")
     return filter(lambda k: '.' in k , paragraphs_with_fragments)
 
-pdfText = convert_pdf_to_txt("SampleLetter1.pdf")
-paragraphs = find_paragraphs(pdfText)
+pdfText_1_column = convert_pdf_to_txt("SampleLetter1.pdf")
+paragraphs_1_column = find_paragraphs(pdfText_1_column)
+
+
+pdfText_2_column = convert_pdf_to_txt("2ColumnPaper.pdf")
+paragraphs_2_column = find_paragraphs(pdfText_2_column)
+
+print("EOP")
