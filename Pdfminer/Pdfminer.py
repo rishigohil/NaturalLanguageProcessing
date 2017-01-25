@@ -4,6 +4,7 @@ from pdfminer.converter import TextConverter
 from pdfminer.layout import LAParams
 from pdfminer.pdfpage import PDFPage
 from cStringIO import StringIO
+import nltk.data
 
 def convert_pdf_to_txt(path):
     rsrcmgr = PDFResourceManager()
@@ -32,15 +33,23 @@ def find_paragraphs(text):
     paragraphs_with_fragments = text.split("\n\n")
     return filter(lambda k: '.' in k , paragraphs_with_fragments)
 
+def find_sentences(text):
+    tokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
+    return tokenizer.tokenize(text)
+
 pdfText_1_column = convert_pdf_to_txt("SampleLetter1.pdf")
 paragraphs_1_column = find_paragraphs(pdfText_1_column)
 for item in paragraphs_1_column:
-    print("\n\n" + item)
+    print("\n\nParagraph: " + item)
+    for sent in find_sentences(item):
+        print('\nSentence: ' + sent)
 
 pdfText_2_column = convert_pdf_to_txt("2ColumnPaper.pdf")
 paragraphs_2_column = find_paragraphs(pdfText_2_column)
 
 for item in paragraphs_2_column:
     print("\n\n" + item)
+    for sent in find_sentences(item):
+        print('\nSentence ' + sent)
 
 print("EOP")
