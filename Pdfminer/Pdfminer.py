@@ -39,7 +39,8 @@ def convert_pdf_to_html(path):
     rsrcmgr = PDFResourceManager()
     retstr = StringIO()
     codec = 'utf-8'
-    laparams = LAParams()
+    #laparams = LAParams()
+    laparams = LAParams(char_margin=3.5, all_texts=True)
     device = HTMLConverter(rsrcmgr, retstr, codec=codec, laparams=laparams)
     fp = file(path, 'rb')
     interpreter = PDFPageInterpreter(rsrcmgr, device)
