@@ -1,9 +1,11 @@
 #to run "pip install pdfminer"
 from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter
-from pdfminer.converter import TextConverter
-from pdfminer.layout import LAParams
+from pdfminer.converter import TextConverter, PDFPageAggregator
+from pdfminer.pdfdocument import PDFDocument, PDFNoOutlines
+from pdfminer.layout import LTPage, LTChar, LTAnno, LAParams, LTTextBox, LTTextLine
 from pdfminer.pdfpage import PDFPage
 from pdfminer.converter import HTMLConverter
+from pdfminer.pdfparser import PDFParser
 from bs4 import BeautifulSoup
 from cStringIO import StringIO
 import nltk.data
@@ -12,7 +14,8 @@ def convert_pdf_to_txt(path):
     rsrcmgr = PDFResourceManager()
     retstr = StringIO()
     codec = 'utf-8'
-    laparams = LAParams()
+    #laparams = LAParams()
+    laparams = LAParams(char_margin=3.5, all_texts=True)
     device = TextConverter(rsrcmgr, retstr, codec=codec, laparams=laparams)
     fp = file(path, 'rb')
     interpreter = PDFPageInterpreter(rsrcmgr, device)
@@ -58,8 +61,11 @@ def find_paragraphs(text):
     return filter(lambda k: '.' in k , paragraphs_with_fragments)
 
 def find_sentences(text):
-    tokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
-    return tokenizer.tokenize(text)
+    try:
+        tokenizer = nltk.data.load('tokenizers/punkt/english.pickle')
+        return tokenizer.tokenize(text)
+    except:
+        return ""
 
 def find_headings(text):
     soup = BeautifulSoup(text, "html.parser")
@@ -80,11 +86,14 @@ for item in paragraphs_1_column:
 
 pdfText_2_column = convert_pdf_to_txt("2ColumnPaper.pdf")
 paragraphs_2_column = find_paragraphs(pdfText_2_column)
-pdfHtml_1_column = convert_pdf_to_html("2ColumnPaper.pdf")
-find_headings(pdfHtml_1_column)
+pdfHtml_2_column = convert_pdf_to_html("2ColumnPaper.pdf")
+find_headings(pdfHtml_2_column)
 for item in paragraphs_2_column:
-    print("\n\n" + item)
+    print("\n\nParagraph: " + item)
     for sent in find_sentences(item):
         print('\nSentence ' + sent)
+
+
+
 
 print("EOP")
