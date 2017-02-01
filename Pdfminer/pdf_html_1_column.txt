@@ -1,0 +1,84 @@
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body>
+<span style="position:absolute; border: gray 1px solid; left:0px; top:50px; width:612px; height:792px;"></span>
+<div style="position:absolute; top:50px;"><a name="1">Page 1</a></div>
+<div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:90px; top:133px; width:434px; height:78px;"><span style="font-family: Tahoma-Bold; font-size:15px">Sample Letter of Interest / Prospecting Letter 
+<br></span><span style="font-family: Tahoma; font-size:12px">A letter of interest, also known as a prospecting letter or inquiry letter, is sent to prospective 
+<br>employers that may be hiring, but, haven't listed a specific job opening to apply for. Your letter 
+<br>should contain information on why the company interests you and why your skills and experience 
+<br>would be an asset to the company. Also provide information on how you will follow-up and where 
+<br>you can be reached.  
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:90px; top:225px; width:237px; height:12px;"><span style="font-family: Tahoma-Bold; font-size:12px">Sample Letter of Interest / Prospecting Letter</span><span style="font-family: Tahoma; font-size:12px">  
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:90px; top:251px; width:120px; height:60px;"><span style="font-family: Tahoma; font-size:12px">Your Name  
+<br>Your Address  
+<br>Your City, State, Zip Code  
+<br>Your Phone Number  
+<br>Your Email  
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:90px; top:325px; width:26px; height:12px;"><span style="font-family: Tahoma; font-size:12px">Date  
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:90px; top:351px; width:65px; height:60px;"><span style="font-family: Tahoma; font-size:12px">Name 
+<br>Job Title 
+<br>Company 
+<br>Street 
+<br>City, State Zip 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:90px; top:426px; width:113px; height:12px;"><span style="font-family: Tahoma; font-size:12px">Dear Mr./Ms. LastName,  
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:89px; top:452px; width:434px; height:24px;"><span style="font-family: Tahoma; font-size:12px">I read about Company X's retail management training program in College Graduate Magazine and 
+<br>I would like to inquire about the possibility of openings.  
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:90px; top:490px; width:434px; height:36px;"><span style="font-family: Tahoma; font-size:12px">I am interested in a career in retail management and am planning to relocate to the New York 
+<br>City area in the near future. I would be interested in learning more about the company and about 
+<br>available opportunities.  
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:90px; top:540px; width:431px; height:36px;"><span style="font-family: Tahoma; font-size:12px">I have a Bachelor of Science degree in Management and Business, as well as retail experience as 
+<br>a Sales Associate and Key Holder. In addition, I completed two internships focusing on retail 
+<br>management.  
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:90px; top:590px; width:431px; height:36px;"><span style="font-family: Tahoma; font-size:12px">My resume, which is enclosed, contains additional information on my experience and skills. I 
+<br>would appreciate the opportunity to discuss the training program with you and to provide further 
+<br>information on my candidacy. I can be reached anytime via my cell phone, 555-555-5555.  
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:90px; top:641px; width:401px; height:24px;"><span style="font-family: Tahoma; font-size:12px">Thank you for your time and consideration. I look forward to speaking with you about this 
+<br>exciting opportunity.  
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:89px; top:679px; width:86px; height:60px;"><span style="font-family: Tahoma; font-size:12px">Sincerely,  
+<br> 
+<br>Your Signature  
+<br> 
+<br>Your Typed Name  
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:90px; top:751px; width:3px; height:15px;"><span style="font-family: TimesNewRomanPSMT; font-size:15px"> 
+<br></span></div><span style="position:absolute; border: gray 1px solid; left:0px; top:892px; width:612px; height:792px;"></span>
+<div style="position:absolute; top:892px;"><a name="2">Page 2</a></div>
+<div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:211px; top:963px; width:192px; height:15px;"><span style="font-family: Tahoma-Bold; font-size:15px">PROSPECTING LETTER SAMPLE 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:90px; top:981px; width:68px; height:60px;"><span style="font-family: Tahoma; font-size:12px"> 
+<br>Your Name 
+<br>Street Address 
+<br>City, State, Zip 
+<br> 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:90px; top:1055px; width:68px; height:12px;"><span style="font-family: Tahoma; font-size:12px">Date of writing 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:90px; top:1081px; width:68px; height:60px;"><span style="font-family: Tahoma; font-size:12px">Name 
+<br>Title 
+<br>Company 
+<br>Street Address 
+<br>City, State, Zip 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:90px; top:1155px; width:64px; height:12px;"><span style="font-family: Tahoma; font-size:12px">Dear Mr./Ms.: 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:89px; top:1181px; width:434px; height:36px;"><span style="font-family: Tahoma; font-size:12px">Union Carbide's extensive list of products and wide range of sales offices are attractive to me as I 
+<br>seek a position in the area of technical sales. My background encompasses both technical and 
+<br>sales abilities. 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:89px; top:1232px; width:434px; height:72px;"><span style="font-family: Tahoma; font-size:12px">You will notice in my resume that I worked as a summer intern for the city of Philadelphia and 
+<br>assisted a city engineer in the field of wastewater treatment. The UNOX System that you have 
+<br>developed is a method with which I am familiar, both from an experiential and a research 
+<br>capacity. In my summer job, the process we used involved utilizing oxygen gas in the wastewater 
+<br>treatment process. For various course projects, I had the opportunity to conduct in-depth 
+<br>research on a filtering process that supports wastewater treatment. 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:90px; top:1318px; width:434px; height:72px;"><span style="font-family: Tahoma; font-size:12px">As a supplement to my technical skills, I have developed capabilities in the field of sales. My 
+<br>position with the ACME Sales Company netted a $20,000 profit this past summer and the honor 
+<br>of being named Number 1 Salesperson in Cuyahoga County, Ohio. In addition, I was privileged to 
+<br>be the co-author, with my marketing professor, of an article entitled &quot;The Art of The Sales Deal.&quot; 
+<br>This combination of practical and research experiences can be applied to the distribution of the 
+<br>growing number of consumer products of Union Carbide. 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:90px; top:1405px; width:421px; height:48px;"><span style="font-family: Tahoma; font-size:12px">I would welcome the opportunity to review my qualifications and background in greater detail 
+<br>and will call you next week about the possibility of such a meeting. I plan on being in South 
+<br>Charleston the week of (date) and hope we can arrange a meeting at your convenience during 
+<br>this period. 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:90px; top:1467px; width:133px; height:12px;"><span style="font-family: Tahoma; font-size:12px">Thank you for your attention. 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:90px; top:1493px; width:83px; height:36px;"><span style="font-family: Tahoma; font-size:12px">Sincerely, 
+<br>(Handwritten sig.) 
+<br>Your name, typed 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:90px; top:1541px; width:3px; height:15px;"><span style="font-family: TimesNewRomanPSMT; font-size:15px"> 
+<br></span></div><div style="position:absolute; top:0px;">Page: <a href="#1">1</a>, <a href="#2">2</a></div>
+</body></html>

@@ -1,0 +1,1120 @@
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body>
+<span style="position:absolute; border: gray 1px solid; left:0px; top:50px; width:595px; height:841px;"></span>
+<div style="position:absolute; top:50px;"><a name="1">Page 1</a></div>
+<div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:78px; top:851px; width:438px; height:10px;"><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:10px">Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP)</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:10px">, pages 1746–1751,
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:142px; top:855px; width:309px; height:15px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:10px">October 25-29, 2014, Doha, Qatar. </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:10px">c</span><span style="font-family: HQJYFW+CMSY9; font-size:15px">(cid:13)</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:10px">2014 Association for Computational Linguistics
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:287px; top:833px; width:21px; height:13px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">1746
+<br></span></div><div style="position:absolute; border: figure 1px solid; writing-mode:False; left:0px; top:49px; width:595px; height:841px;"><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:119px; top:113px; width:359px; height:18px;"><span style="font-family: AFMCTD+NimbusRomNo9L-Medi; font-size:18px">Convolutional Neural Networks for Sentence Classiﬁcation
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:273px; top:157px; width:51px; height:15px;"><span style="font-family: AFMCTD+NimbusRomNo9L-Medi; font-size:15px">Yoon Kim
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:248px; top:172px; width:101px; height:28px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:14px">New York University
+<br></span><span style="font-family: UPTTJQ+NimbusMonL-Regu; font-size:12px">yhk255@nyu.edu
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:158px; top:249px; width:44px; height:15px;"><span style="font-family: AFMCTD+NimbusRomNo9L-Medi; font-size:15px">Abstract
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:72px; top:271px; width:218px; height:513px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">We report on a series of experiments with
+<br>convolutional neural networks (CNN)
+<br>trained on top of pre-trained word vec-
+<br>tors for sentence-level classiﬁcation tasks.
+<br>We show that a simple CNN with lit-
+<br>tle hyperparameter tuning and static vec-
+<br>tors achieves excellent results on multi-
+<br>ple benchmarks. Learning task-speciﬁc
+<br>vectors through ﬁne-tuning offers further
+<br>gains in performance. We additionally
+<br>propose a simple modiﬁcation to the ar-
+<br>chitecture to allow for the use of both
+<br>task-speciﬁc and static vectors. The CNN
+<br>models discussed herein improve upon the
+<br>state of the art on 4 out of 7 tasks, which
+<br>include sentiment analysis and question
+<br>classiﬁcation.
+<br></span><span style="font-family: AFMCTD+NimbusRomNo9L-Medi; font-size:15px">1 Introduction
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">Deep learning models have achieved remarkable
+<br>results in computer vision (Krizhevsky et al.,
+<br>2012) and speech recognition (Graves et al., 2013)
+<br>in recent years. Within natural language process-
+<br>ing, much of the work with deep learning meth-
+<br>ods has involved learning word vector representa-
+<br>tions through neural language models (Bengio et
+<br>al., 2003; Yih et al., 2011; Mikolov et al., 2013)
+<br>and performing composition over the learned word
+<br>vectors for classiﬁcation (Collobert et al., 2011).
+<br>Word vectors, wherein words are projected from a
+<br>sparse, 1-of-</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">V </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">encoding (here </span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">V </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">is the vocabulary
+<br>size) onto a lower dimensional vector space via a
+<br>hidden layer, are essentially feature extractors that
+<br>encode semantic features of words in their dimen-
+<br>sions. In such dense representations, semantically
+<br>close words are likewise close—in euclidean or
+<br>cosine distance—in the lower dimensional vector
+<br>space.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:72px; top:786px; width:218px; height:26px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">Convolutional neural networks (CNN) utilize
+<br>layers with convolving ﬁlters that are applied to
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:307px; top:252px; width:218px; height:107px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">local features (LeCun et al., 1998). Originally
+<br>invented for computer vision, CNN models have
+<br>subsequently been shown to be effective for NLP
+<br>and have achieved excellent results in semantic
+<br>parsing (Yih et al., 2014), search query retrieval
+<br>(Shen et al., 2014), sentence modeling (Kalch-
+<br>brenner et al., 2014), and other traditional NLP
+<br>tasks (Collobert et al., 2011).
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:307px; top:361px; width:218px; height:325px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">In the present work, we train a simple CNN with
+<br>one layer of convolution on top of word vectors
+<br>obtained from an unsupervised neural language
+<br>model. These vectors were trained by Mikolov et
+<br>al. (2013) on 100 billion words of Google News,
+<br>and are publicly available.</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:9px">1 </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">We initially keep the
+<br>word vectors static and learn only the other param-
+<br>eters of the model. Despite little tuning of hyper-
+<br>parameters, this simple model achieves excellent
+<br>results on multiple benchmarks, suggesting that
+<br>the pre-trained vectors are ‘universal’ feature ex-
+<br>tractors that can be utilized for various classiﬁca-
+<br>tion tasks. Learning task-speciﬁc vectors through
+<br>ﬁne-tuning results in further improvements. We
+<br>ﬁnally describe a simple modiﬁcation to the archi-
+<br>tecture to allow for the use of both pre-trained and
+<br>task-speciﬁc vectors by having multiple channels.
+<br>Our work is philosophically similar to Razavian
+<br>et al. (2014) which showed that for image clas-
+<br>siﬁcation, feature extractors obtained from a pre-
+<br>trained deep learning model perform well on a va-
+<br>riety of tasks—including tasks that are very dif-
+<br>ferent from the original task for which the feature
+<br>extractors were trained.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:307px; top:698px; width:50px; height:15px;"><span style="font-family: AFMCTD+NimbusRomNo9L-Medi; font-size:15px">2 Model
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:307px; top:723px; width:218px; height:67px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">The model architecture, shown in ﬁgure 1, is a
+<br>slight variant of the CNN architecture of Collobert
+<br>et al. (2011). Let </span><span style="font-family: WVYLWA+CMBX10; font-size:13px">x</span><span style="font-family: FOKKVA+CMMI8; font-size:7px">i </span><span style="font-family: ORAFIC+CMSY10; font-size:18px">∈ </span><span style="font-family: QDTWCG+MSBM10; font-size:14px">R</span><span style="font-family: FOKKVA+CMMI8; font-size:7px">k </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">be the </span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">k</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">-dimensional
+<br>word vector corresponding to the </span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">i</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">-th word in the
+<br>sentence. A sentence of length </span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">n </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">(padded where
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:307px; top:801px; width:136px; height:11px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:7px">1</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:10px">https://code.google.com/p/word2vec/
+<br></span></div><span style="position:absolute; border: black 1px solid; left:307px; top:802px; width:59px; height:0px;"></span>
+</div><span style="position:absolute; border: gray 1px solid; left:0px; top:941px; width:595px; height:841px;"></span>
+<div style="position:absolute; top:941px;"><a name="2">Page 2</a></div>
+<div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:287px; top:1725px; width:21px; height:13px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">1747
+<br></span></div><div style="position:absolute; border: figure 1px solid; writing-mode:False; left:0px; top:941px; width:595px; height:841px;"><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:167px; top:1170px; width:262px; height:10px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:10px">Figure 1: Model architecture with two channels for an example sentence.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:72px; top:1197px; width:120px; height:13px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">necessary) is represented as
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:119px; top:1218px; width:124px; height:20px;"><span style="font-family: WVYLWA+CMBX10; font-size:13px">x</span><span style="font-family: AOLVNW+CMR8; font-size:7px">1:</span><span style="font-family: FOKKVA+CMMI8; font-size:7px">n </span><span style="font-family: RODBTP+CMR10; font-size:13px">= </span><span style="font-family: WVYLWA+CMBX10; font-size:13px">x</span><span style="font-family: AOLVNW+CMR8; font-size:7px">1 </span><span style="font-family: ORAFIC+CMSY10; font-size:18px">⊕ </span><span style="font-family: WVYLWA+CMBX10; font-size:13px">x</span><span style="font-family: AOLVNW+CMR8; font-size:7px">2 </span><span style="font-family: ORAFIC+CMSY10; font-size:18px">⊕ </span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">. . . </span><span style="font-family: ORAFIC+CMSY10; font-size:18px">⊕ </span><span style="font-family: WVYLWA+CMBX10; font-size:13px">x</span><span style="font-family: FOKKVA+CMMI8; font-size:7px">n</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">,
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:72px; top:1224px; width:218px; height:115px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">(1)
+<br>where </span><span style="font-family: ORAFIC+CMSY10; font-size:18px">⊕ </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">is the concatenation operator. In gen-
+<br>eral, let </span><span style="font-family: WVYLWA+CMBX10; font-size:13px">x</span><span style="font-family: FOKKVA+CMMI8; font-size:7px">i</span><span style="font-family: AOLVNW+CMR8; font-size:7px">:</span><span style="font-family: FOKKVA+CMMI8; font-size:7px">i</span><span style="font-family: AOLVNW+CMR8; font-size:7px">+</span><span style="font-family: FOKKVA+CMMI8; font-size:7px">j </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">refer to the concatenation of words
+<br></span><span style="font-family: WVYLWA+CMBX10; font-size:13px">x</span><span style="font-family: FOKKVA+CMMI8; font-size:7px">i</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">, </span><span style="font-family: WVYLWA+CMBX10; font-size:13px">x</span><span style="font-family: FOKKVA+CMMI8; font-size:7px">i</span><span style="font-family: AOLVNW+CMR8; font-size:7px">+1</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">, . . . , </span><span style="font-family: WVYLWA+CMBX10; font-size:13px">x</span><span style="font-family: FOKKVA+CMMI8; font-size:7px">i</span><span style="font-family: AOLVNW+CMR8; font-size:7px">+</span><span style="font-family: FOKKVA+CMMI8; font-size:7px">j</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">. A convolution operation in-
+<br>volves a </span><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:13px">ﬁlter </span><span style="font-family: WVYLWA+CMBX10; font-size:13px">w </span><span style="font-family: ORAFIC+CMSY10; font-size:18px">∈ </span><span style="font-family: QDTWCG+MSBM10; font-size:14px">R</span><span style="font-family: FOKKVA+CMMI8; font-size:7px">hk</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">, which is applied to a
+<br>window of </span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">h </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">words to produce a new feature. For
+<br>example, a feature </span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">c</span><span style="font-family: FOKKVA+CMMI8; font-size:7px">i </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">is generated from a window
+<br>of words </span><span style="font-family: WVYLWA+CMBX10; font-size:13px">x</span><span style="font-family: FOKKVA+CMMI8; font-size:7px">i</span><span style="font-family: AOLVNW+CMR8; font-size:7px">:</span><span style="font-family: FOKKVA+CMMI8; font-size:7px">i</span><span style="font-family: AOLVNW+CMR8; font-size:7px">+</span><span style="font-family: FOKKVA+CMMI8; font-size:7px">h</span><span style="font-family: TMCDBM+CMSY8; font-size:13px">−</span><span style="font-family: AOLVNW+CMR8; font-size:7px">1 </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">by
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:124px; top:1343px; width:113px; height:20px;"><span style="font-family: QYDMTJ+CMMI10; font-size:10px">c</span><span style="font-family: FOKKVA+CMMI8; font-size:7px">i </span><span style="font-family: RODBTP+CMR10; font-size:13px">= </span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">f</span><span style="font-family: RODBTP+CMR10; font-size:13px">(</span><span style="font-family: WVYLWA+CMBX10; font-size:13px">w </span><span style="font-family: ORAFIC+CMSY10; font-size:18px">· </span><span style="font-family: WVYLWA+CMBX10; font-size:13px">x</span><span style="font-family: FOKKVA+CMMI8; font-size:7px">i</span><span style="font-family: AOLVNW+CMR8; font-size:7px">:</span><span style="font-family: FOKKVA+CMMI8; font-size:7px">i</span><span style="font-family: AOLVNW+CMR8; font-size:7px">+</span><span style="font-family: FOKKVA+CMMI8; font-size:7px">h</span><span style="font-family: TMCDBM+CMSY8; font-size:13px">−</span><span style="font-family: AOLVNW+CMR8; font-size:7px">1 </span><span style="font-family: RODBTP+CMR10; font-size:13px">+ </span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">b</span><span style="font-family: RODBTP+CMR10; font-size:13px">)</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:72px; top:1349px; width:218px; height:91px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">(2)
+<br>Here </span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">b </span><span style="font-family: ORAFIC+CMSY10; font-size:18px">∈ </span><span style="font-family: QDTWCG+MSBM10; font-size:14px">R </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">is a bias term and </span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">f </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">is a non-linear
+<br>function such as the hyperbolic tangent. This ﬁlter
+<br>is applied to each possible window of words in the
+<br>sentence </span><span style="font-family: ORAFIC+CMSY10; font-size:18px">{</span><span style="font-family: WVYLWA+CMBX10; font-size:13px">x</span><span style="font-family: AOLVNW+CMR8; font-size:7px">1:</span><span style="font-family: FOKKVA+CMMI8; font-size:7px">h</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">, </span><span style="font-family: WVYLWA+CMBX10; font-size:13px">x</span><span style="font-family: AOLVNW+CMR8; font-size:7px">2:</span><span style="font-family: FOKKVA+CMMI8; font-size:7px">h</span><span style="font-family: AOLVNW+CMR8; font-size:7px">+1</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">, . . . , </span><span style="font-family: WVYLWA+CMBX10; font-size:13px">x</span><span style="font-family: FOKKVA+CMMI8; font-size:7px">n</span><span style="font-family: TMCDBM+CMSY8; font-size:13px">−</span><span style="font-family: FOKKVA+CMMI8; font-size:7px">h</span><span style="font-family: AOLVNW+CMR8; font-size:7px">+1:</span><span style="font-family: FOKKVA+CMMI8; font-size:7px">n</span><span style="font-family: ORAFIC+CMSY10; font-size:18px">} </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">to produce
+<br>a </span><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:13px">feature map
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:126px; top:1450px; width:109px; height:15px;"><span style="font-family: WVYLWA+CMBX10; font-size:13px">c </span><span style="font-family: RODBTP+CMR10; font-size:13px">= [</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">c</span><span style="font-family: AOLVNW+CMR8; font-size:7px">1</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">, c</span><span style="font-family: AOLVNW+CMR8; font-size:7px">2</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">, . . . , c</span><span style="font-family: FOKKVA+CMMI8; font-size:7px">n</span><span style="font-family: TMCDBM+CMSY8; font-size:13px">−</span><span style="font-family: FOKKVA+CMMI8; font-size:7px">h</span><span style="font-family: AOLVNW+CMR8; font-size:7px">+1</span><span style="font-family: RODBTP+CMR10; font-size:13px">]</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">,
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:72px; top:1451px; width:218px; height:131px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">(3)
+<br>with </span><span style="font-family: WVYLWA+CMBX10; font-size:13px">c </span><span style="font-family: ORAFIC+CMSY10; font-size:18px">∈ </span><span style="font-family: QDTWCG+MSBM10; font-size:14px">R</span><span style="font-family: FOKKVA+CMMI8; font-size:7px">n</span><span style="font-family: TMCDBM+CMSY8; font-size:13px">−</span><span style="font-family: FOKKVA+CMMI8; font-size:7px">h</span><span style="font-family: AOLVNW+CMR8; font-size:7px">+1</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">. We then apply a max-over-
+<br>time pooling operation (Collobert et al., 2011)
+<br>over the feature map and take the maximum value
+<br></span><span style="font-family: RODBTP+CMR10; font-size:13px">ˆ</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">c </span><span style="font-family: RODBTP+CMR10; font-size:13px">= max</span><span style="font-family: ORAFIC+CMSY10; font-size:18px">{</span><span style="font-family: WVYLWA+CMBX10; font-size:13px">c</span><span style="font-family: ORAFIC+CMSY10; font-size:18px">} </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">as the feature corresponding to this
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">particular ﬁlter. The idea is to capture the most im-
+<br>portant feature—one with the highest value—for
+<br>each feature map. This pooling scheme naturally
+<br>deals with variable sentence lengths.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:72px; top:1583px; width:218px; height:94px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">We have described the process by which </span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">one
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">feature is extracted from </span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">one </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">ﬁlter. The model
+<br>uses multiple ﬁlters (with varying window sizes)
+<br>to obtain multiple features. These features form
+<br>the penultimate layer and are passed to a fully con-
+<br>nected softmax layer whose output is the probabil-
+<br>ity distribution over labels.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:72px; top:1678px; width:218px; height:26px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">In one of the model variants, we experiment
+<br>with having two ‘channels’ of word vectors—one
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:307px; top:1197px; width:218px; height:94px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">that is kept static throughout training and one that
+<br>is ﬁne-tuned via backpropagation (section 3.2).</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:9px">2
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">In the multichannel architecture, illustrated in ﬁg-
+<br>ure 1, each ﬁlter is applied to both channels and
+<br>the results are added to calculate </span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">c</span><span style="font-family: FOKKVA+CMMI8; font-size:7px">i </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">in equation
+<br>(2). The model is otherwise equivalent to the sin-
+<br>gle channel architecture.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:307px; top:1302px; width:218px; height:141px;"><span style="font-family: AFMCTD+NimbusRomNo9L-Medi; font-size:14px">2.1 Regularization
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">For regularization we employ dropout on the
+<br>penultimate layer with a constraint on </span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">l</span><span style="font-family: AOLVNW+CMR8; font-size:7px">2</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">-norms of
+<br>the weight vectors (Hinton et al., 2012). Dropout
+<br>prevents co-adaptation of hidden units by ran-
+<br>domly dropping out—i.e., setting to zero—a pro-
+<br>portion </span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">p </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">of the hidden units during foward-
+<br>backpropagation. That is, given the penultimate
+<br>layer </span><span style="font-family: WVYLWA+CMBX10; font-size:13px">z </span><span style="font-family: RODBTP+CMR10; font-size:13px">= [ˆ</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">c</span><span style="font-family: AOLVNW+CMR8; font-size:7px">1</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">, . . . , </span><span style="font-family: RODBTP+CMR10; font-size:13px">ˆ</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">c</span><span style="font-family: FOKKVA+CMMI8; font-size:7px">m</span><span style="font-family: RODBTP+CMR10; font-size:13px">] </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">(note that here we have </span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">m
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">ﬁlters), instead of using
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:385px; top:1452px; width:60px; height:18px;"><span style="font-family: QYDMTJ+CMMI10; font-size:10px">y </span><span style="font-family: RODBTP+CMR10; font-size:13px">= </span><span style="font-family: WVYLWA+CMBX10; font-size:13px">w </span><span style="font-family: ORAFIC+CMSY10; font-size:18px">· </span><span style="font-family: WVYLWA+CMBX10; font-size:13px">z </span><span style="font-family: RODBTP+CMR10; font-size:13px">+ </span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">b
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:512px; top:1457px; width:12px; height:13px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">(4)
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:307px; top:1484px; width:218px; height:26px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">for output unit </span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">y </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">in forward propagation, dropout
+<br>uses
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:372px; top:1508px; width:87px; height:18px;"><span style="font-family: QYDMTJ+CMMI10; font-size:10px">y </span><span style="font-family: RODBTP+CMR10; font-size:13px">= </span><span style="font-family: WVYLWA+CMBX10; font-size:13px">w </span><span style="font-family: ORAFIC+CMSY10; font-size:18px">· </span><span style="font-family: RODBTP+CMR10; font-size:13px">(</span><span style="font-family: WVYLWA+CMBX10; font-size:13px">z </span><span style="font-family: ORAFIC+CMSY10; font-size:18px">◦ </span><span style="font-family: WVYLWA+CMBX10; font-size:13px">r</span><span style="font-family: RODBTP+CMR10; font-size:13px">) + </span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">b,
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:307px; top:1514px; width:218px; height:190px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">(5)
+<br>where </span><span style="font-family: ORAFIC+CMSY10; font-size:18px">◦ </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">is the element-wise multiplication opera-
+<br>tor and </span><span style="font-family: WVYLWA+CMBX10; font-size:13px">r </span><span style="font-family: ORAFIC+CMSY10; font-size:18px">∈ </span><span style="font-family: QDTWCG+MSBM10; font-size:14px">R</span><span style="font-family: FOKKVA+CMMI8; font-size:7px">m </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">is a ‘masking’ vector of Bernoulli
+<br>random variables with probability </span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">p </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">of being 1.
+<br>Gradients are backpropagated only through the
+<br>unmasked units. At test time, the learned weight
+<br>vectors are scaled by </span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">p </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">such that </span><span style="font-family: RODBTP+CMR10; font-size:13px">ˆ</span><span style="font-family: WVYLWA+CMBX10; font-size:13px">w </span><span style="font-family: RODBTP+CMR10; font-size:13px">= </span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">p</span><span style="font-family: WVYLWA+CMBX10; font-size:13px">w</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">, and
+<br></span><span style="font-family: RODBTP+CMR10; font-size:13px">ˆ</span><span style="font-family: WVYLWA+CMBX10; font-size:13px">w </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">is used (without dropout) to score unseen sen-
+<br>tences. We additionally constrain </span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">l</span><span style="font-family: AOLVNW+CMR8; font-size:7px">2</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">-norms of the
+<br>weight vectors by rescaling </span><span style="font-family: WVYLWA+CMBX10; font-size:13px">w </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">to have </span><span style="font-family: ORAFIC+CMSY10; font-size:18px">||</span><span style="font-family: WVYLWA+CMBX10; font-size:13px">w</span><span style="font-family: ORAFIC+CMSY10; font-size:18px">||</span><span style="font-family: AOLVNW+CMR8; font-size:7px">2 </span><span style="font-family: RODBTP+CMR10; font-size:13px">= </span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">s
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">whenever </span><span style="font-family: ORAFIC+CMSY10; font-size:18px">||</span><span style="font-family: WVYLWA+CMBX10; font-size:13px">w</span><span style="font-family: ORAFIC+CMSY10; font-size:18px">||</span><span style="font-family: AOLVNW+CMR8; font-size:7px">2 </span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">&gt; s </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">after a gradient descent step.
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:7px">2</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:10px">We employ language from computer vision where a color
+<br>image has red, green, and blue channels.
+<br></span></div><div style="position:absolute; border: figure 1px solid; writing-mode:False; left:72px; top:1005px; width:453px; height:340px;"><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:109px; top:1021px; width:23px; height:82px;"><span style="font-family: ABCDEE+Georgia; font-size:8px">wait 
+<br>for 
+<br>the 
+<br></span><span style="font-family: ABCDEE+Georgia; font-size:8px">video 
+<br></span><span style="font-family: ABCDEE+Georgia; font-size:8px">and 
+<br>do 
+<br>n't 
+<br>rent 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:117px; top:1106px; width:7px; height:8px;"><span style="font-family: ABCDEE+Georgia; font-size:8px">it 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:140px; top:1135px; width:62px; height:12px;"><span style="font-family: Arial,Italic; font-size:5px">n</span><span style="font-family: Arial; font-size:5px"> x </span><span style="font-family: Arial,Italic; font-size:5px">k</span><span style="font-family: Arial; font-size:5px"> representation of 
+<br>sentence with static and 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:145px; top:1148px; width:50px; height:5px;"><span style="font-family: Arial; font-size:5px">non-static channels 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:242px; top:1135px; width:62px; height:12px;"><span style="font-family: Arial; font-size:5px">Convolutional layer with 
+<br>multiple filter widths and 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:255px; top:1148px; width:34px; height:5px;"><span style="font-family: Arial; font-size:5px">feature maps 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:356px; top:1135px; width:37px; height:5px;"><span style="font-family: Arial; font-size:5px">Max-over-time 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:365px; top:1142px; width:20px; height:5px;"><span style="font-family: Arial; font-size:5px">pooling 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:429px; top:1135px; width:55px; height:5px;"><span style="font-family: Arial; font-size:5px">Fully connected layer 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:435px; top:1142px; width:45px; height:12px;"><span style="font-family: Arial; font-size:5px">with dropout and  
+<br>softmax output 
+<br></span></div><span style="position:absolute; border: black 1px solid; left:72px; top:1005px; width:453px; height:340px;"></span>
+<span style="position:absolute; border: black 1px solid; left:206px; top:1052px; width:66px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:206px; top:1062px; width:69px; height:21px;"></span>
+<span style="position:absolute; border: black 1px solid; left:370px; top:1053px; width:17px; height:9px;"></span>
+<span style="position:absolute; border: black 1px solid; left:376px; top:1062px; width:17px; height:9px;"></span>
+<span style="position:absolute; border: black 1px solid; left:381px; top:1071px; width:17px; height:9px;"></span>
+<span style="position:absolute; border: black 1px solid; left:386px; top:1080px; width:17px; height:9px;"></span>
+<span style="position:absolute; border: black 1px solid; left:286px; top:1021px; width:84px; height:31px;"></span>
+<span style="position:absolute; border: black 1px solid; left:308px; top:1089px; width:83px; height:27px;"></span>
+<span style="position:absolute; border: black 1px solid; left:308px; top:1044px; width:77px; height:36px;"></span>
+<span style="position:absolute; border: black 1px solid; left:294px; top:1062px; width:80px; height:21px;"></span>
+<span style="position:absolute; border: black 1px solid; left:273px; top:1021px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:273px; top:1031px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:273px; top:1042px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:273px; top:1052px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:273px; top:1063px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:273px; top:1073px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:273px; top:1031px; width:12px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:273px; top:1042px; width:12px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:273px; top:1052px; width:13px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:273px; top:1063px; width:13px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:273px; top:1073px; width:12px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:273px; top:1021px; width:0px; height:31px;"></span>
+<span style="position:absolute; border: black 1px solid; left:273px; top:1052px; width:0px; height:11px;"></span>
+<span style="position:absolute; border: black 1px solid; left:273px; top:1063px; width:0px; height:20px;"></span>
+<span style="position:absolute; border: black 1px solid; left:285px; top:1021px; width:0px; height:31px;"></span>
+<span style="position:absolute; border: black 1px solid; left:285px; top:1052px; width:0px; height:11px;"></span>
+<span style="position:absolute; border: black 1px solid; left:285px; top:1063px; width:0px; height:20px;"></span>
+<span style="position:absolute; border: black 1px solid; left:273px; top:1021px; width:12px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:273px; top:1084px; width:12px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:281px; top:1030px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:281px; top:1041px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:281px; top:1051px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:281px; top:1062px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:281px; top:1072px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:281px; top:1082px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:280px; top:1041px; width:12px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:280px; top:1051px; width:12px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:280px; top:1062px; width:12px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:280px; top:1072px; width:12px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:280px; top:1082px; width:12px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:281px; top:1030px; width:0px; height:63px;"></span>
+<span style="position:absolute; border: black 1px solid; left:293px; top:1030px; width:0px; height:63px;"></span>
+<span style="position:absolute; border: black 1px solid; left:280px; top:1030px; width:12px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:280px; top:1093px; width:12px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:288px; top:1036px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:288px; top:1047px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:288px; top:1057px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:288px; top:1067px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:288px; top:1078px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:288px; top:1088px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:288px; top:1099px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:288px; top:1047px; width:12px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:288px; top:1057px; width:12px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:288px; top:1067px; width:12px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:288px; top:1078px; width:12px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:288px; top:1088px; width:12px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:288px; top:1099px; width:12px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:288px; top:1036px; width:0px; height:73px;"></span>
+<span style="position:absolute; border: black 1px solid; left:300px; top:1036px; width:0px; height:73px;"></span>
+<span style="position:absolute; border: black 1px solid; left:288px; top:1036px; width:12px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:288px; top:1109px; width:12px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:296px; top:1044px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:296px; top:1054px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:296px; top:1065px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:296px; top:1075px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:296px; top:1085px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:296px; top:1096px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:296px; top:1106px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:295px; top:1054px; width:13px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:296px; top:1065px; width:12px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:296px; top:1075px; width:12px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:295px; top:1085px; width:13px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:295px; top:1096px; width:13px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:295px; top:1106px; width:13px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:296px; top:1043px; width:0px; height:11px;"></span>
+<span style="position:absolute; border: black 1px solid; left:296px; top:1055px; width:0px; height:30px;"></span>
+<span style="position:absolute; border: black 1px solid; left:296px; top:1085px; width:0px; height:11px;"></span>
+<span style="position:absolute; border: black 1px solid; left:296px; top:1096px; width:0px; height:9px;"></span>
+<span style="position:absolute; border: black 1px solid; left:296px; top:1106px; width:0px; height:11px;"></span>
+<span style="position:absolute; border: black 1px solid; left:308px; top:1043px; width:0px; height:11px;"></span>
+<span style="position:absolute; border: black 1px solid; left:308px; top:1055px; width:0px; height:30px;"></span>
+<span style="position:absolute; border: black 1px solid; left:308px; top:1085px; width:0px; height:11px;"></span>
+<span style="position:absolute; border: black 1px solid; left:308px; top:1096px; width:0px; height:9px;"></span>
+<span style="position:absolute; border: black 1px solid; left:308px; top:1106px; width:0px; height:11px;"></span>
+<span style="position:absolute; border: black 1px solid; left:295px; top:1044px; width:13px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:295px; top:1117px; width:13px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:206px; top:1094px; width:89px; height:11px;"></span>
+<span style="position:absolute; border: black 1px solid; left:208px; top:1021px; width:88px; height:22px;"></span>
+<span style="position:absolute; border: black 1px solid; left:457px; top:1059px; width:17px; height:9px;"></span>
+<span style="position:absolute; border: black 1px solid; left:462px; top:1069px; width:17px; height:9px;"></span>
+<span style="position:absolute; border: black 1px solid; left:382px; top:1053px; width:75px; height:6px;"></span>
+<span style="position:absolute; border: black 1px solid; left:403px; top:1078px; width:64px; height:11px;"></span>
+<span style="position:absolute; border: black 1px solid; left:208px; top:1043px; width:88px; height:11px;"></span>
+<span style="position:absolute; border: black 1px solid; left:134px; top:1124px; width:0px; height:6px;"></span>
+<span style="position:absolute; border: black 1px solid; left:206px; top:1123px; width:0px; height:6px;"></span>
+<span style="position:absolute; border: black 1px solid; left:134px; top:1130px; width:71px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:237px; top:1123px; width:0px; height:6px;"></span>
+<span style="position:absolute; border: black 1px solid; left:308px; top:1123px; width:0px; height:6px;"></span>
+<span style="position:absolute; border: black 1px solid; left:237px; top:1130px; width:71px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:342px; top:1124px; width:0px; height:6px;"></span>
+<span style="position:absolute; border: black 1px solid; left:403px; top:1123px; width:0px; height:6px;"></span>
+<span style="position:absolute; border: black 1px solid; left:342px; top:1130px; width:61px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:429px; top:1124px; width:0px; height:6px;"></span>
+<span style="position:absolute; border: black 1px solid; left:482px; top:1124px; width:0px; height:6px;"></span>
+<span style="position:absolute; border: black 1px solid; left:429px; top:1130px; width:53px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:206px; top:1115px; width:89px; height:1px;"></span>
+<span style="position:absolute; border: black 1px solid; left:155px; top:1006px; width:0px; height:94px;"></span>
+<span style="position:absolute; border: black 1px solid; left:168px; top:1006px; width:0px; height:94px;"></span>
+<span style="position:absolute; border: black 1px solid; left:180px; top:1006px; width:0px; height:94px;"></span>
+<span style="position:absolute; border: black 1px solid; left:192px; top:1006px; width:0px; height:94px;"></span>
+<span style="position:absolute; border: black 1px solid; left:204px; top:1006px; width:0px; height:52px;"></span>
+<span style="position:absolute; border: black 1px solid; left:204px; top:1058px; width:0px; height:21px;"></span>
+<span style="position:absolute; border: black 1px solid; left:204px; top:1080px; width:0px; height:20px;"></span>
+<span style="position:absolute; border: black 1px solid; left:143px; top:1017px; width:73px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:143px; top:1027px; width:73px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:143px; top:1038px; width:73px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:143px; top:1048px; width:73px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:143px; top:1059px; width:60px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:203px; top:1059px; width:13px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:143px; top:1069px; width:73px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:143px; top:1080px; width:60px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:203px; top:1080px; width:13px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:143px; top:1090px; width:73px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:143px; top:1006px; width:0px; height:94px;"></span>
+<span style="position:absolute; border: black 1px solid; left:216px; top:1006px; width:0px; height:52px;"></span>
+<span style="position:absolute; border: black 1px solid; left:216px; top:1058px; width:0px; height:21px;"></span>
+<span style="position:absolute; border: black 1px solid; left:216px; top:1080px; width:0px; height:20px;"></span>
+<span style="position:absolute; border: black 1px solid; left:143px; top:1006px; width:73px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:143px; top:1100px; width:73px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:134px; top:1021px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:146px; top:1021px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:158px; top:1021px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:171px; top:1021px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:183px; top:1021px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:195px; top:1021px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:134px; top:1031px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:146px; top:1031px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:158px; top:1031px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:171px; top:1031px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:183px; top:1031px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:195px; top:1031px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:134px; top:1042px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:146px; top:1042px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:158px; top:1042px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:171px; top:1042px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:183px; top:1042px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:195px; top:1042px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:134px; top:1052px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:146px; top:1052px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:158px; top:1052px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:171px; top:1052px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:183px; top:1052px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:195px; top:1052px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:134px; top:1063px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:146px; top:1063px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:158px; top:1063px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:171px; top:1063px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:183px; top:1063px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:195px; top:1063px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:134px; top:1073px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:146px; top:1073px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:158px; top:1073px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:171px; top:1073px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:183px; top:1073px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:195px; top:1073px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:134px; top:1084px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:146px; top:1084px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:158px; top:1084px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:171px; top:1084px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:183px; top:1084px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:195px; top:1084px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:134px; top:1094px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:146px; top:1094px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:158px; top:1094px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:171px; top:1094px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:183px; top:1094px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:195px; top:1094px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:134px; top:1104px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:146px; top:1104px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:158px; top:1104px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:171px; top:1104px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:183px; top:1104px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:195px; top:1104px; width:12px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:146px; top:1021px; width:0px; height:94px;"></span>
+<span style="position:absolute; border: black 1px solid; left:158px; top:1021px; width:0px; height:94px;"></span>
+<span style="position:absolute; border: black 1px solid; left:171px; top:1021px; width:0px; height:94px;"></span>
+<span style="position:absolute; border: black 1px solid; left:183px; top:1021px; width:0px; height:94px;"></span>
+<span style="position:absolute; border: black 1px solid; left:195px; top:1021px; width:0px; height:94px;"></span>
+<span style="position:absolute; border: black 1px solid; left:134px; top:1031px; width:73px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:134px; top:1042px; width:73px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:134px; top:1052px; width:73px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:134px; top:1063px; width:73px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:134px; top:1073px; width:73px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:134px; top:1084px; width:73px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:134px; top:1094px; width:73px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:134px; top:1104px; width:73px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:134px; top:1021px; width:0px; height:21px;"></span>
+<span style="position:absolute; border: black 1px solid; left:134px; top:1042px; width:0px; height:9px;"></span>
+<span style="position:absolute; border: black 1px solid; left:134px; top:1052px; width:0px; height:32px;"></span>
+<span style="position:absolute; border: black 1px solid; left:134px; top:1084px; width:0px; height:9px;"></span>
+<span style="position:absolute; border: black 1px solid; left:134px; top:1094px; width:0px; height:21px;"></span>
+<span style="position:absolute; border: black 1px solid; left:207px; top:1021px; width:0px; height:21px;"></span>
+<span style="position:absolute; border: black 1px solid; left:207px; top:1042px; width:0px; height:9px;"></span>
+<span style="position:absolute; border: black 1px solid; left:207px; top:1052px; width:0px; height:32px;"></span>
+<span style="position:absolute; border: black 1px solid; left:207px; top:1084px; width:0px; height:9px;"></span>
+<span style="position:absolute; border: black 1px solid; left:207px; top:1094px; width:0px; height:21px;"></span>
+<span style="position:absolute; border: black 1px solid; left:134px; top:1021px; width:73px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:134px; top:1115px; width:73px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:216px; top:1058px; width:79px; height:27px;"></span>
+<span style="position:absolute; border: black 1px solid; left:216px; top:1079px; width:79px; height:16px;"></span>
+</div><span style="position:absolute; border: black 1px solid; left:307px; top:1684px; width:59px; height:0px;"></span>
+</div><span style="position:absolute; border: gray 1px solid; left:0px; top:1833px; width:595px; height:841px;"></span>
+<div style="position:absolute; top:1833px;"><a name="3">Page 3</a></div>
+<div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:287px; top:2617px; width:21px; height:13px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">1748
+<br></span></div><div style="position:absolute; border: figure 1px solid; writing-mode:False; left:0px; top:1833px; width:595px; height:841px;"><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:72px; top:1888px; width:218px; height:180px;"><span style="font-family: AFMCTD+NimbusRomNo9L-Medi; font-size:14px">Data </span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">c l N </span><span style="font-family: ORAFIC+CMSY10; font-size:18px">|</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">V </span><span style="font-family: ORAFIC+CMSY10; font-size:18px">|
+<br>|</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">V</span><span style="font-family: FOKKVA+CMMI8; font-size:7px">pre</span><span style="font-family: ORAFIC+CMSY10; font-size:18px">| </span><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:13px">Test
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">MR </span><span style="font-family: RODBTP+CMR10; font-size:13px">2 20 10662 18765 16448 </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">CV
+<br>SST-1 </span><span style="font-family: RODBTP+CMR10; font-size:13px">5 18 11855 17836 16262 2210
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">SST-2 </span><span style="font-family: RODBTP+CMR10; font-size:13px">2 19 9613 16185 14838 1821
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">Subj </span><span style="font-family: RODBTP+CMR10; font-size:13px">2 23 10000 21323 17913 </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">CV
+<br>TREC </span><span style="font-family: RODBTP+CMR10; font-size:13px">6 10 5952 9592 9125 500
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">CR </span><span style="font-family: RODBTP+CMR10; font-size:13px">2 19 3775 5340 5046 </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">CV
+<br>MPQA </span><span style="font-family: RODBTP+CMR10; font-size:13px">2 3 10606 6246 6083 </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">CV
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:10px">Table 1: Summary statistics for the datasets after tokeniza-
+<br>tion. </span><span style="font-family: WDUTAR+CMMI9; font-size:8px">c</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:10px">: Number of target classes. </span><span style="font-family: WDUTAR+CMMI9; font-size:8px">l</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:10px">: Average sentence length.
+<br></span><span style="font-family: WDUTAR+CMMI9; font-size:8px">N</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:10px">: Dataset size. </span><span style="font-family: HQJYFW+CMSY9; font-size:15px">|</span><span style="font-family: WDUTAR+CMMI9; font-size:8px">V </span><span style="font-family: HQJYFW+CMSY9; font-size:15px">|</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:10px">: Vocabulary size. </span><span style="font-family: HQJYFW+CMSY9; font-size:15px">|</span><span style="font-family: WDUTAR+CMMI9; font-size:8px">V</span><span style="font-family: AXNGLD+CMMI6; font-size:5px">pre</span><span style="font-family: HQJYFW+CMSY9; font-size:15px">|</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:10px">: Number of
+<br>words present in the set of pre-trained word vectors. </span><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:10px">Test</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:10px">:
+<br>Test set size (CV means there was no standard train/test split
+<br>and thus 10-fold CV was used).
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:72px; top:2083px; width:188px; height:15px;"><span style="font-family: AFMCTD+NimbusRomNo9L-Medi; font-size:15px">3 Datasets and Experimental Setup
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:72px; top:2109px; width:218px; height:26px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">We test our model on various benchmarks. Sum-
+<br>mary statistics of the datasets are in table 1.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:83px; top:2142px; width:206px; height:125px;"><span style="font-family: ORAFIC+CMSY10; font-size:18px">• </span><span style="font-family: AFMCTD+NimbusRomNo9L-Medi; font-size:14px">MR</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">: Movie reviews with one sentence per re-
+<br>view. Classiﬁcation involves detecting posi-
+<br>tive/negative reviews (Pang and Lee, 2005).</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:9px">3
+<br></span><span style="font-family: ORAFIC+CMSY10; font-size:18px">• </span><span style="font-family: AFMCTD+NimbusRomNo9L-Medi; font-size:14px">SST-1</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">: Stanford Sentiment Treebank—an
+<br>extension of MR but with train/dev/test splits
+<br>provided and ﬁne-grained labels (very pos-
+<br>itive, positive, neutral, negative, very nega-
+<br>tive), re-labeled by Socher et al. (2013).</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:9px">4
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:83px; top:2274px; width:206px; height:18px;"><span style="font-family: ORAFIC+CMSY10; font-size:18px">• </span><span style="font-family: AFMCTD+NimbusRomNo9L-Medi; font-size:14px">SST-2</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">: Same as SST-1 but with neutral re-
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:93px; top:2294px; width:145px; height:13px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">views removed and binary labels.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:83px; top:2313px; width:206px; height:46px;"><span style="font-family: ORAFIC+CMSY10; font-size:18px">• </span><span style="font-family: AFMCTD+NimbusRomNo9L-Medi; font-size:14px">Subj</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">: Subjectivity dataset where the task is
+<br>to classify a sentence as being subjective or
+<br>objective (Pang and Lee, 2004).
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:83px; top:2366px; width:206px; height:73px;"><span style="font-family: ORAFIC+CMSY10; font-size:18px">• </span><span style="font-family: AFMCTD+NimbusRomNo9L-Medi; font-size:14px">TREC</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">: TREC question dataset—task in-
+<br>volves classifying a question into 6 question
+<br>types (whether the question is about person,
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">location, numeric information, etc.) (Li and
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">Roth, 2002).</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:9px">5
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:83px; top:2446px; width:206px; height:46px;"><span style="font-family: ORAFIC+CMSY10; font-size:18px">• </span><span style="font-family: AFMCTD+NimbusRomNo9L-Medi; font-size:14px">CR</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">: Customer reviews of various products
+<br>(cameras, MP3s etc.). Task is to predict pos-
+<br>itive/negative reviews (Hu and Liu, 2004).</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:9px">6
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:72px; top:2503px; width:218px; height:93px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:7px">3</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:10px">https://www.cs.cornell.edu/people/pabo/movie-review-data/
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:7px">4</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:10px">http://nlp.stanford.edu/sentiment/ Data is actually provided
+<br>at the phrase-level and hence we train the model on both
+<br>phrases and sentences but only score on sentences at test
+<br>time, as in Socher et al. (2013), Kalchbrenner et al. (2014),
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:10px">and Le and Mikolov (2014). Thus the training set is an order
+<br>of magnitude larger than listed in table 1.
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:7px">5</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:10px">http://cogcomp.cs.illinois.edu/Data/QA/QC/
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:7px">6</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:10px">http://www.cs.uic.edu/</span><span style="font-family: PQWBFZ+CMSY6; font-size:10px">∼</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:10px">liub/FBS/sentiment-analysis.html
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:318px; top:1888px; width:206px; height:32px;"><span style="font-family: ORAFIC+CMSY10; font-size:18px">• </span><span style="font-family: AFMCTD+NimbusRomNo9L-Medi; font-size:14px">MPQA</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">: Opinion polarity detection subtask
+<br>of the MPQA dataset (Wiebe et al., 2005).</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:9px">7
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:307px; top:1932px; width:218px; height:87px;"><span style="font-family: AFMCTD+NimbusRomNo9L-Medi; font-size:14px">3.1 Hyperparameters and Training
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">For all datasets we use: rectiﬁed linear units, ﬁlter
+<br>windows (</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">h</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">) of 3, 4, 5 with 100 feature maps each,
+<br>dropout rate (</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">p</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">) of 0.5, </span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">l</span><span style="font-family: AOLVNW+CMR8; font-size:7px">2 </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">constraint (</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">s</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">) of 3, and
+<br>mini-batch size of 50. These values were chosen
+<br>via a grid search on the SST-2 dev set.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:307px; top:2020px; width:218px; height:94px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">We do not otherwise perform any dataset-
+<br>speciﬁc tuning other than early stopping on dev
+<br>sets. For datasets without a standard dev set we
+<br>randomly select 10% of the training data as the
+<br>dev set. Training is done through stochastic gra-
+<br>dient descent over shufﬂed mini-batches with the
+<br>Adadelta update rule (Zeiler, 2012).
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:307px; top:2125px; width:218px; height:182px;"><span style="font-family: AFMCTD+NimbusRomNo9L-Medi; font-size:14px">3.2 Pre-trained Word Vectors
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">Initializing word vectors with those obtained from
+<br>an unsupervised neural language model is a popu-
+<br>lar method to improve performance in the absence
+<br>of a large supervised training set (Collobert et al.,
+<br>2011; Socher et al., 2011; Iyyer et al., 2014). We
+<br>use the publicly available </span><span style="font-family: UPTTJQ+NimbusMonL-Regu; font-size:11px">word2vec </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">vectors that
+<br>were trained on 100 billion words from Google
+<br>News. The vectors have dimensionality of 300 and
+<br>were trained using the continuous bag-of-words
+<br>architecture (Mikolov et al., 2013). Words not
+<br>present in the set of pre-trained words are initial-
+<br>ized randomly.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:307px; top:2318px; width:218px; height:85px;"><span style="font-family: AFMCTD+NimbusRomNo9L-Medi; font-size:14px">3.3 Model Variations
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">We experiment with several variants of the model.
+<br></span><span style="font-family: ORAFIC+CMSY10; font-size:18px">• </span><span style="font-family: AFMCTD+NimbusRomNo9L-Medi; font-size:14px">CNN-rand</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">: Our baseline model where all
+<br>words are randomly initialized and then mod-
+<br>iﬁed during training.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:318px; top:2410px; width:206px; height:164px;"><span style="font-family: ORAFIC+CMSY10; font-size:18px">• </span><span style="font-family: AFMCTD+NimbusRomNo9L-Medi; font-size:14px">CNN-static</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">: A model with pre-trained
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">vectors from </span><span style="font-family: UPTTJQ+NimbusMonL-Regu; font-size:11px">word2vec</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">. All words—
+<br>including the unknown ones that are ran-
+<br>domly initialized—are kept static and only
+<br>the other parameters of the model are learned.
+<br></span><span style="font-family: ORAFIC+CMSY10; font-size:18px">• </span><span style="font-family: AFMCTD+NimbusRomNo9L-Medi; font-size:14px">CNN-non-static</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">: Same as above but the pre-
+<br>trained vectors are ﬁne-tuned for each task.
+<br></span><span style="font-family: ORAFIC+CMSY10; font-size:18px">• </span><span style="font-family: AFMCTD+NimbusRomNo9L-Medi; font-size:14px">CNN-multichannel</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">: A model with two sets
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">of word vectors. Each set of vectors is treated
+<br>as a ‘channel’ and each ﬁlter is applied
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:307px; top:2585px; width:107px; height:11px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:7px">7</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:10px">http://www.cs.pitt.edu/mpqa/
+<br></span></div><span style="position:absolute; border: black 1px solid; left:72px; top:1897px; width:220px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:112px; top:1897px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:114px; top:1897px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:131px; top:1897px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:150px; top:1897px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:186px; top:1897px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:222px; top:1897px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:258px; top:1897px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:72px; top:1911px; width:220px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:112px; top:1911px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:114px; top:1911px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:131px; top:1911px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:150px; top:1911px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:186px; top:1911px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:222px; top:1911px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:258px; top:1911px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:112px; top:1925px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:114px; top:1925px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:131px; top:1925px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:150px; top:1925px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:186px; top:1925px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:222px; top:1925px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:258px; top:1925px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:112px; top:1939px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:114px; top:1939px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:131px; top:1939px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:150px; top:1939px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:186px; top:1939px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:222px; top:1939px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:258px; top:1939px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:112px; top:1952px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:114px; top:1952px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:131px; top:1952px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:150px; top:1952px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:186px; top:1952px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:222px; top:1952px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:258px; top:1952px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:112px; top:1966px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:114px; top:1966px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:131px; top:1966px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:150px; top:1966px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:186px; top:1966px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:222px; top:1966px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:258px; top:1966px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:112px; top:1979px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:114px; top:1979px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:131px; top:1979px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:150px; top:1979px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:186px; top:1979px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:222px; top:1979px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:258px; top:1979px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:112px; top:1993px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:114px; top:1993px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:131px; top:1993px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:150px; top:1993px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:186px; top:1993px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:222px; top:1993px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:258px; top:1993px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:72px; top:2007px; width:220px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:72px; top:2503px; width:59px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:307px; top:2586px; width:59px; height:0px;"></span>
+</div><span style="position:absolute; border: gray 1px solid; left:0px; top:2725px; width:595px; height:841px;"></span>
+<div style="position:absolute; top:2725px;"><a name="4">Page 4</a></div>
+<div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:287px; top:3509px; width:21px; height:13px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">1749
+<br></span></div><div style="position:absolute; border: figure 1px solid; writing-mode:False; left:0px; top:2725px; width:595px; height:841px;"><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:72px; top:2784px; width:453px; height:375px;"><span style="font-family: AFMCTD+NimbusRomNo9L-Medi; font-size:14px">Model
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">MR SST-1 SST-2 Subj TREC CR MPQA
+<br></span><span style="font-family: RODBTP+CMR10; font-size:13px">82</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">7
+<br>89</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">6 91</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">2 79</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">8 83</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">4
+<br>45</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">0
+<br>76</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">1
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">CNN-rand
+<br></span><span style="font-family: RODBTP+CMR10; font-size:13px">86</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">8
+<br>93</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">0 92</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">8 84</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">7 </span><span style="font-family: WVYLWA+CMBX10; font-size:13px">89</span><span style="font-family: QOAGMD+CMMIB10; font-size:10px">.</span><span style="font-family: WVYLWA+CMBX10; font-size:13px">6
+<br></span><span style="font-family: RODBTP+CMR10; font-size:13px">81</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">0
+<br>45</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">5
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">CNN-static
+<br></span><span style="font-family: RODBTP+CMR10; font-size:13px">87</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">2
+<br>93</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">4 93</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">6 84</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">3 89</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">5
+<br></span><span style="font-family: WVYLWA+CMBX10; font-size:13px">81</span><span style="font-family: QOAGMD+CMMIB10; font-size:10px">.</span><span style="font-family: WVYLWA+CMBX10; font-size:13px">5 </span><span style="font-family: RODBTP+CMR10; font-size:13px">48</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">0
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">CNN-non-static
+<br></span><span style="font-family: RODBTP+CMR10; font-size:13px">47</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">4 </span><span style="font-family: WVYLWA+CMBX10; font-size:13px">88</span><span style="font-family: QOAGMD+CMMIB10; font-size:10px">.</span><span style="font-family: WVYLWA+CMBX10; font-size:13px">1 </span><span style="font-family: RODBTP+CMR10; font-size:13px">93</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">2 92</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">2 </span><span style="font-family: WVYLWA+CMBX10; font-size:13px">85</span><span style="font-family: QOAGMD+CMMIB10; font-size:10px">.</span><span style="font-family: WVYLWA+CMBX10; font-size:13px">0 </span><span style="font-family: RODBTP+CMR10; font-size:13px">89</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">4
+<br>81</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">1
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">CNN-multichannel
+<br></span><span style="font-family: RODBTP+CMR10; font-size:13px">82</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">4 </span><span style="font-family: ORAFIC+CMSY10; font-size:18px">− − − </span><span style="font-family: RODBTP+CMR10; font-size:13px">86</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">4
+<br>43</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">2
+<br>77</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">7
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">RAE (Socher et al., 2011)
+<br></span><span style="font-family: RODBTP+CMR10; font-size:13px">82</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">9 </span><span style="font-family: ORAFIC+CMSY10; font-size:18px">− − − −
+<br></span><span style="font-family: RODBTP+CMR10; font-size:13px">79</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">0
+<br>44</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">4
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">MV-RNN (Socher et al., 2012)
+<br></span><span style="font-family: RODBTP+CMR10; font-size:13px">85</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">4 </span><span style="font-family: ORAFIC+CMSY10; font-size:18px">− − − −
+<br>− </span><span style="font-family: RODBTP+CMR10; font-size:13px">45</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">7
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">RNTN (Socher et al., 2013)
+<br></span><span style="font-family: RODBTP+CMR10; font-size:13px">86</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">8 </span><span style="font-family: ORAFIC+CMSY10; font-size:18px">− </span><span style="font-family: RODBTP+CMR10; font-size:13px">93</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">0 </span><span style="font-family: ORAFIC+CMSY10; font-size:18px">− −
+<br>− </span><span style="font-family: RODBTP+CMR10; font-size:13px">48</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">5
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">DCNN (Kalchbrenner et al., 2014)
+<br>Paragraph-Vec (Le and Mikolov, 2014) </span><span style="font-family: ORAFIC+CMSY10; font-size:18px">− </span><span style="font-family: WVYLWA+CMBX10; font-size:13px">48</span><span style="font-family: QOAGMD+CMMIB10; font-size:10px">.</span><span style="font-family: WVYLWA+CMBX10; font-size:13px">7 </span><span style="font-family: RODBTP+CMR10; font-size:13px">87</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">8 </span><span style="font-family: ORAFIC+CMSY10; font-size:18px">− − − −
+<br>−
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">CCAE (Hermann and Blunsom, 2013) </span><span style="font-family: RODBTP+CMR10; font-size:13px">77</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">8 </span><span style="font-family: ORAFIC+CMSY10; font-size:18px">−
+<br>− − − </span><span style="font-family: RODBTP+CMR10; font-size:13px">87</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">2
+<br></span><span style="font-family: ORAFIC+CMSY10; font-size:18px">− − − </span><span style="font-family: RODBTP+CMR10; font-size:13px">86</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">3
+<br>79</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">5 </span><span style="font-family: ORAFIC+CMSY10; font-size:18px">−
+<br>−
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">Sent-Parser (Dong et al., 2014)
+<br></span><span style="font-family: RODBTP+CMR10; font-size:13px">79</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">4 </span><span style="font-family: ORAFIC+CMSY10; font-size:18px">−
+<br>− </span><span style="font-family: RODBTP+CMR10; font-size:13px">93</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">2 </span><span style="font-family: ORAFIC+CMSY10; font-size:18px">− </span><span style="font-family: RODBTP+CMR10; font-size:13px">81</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">8 86</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">3
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">NBSVM (Wang and Manning, 2012)
+<br></span><span style="font-family: ORAFIC+CMSY10; font-size:18px">− </span><span style="font-family: WVYLWA+CMBX10; font-size:13px">93</span><span style="font-family: QOAGMD+CMMIB10; font-size:10px">.</span><span style="font-family: WVYLWA+CMBX10; font-size:13px">6 </span><span style="font-family: ORAFIC+CMSY10; font-size:18px">− </span><span style="font-family: RODBTP+CMR10; font-size:13px">80</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">0 86</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">3
+<br>79</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">0 </span><span style="font-family: ORAFIC+CMSY10; font-size:18px">−
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">MNB (Wang and Manning, 2012)
+<br>G-Dropout (Wang and Manning, 2013) </span><span style="font-family: RODBTP+CMR10; font-size:13px">79</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">0 </span><span style="font-family: ORAFIC+CMSY10; font-size:18px">−
+<br>− </span><span style="font-family: RODBTP+CMR10; font-size:13px">93</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">4 </span><span style="font-family: ORAFIC+CMSY10; font-size:18px">− </span><span style="font-family: RODBTP+CMR10; font-size:13px">82</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">1 86</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">1
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">F-Dropout (Wang and Manning, 2013) </span><span style="font-family: RODBTP+CMR10; font-size:13px">79</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">1 </span><span style="font-family: ORAFIC+CMSY10; font-size:18px">−
+<br>− </span><span style="font-family: WVYLWA+CMBX10; font-size:13px">93</span><span style="font-family: QOAGMD+CMMIB10; font-size:10px">.</span><span style="font-family: WVYLWA+CMBX10; font-size:13px">6 </span><span style="font-family: ORAFIC+CMSY10; font-size:18px">− </span><span style="font-family: RODBTP+CMR10; font-size:13px">81</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">9 86</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">3
+<br>77</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">3 </span><span style="font-family: ORAFIC+CMSY10; font-size:18px">−
+<br>−
+<br>− − </span><span style="font-family: RODBTP+CMR10; font-size:13px">81</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">4 86</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">1
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">Tree-CRF (Nakagawa et al., 2010)
+<br></span><span style="font-family: ORAFIC+CMSY10; font-size:18px">− − </span><span style="font-family: RODBTP+CMR10; font-size:13px">82</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">7 </span><span style="font-family: ORAFIC+CMSY10; font-size:18px">−
+<br>−
+<br>−
+<br>−
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">CRF-PR (Yang and Cardie, 2014)
+<br></span><span style="font-family: ORAFIC+CMSY10; font-size:18px">−
+<br>−
+<br>−
+<br>− </span><span style="font-family: WVYLWA+CMBX10; font-size:13px">95</span><span style="font-family: QOAGMD+CMMIB10; font-size:10px">.</span><span style="font-family: WVYLWA+CMBX10; font-size:13px">0 </span><span style="font-family: ORAFIC+CMSY10; font-size:18px">− −
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">SVM</span><span style="font-family: FOKKVA+CMMI8; font-size:7px">S </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">(Silva et al., 2011)
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:10px">Table 2: Results of our CNN models against other methods. </span><span style="font-family: AFMCTD+NimbusRomNo9L-Medi; font-size:11px">RAE</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:10px">: Recursive Autoencoders with pre-trained word vectors from
+<br>Wikipedia (Socher et al., 2011). </span><span style="font-family: AFMCTD+NimbusRomNo9L-Medi; font-size:11px">MV-RNN</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:10px">: Matrix-Vector Recursive Neural Network with parse trees (Socher et al., 2012).
+<br></span><span style="font-family: AFMCTD+NimbusRomNo9L-Medi; font-size:11px">RNTN</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:10px">: Recursive Neural Tensor Network with tensor-based feature function and parse trees (Socher et al., 2013). </span><span style="font-family: AFMCTD+NimbusRomNo9L-Medi; font-size:11px">DCNN</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:10px">:
+<br>Dynamic Convolutional Neural Network with k-max pooling (Kalchbrenner et al., 2014). </span><span style="font-family: AFMCTD+NimbusRomNo9L-Medi; font-size:11px">Paragraph-Vec</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:10px">: Logistic regres-
+<br>sion on top of paragraph vectors (Le and Mikolov, 2014). </span><span style="font-family: AFMCTD+NimbusRomNo9L-Medi; font-size:11px">CCAE</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:10px">: Combinatorial Category Autoencoders with combinatorial
+<br>category grammar operators (Hermann and Blunsom, 2013). </span><span style="font-family: AFMCTD+NimbusRomNo9L-Medi; font-size:11px">Sent-Parser</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:10px">: Sentiment analysis-speciﬁc parser (Dong et al.,
+<br>2014). </span><span style="font-family: AFMCTD+NimbusRomNo9L-Medi; font-size:11px">NBSVM, MNB</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:10px">: Naive Bayes SVM and Multinomial Naive Bayes with uni-bigrams from Wang and Manning (2012).
+<br></span><span style="font-family: AFMCTD+NimbusRomNo9L-Medi; font-size:11px">G-Dropout, F-Dropout</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:10px">: Gaussian Dropout and Fast Dropout from Wang and Manning (2013). </span><span style="font-family: AFMCTD+NimbusRomNo9L-Medi; font-size:11px">Tree-CRF</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:10px">: Dependency tree
+<br>with Conditional Random Fields (Nakagawa et al., 2010). </span><span style="font-family: AFMCTD+NimbusRomNo9L-Medi; font-size:11px">CRF-PR</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:10px">: Conditional Random Fields with Posterior Regularization
+<br>(Yang and Cardie, 2014). </span><span style="font-family: AFMCTD+NimbusRomNo9L-Medi; font-size:11px">SVM</span><span style="font-family: AXNGLD+CMMI6; font-size:5px">S</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:10px">: SVM with uni-bi-trigrams, wh word, head word, POS, parser, hypernyms, and 60 hand-coded
+<br>rules as features from Silva et al. (2011).
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:93px; top:3175px; width:196px; height:80px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">to both channels, but gradients are back-
+<br>propagated only through one of the chan-
+<br>nels. Hence the model is able to ﬁne-tune
+<br>one set of vectors while keeping the other
+<br>static. Both channels are initialized with
+<br></span><span style="font-family: UPTTJQ+NimbusMonL-Regu; font-size:11px">word2vec</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:72px; top:3266px; width:218px; height:80px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">In order to disentangle the effect of the above
+<br>variations versus other random factors, we elim-
+<br>inate other sources of randomness—CV-fold as-
+<br>signment, initialization of unknown word vec-
+<br>tors, initialization of CNN parameters—by keep-
+<br>ing them uniform within each dataset.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:72px; top:3356px; width:134px; height:15px;"><span style="font-family: AFMCTD+NimbusRomNo9L-Medi; font-size:15px">4 Results and Discussion
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:72px; top:3380px; width:218px; height:107px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">Results of our models against other methods are
+<br>listed in table 2. Our baseline model with all ran-
+<br>domly initialized words (CNN-rand) does not per-
+<br>form well on its own. While we had expected per-
+<br>formance gains through the use of pre-trained vec-
+<br>tors, we were surprised at the magnitude of the
+<br>gains. Even a simple model with static vectors
+<br>(CNN-static) performs remarkably well, giving
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:307px; top:3175px; width:218px; height:121px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">competitive results against the more sophisticated
+<br>deep learning models that utilize complex pool-
+<br>ing schemes (Kalchbrenner et al., 2014) or require
+<br>parse trees to be computed beforehand (Socher
+<br>et al., 2013). These results suggest that the pre-
+<br>trained vectors are good, ‘universal’ feature ex-
+<br>tractors and can be utilized across datasets. Fine-
+<br>tuning the pre-trained vectors for each task gives
+<br>still further improvements (CNN-non-static).
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:307px; top:3306px; width:218px; height:181px;"><span style="font-family: AFMCTD+NimbusRomNo9L-Medi; font-size:14px">4.1 Multichannel vs. Single Channel Models
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">We had initially hoped that the multichannel ar-
+<br>chitecture would prevent overﬁtting (by ensuring
+<br>that the learned vectors do not deviate too far
+<br>from the original values) and thus work better than
+<br>the single channel model, especially on smaller
+<br>datasets. The results, however, are mixed, and fur-
+<br>ther work on regularizing the ﬁne-tuning process
+<br>is warranted. For instance, instead of using an
+<br>additional channel for the non-static portion, one
+<br>could maintain a single channel but employ extra
+<br>dimensions that are allowed to be modiﬁed during
+<br>training.
+<br></span></div><span style="position:absolute; border: black 1px solid; left:73px; top:2788px; width:450px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:254px; top:2788px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:256px; top:2788px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:294px; top:2788px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:333px; top:2788px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:372px; top:2788px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:410px; top:2788px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:448px; top:2788px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:486px; top:2788px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:73px; top:2802px; width:450px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:254px; top:2802px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:256px; top:2802px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:294px; top:2802px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:333px; top:2802px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:372px; top:2802px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:410px; top:2802px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:448px; top:2802px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:486px; top:2802px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:254px; top:2816px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:256px; top:2816px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:294px; top:2816px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:333px; top:2816px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:372px; top:2816px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:410px; top:2816px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:448px; top:2816px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:486px; top:2816px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:254px; top:2829px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:256px; top:2829px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:294px; top:2829px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:333px; top:2829px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:372px; top:2829px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:410px; top:2829px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:448px; top:2829px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:486px; top:2829px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:254px; top:2843px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:256px; top:2843px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:294px; top:2843px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:333px; top:2843px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:372px; top:2843px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:410px; top:2843px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:448px; top:2843px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:486px; top:2843px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:73px; top:2857px; width:450px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:254px; top:2857px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:256px; top:2857px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:294px; top:2857px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:333px; top:2857px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:372px; top:2857px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:410px; top:2857px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:448px; top:2857px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:486px; top:2857px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:254px; top:2871px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:256px; top:2871px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:294px; top:2871px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:333px; top:2871px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:372px; top:2871px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:410px; top:2871px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:448px; top:2871px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:486px; top:2871px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:254px; top:2884px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:256px; top:2884px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:294px; top:2884px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:333px; top:2884px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:372px; top:2884px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:410px; top:2884px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:448px; top:2884px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:486px; top:2884px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:254px; top:2898px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:256px; top:2898px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:294px; top:2898px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:333px; top:2898px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:372px; top:2898px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:410px; top:2898px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:448px; top:2898px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:486px; top:2898px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:254px; top:2911px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:256px; top:2911px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:294px; top:2911px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:333px; top:2911px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:372px; top:2911px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:410px; top:2911px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:448px; top:2911px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:486px; top:2911px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:254px; top:2925px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:256px; top:2925px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:294px; top:2925px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:333px; top:2925px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:372px; top:2925px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:410px; top:2925px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:448px; top:2925px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:486px; top:2925px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:254px; top:2938px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:256px; top:2938px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:294px; top:2938px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:333px; top:2938px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:372px; top:2938px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:410px; top:2938px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:448px; top:2938px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:486px; top:2938px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:254px; top:2952px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:256px; top:2952px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:294px; top:2952px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:333px; top:2952px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:372px; top:2952px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:410px; top:2952px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:448px; top:2952px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:486px; top:2952px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:254px; top:2966px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:256px; top:2966px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:294px; top:2966px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:333px; top:2966px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:372px; top:2966px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:410px; top:2966px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:448px; top:2966px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:486px; top:2966px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:254px; top:2979px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:256px; top:2979px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:294px; top:2979px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:333px; top:2979px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:372px; top:2979px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:410px; top:2979px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:448px; top:2979px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:486px; top:2979px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:254px; top:2993px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:256px; top:2993px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:294px; top:2993px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:333px; top:2993px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:372px; top:2993px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:410px; top:2993px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:448px; top:2993px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:486px; top:2993px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:254px; top:3006px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:256px; top:3006px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:294px; top:3006px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:333px; top:3006px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:372px; top:3006px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:410px; top:3006px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:448px; top:3006px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:486px; top:3006px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:254px; top:3020px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:256px; top:3020px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:294px; top:3020px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:333px; top:3020px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:372px; top:3020px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:410px; top:3020px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:448px; top:3020px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:486px; top:3020px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:254px; top:3033px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:256px; top:3033px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:294px; top:3033px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:333px; top:3033px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:372px; top:3033px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:410px; top:3033px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:448px; top:3033px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:486px; top:3033px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:73px; top:3047px; width:450px; height:0px;"></span>
+</div><span style="position:absolute; border: gray 1px solid; left:0px; top:3617px; width:595px; height:841px;"></span>
+<div style="position:absolute; top:3617px;"><a name="5">Page 5</a></div>
+<div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:287px; top:4401px; width:21px; height:13px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">1750
+<br></span></div><div style="position:absolute; border: figure 1px solid; writing-mode:False; left:0px; top:3617px; width:595px; height:841px;"><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:146px; top:3677px; width:103px; height:13px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">Most Similar Words for
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:117px; top:3690px; width:160px; height:13px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">Static Channel Non-static Channel
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:86px; top:3724px; width:16px; height:14px;"><span style="font-family: NHPUZO+NimbusRomNo9L-MediItal; font-size:14px">bad
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:83px; top:3778px; width:21px; height:14px;"><span style="font-family: NHPUZO+NimbusRomNo9L-MediItal; font-size:14px">good
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:88px; top:3833px; width:12px; height:14px;"><span style="font-family: NHPUZO+NimbusRomNo9L-MediItal; font-size:14px">n’t
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:92px; top:3887px; width:4px; height:14px;"><span style="font-family: NHPUZO+NimbusRomNo9L-MediItal; font-size:14px">!
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:93px; top:3942px; width:2px; height:14px;"><span style="font-family: NHPUZO+NimbusRomNo9L-MediItal; font-size:14px">,
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:131px; top:3704px; width:35px; height:81px;"><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:13px">good
+<br>terrible
+<br>horrible
+<br>lousy
+<br>great
+<br>bad
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:134px; top:3786px; width:29px; height:26px;"><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:13px">terriﬁc
+<br>decent
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:144px; top:3813px; width:10px; height:26px;"><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:13px">os
+<br>ca
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:134px; top:3841px; width:31px; height:13px;"><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:13px">ireland
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:137px; top:3854px; width:25px; height:54px;"><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:13px">wo
+<br>2,500
+<br>entire
+<br>jez
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:127px; top:3909px; width:44px; height:40px;"><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:13px">changer
+<br>decasia
+<br></span><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:13px">abysmally
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:134px; top:3950px; width:30px; height:26px;"><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:13px">demise
+<br>valiant
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:218px; top:3704px; width:35px; height:108px;"><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:13px">terrible
+<br>horrible
+<br>lousy
+<br>stupid
+<br>nice
+<br>decent
+<br>solid
+<br>terriﬁc
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:219px; top:3813px; width:33px; height:81px;"><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:13px">not
+<br>never
+<br>nothing
+<br>neither
+<br>2,500
+<br>lush
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:216px; top:3895px; width:38px; height:26px;"><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:13px">beautiful
+<br>terriﬁc
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:229px; top:3923px; width:13px; height:13px;"><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:13px">but
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:220px; top:3936px; width:31px; height:13px;"><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:13px">dragon
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:228px; top:3950px; width:16px; height:26px;"><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:13px">a
+<br>and
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:72px; top:3982px; width:218px; height:40px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:10px">Table 3: Top 4 neighboring words—based on cosine
+<br>similarity—for vectors in the static channel (left) and ﬁne-
+<br>tuned vectors in the non-static channel (right) from the mul-
+<br>tichannel model on the SST-2 dataset after training.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:72px; top:4038px; width:218px; height:249px;"><span style="font-family: AFMCTD+NimbusRomNo9L-Medi; font-size:14px">4.2 Static vs. Non-static Representations
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">As is the case with the single channel non-static
+<br>model, the multichannel model is able to ﬁne-tune
+<br>the non-static channel to make it more speciﬁc to
+<br>the task-at-hand. For example, </span><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:13px">good </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">is most sim-
+<br>ilar to </span><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:13px">bad </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">in </span><span style="font-family: UPTTJQ+NimbusMonL-Regu; font-size:11px">word2vec</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">, presumably because
+<br>they are (almost) syntactically equivalent. But for
+<br>vectors in the non-static channel that were ﬁne-
+<br>tuned on the SST-2 dataset, this is no longer the
+<br>case (table 3). Similarly, </span><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:13px">good </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">is arguably closer
+<br>to </span><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:13px">nice </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">than it is to </span><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:13px">great </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">for expressing sentiment,
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">and this is indeed reﬂected in the learned vectors.
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">For (randomly initialized) tokens not in the set
+<br>of pre-trained vectors, ﬁne-tuning allows them to
+<br>learn more meaningful representations: the net-
+<br>work learns that exclamation marks are associ-
+<br>ated with effusive expressions and that commas
+<br>are conjunctive (table 3).
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:72px; top:4297px; width:218px; height:45px;"><span style="font-family: AFMCTD+NimbusRomNo9L-Medi; font-size:14px">4.3 Further Observations
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">We report on some further experiments and obser-
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">vations:
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:83px; top:4348px; width:100px; height:18px;"><span style="font-family: ORAFIC+CMSY10; font-size:18px">• </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">Kalchbrenner et al.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:93px; top:4353px; width:196px; height:26px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">(2014) report much
+<br>worse results with a CNN that has essentially
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:329px; top:3678px; width:196px; height:107px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">the same architecture as our single channel
+<br>model. For example, their Max-TDNN (Time
+<br>Delay Neural Network) with randomly ini-
+<br>tialized words obtains </span><span style="font-family: RODBTP+CMR10; font-size:13px">37</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">4% </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">on the SST-1
+<br>dataset, compared to </span><span style="font-family: RODBTP+CMR10; font-size:13px">45</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">.</span><span style="font-family: RODBTP+CMR10; font-size:13px">0% </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">for our model.
+<br>We attribute such discrepancy to our CNN
+<br>having much more capacity (multiple ﬁlter
+<br>widths and feature maps).
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:318px; top:3788px; width:206px; height:73px;"><span style="font-family: ORAFIC+CMSY10; font-size:18px">• </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">Dropout proved to be such a good regularizer
+<br>that it was ﬁne to use a larger than necessary
+<br>network and simply let dropout regularize it.
+<br>Dropout consistently added 2%–4% relative
+<br>performance.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:318px; top:3864px; width:206px; height:140px;"><span style="font-family: ORAFIC+CMSY10; font-size:18px">• </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">When randomly initializing words not in
+<br></span><span style="font-family: UPTTJQ+NimbusMonL-Regu; font-size:11px">word2vec</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">, we obtained slight improve-
+<br>ments by sampling each dimension from
+<br></span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">U</span><span style="font-family: RODBTP+CMR10; font-size:13px">[</span><span style="font-family: ORAFIC+CMSY10; font-size:18px">−</span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">a, a</span><span style="font-family: RODBTP+CMR10; font-size:13px">] </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">where </span><span style="font-family: QYDMTJ+CMMI10; font-size:10px">a </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">was chosen such that the
+<br>randomly initialized vectors have the same
+<br>variance as the pre-trained ones. It would be
+<br>interesting to see if employing more sophis-
+<br>ticated methods to mirror the distribution of
+<br>pre-trained vectors in the initialization pro-
+<br>cess gives further improvements.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:318px; top:4008px; width:206px; height:100px;"><span style="font-family: ORAFIC+CMSY10; font-size:18px">• </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">We brieﬂy experimented with another set of
+<br>publicly available word vectors trained by
+<br>Collobert et al. (2011) on Wikipedia,</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:9px">8 </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">and
+<br>found that </span><span style="font-family: UPTTJQ+NimbusMonL-Regu; font-size:11px">word2vec </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">gave far superior per-
+<br>formance. It is not clear whether this is due
+<br>to Mikolov et al. (2013)’s architecture or the
+<br>100 billion word Google News dataset.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:307px; top:4111px; width:218px; height:184px;"><span style="font-family: ORAFIC+CMSY10; font-size:18px">• </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">Adadelta (Zeiler, 2012) gave similar results
+<br>to Adagrad (Duchi et al., 2011) but required
+<br>fewer epochs.
+<br></span><span style="font-family: AFMCTD+NimbusRomNo9L-Medi; font-size:15px">5 Conclusion
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">In the present work we have described a series of
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">experiments with convolutional neural networks
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">built on top of </span><span style="font-family: UPTTJQ+NimbusMonL-Regu; font-size:11px">word2vec</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">. Despite little tuning
+<br>of hyperparameters, a simple CNN with one layer
+<br>of convolution performs remarkably well. Our re-
+<br>sults add to the well-established evidence that un-
+<br>supervised pre-training of word vectors is an im-
+<br>portant ingredient in deep learning for NLP.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:307px; top:4303px; width:218px; height:58px;"><span style="font-family: AFMCTD+NimbusRomNo9L-Medi; font-size:14px">Acknowledgments
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">We would like to thank Yann LeCun and the
+<br>anonymous reviewers for their helpful feedback
+<br>and suggestions.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:307px; top:4369px; width:122px; height:11px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:7px">8</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:10px">http://ronan.collobert.com/senna/
+<br></span></div><span style="position:absolute; border: black 1px solid; left:77px; top:3680px; width:206px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:111px; top:3680px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:111px; top:3694px; width:172px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:111px; top:3694px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:187px; top:3694px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:77px; top:3708px; width:206px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:111px; top:3708px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:187px; top:3708px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:111px; top:3721px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:187px; top:3721px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:111px; top:3735px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:187px; top:3735px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:111px; top:3748px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:187px; top:3748px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:77px; top:3762px; width:206px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:111px; top:3762px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:187px; top:3762px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:111px; top:3776px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:187px; top:3776px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:111px; top:3789px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:187px; top:3789px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:111px; top:3803px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:187px; top:3803px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:77px; top:3817px; width:206px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:111px; top:3817px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:187px; top:3817px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:111px; top:3831px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:187px; top:3831px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:111px; top:3844px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:187px; top:3844px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:111px; top:3858px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:187px; top:3858px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:77px; top:3871px; width:206px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:111px; top:3872px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:187px; top:3872px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:111px; top:3885px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:187px; top:3885px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:111px; top:3899px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:187px; top:3899px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:111px; top:3912px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:187px; top:3912px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:77px; top:3926px; width:206px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:111px; top:3926px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:187px; top:3926px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:111px; top:3940px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:187px; top:3940px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:111px; top:3953px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:187px; top:3953px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:111px; top:3967px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:187px; top:3967px; width:0px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:77px; top:3981px; width:206px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:307px; top:4369px; width:59px; height:0px;"></span>
+</div><span style="position:absolute; border: gray 1px solid; left:0px; top:4509px; width:595px; height:841px;"></span>
+<div style="position:absolute; top:4509px;"><a name="6">Page 6</a></div>
+<div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:287px; top:5293px; width:21px; height:13px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:13px">1751
+<br></span></div><div style="position:absolute; border: figure 1px solid; writing-mode:False; left:0px; top:4509px; width:595px; height:841px;"><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:72px; top:4567px; width:218px; height:54px;"><span style="font-family: AFMCTD+NimbusRomNo9L-Medi; font-size:15px">References
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">Y. Bengio, R. Ducharme, P. Vincent. 2003. Neu-
+<br>ral Probabilitistic Language Model. </span><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:11px">Journal of Ma-
+<br>chine Learning Research </span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">3:1137–1155.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:72px; top:4629px; width:218px; height:44px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">R. Collobert, J. Weston, L. Bottou, M. Karlen, K.
+<br>Kavukcuglu, P. Kuksa. 2011. Natural Language
+<br>Processing (Almost) from Scratch. </span><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:11px">Journal of Ma-
+<br>chine Learning Research 12:2493–2537</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:72px; top:4681px; width:218px; height:44px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">J. Duchi, E. Hazan, Y. Singer. 2011 Adaptive subgra-
+<br>dient methods for online learning and stochastic op-
+<br>timization. </span><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:11px">Journal of Machine Learning Research,
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">12:2121–2159.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:72px; top:4733px; width:218px; height:33px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">L. Dong, F. Wei, S. Liu, M. Zhou, K. Xu. 2014. A
+<br>Statistical Parsing Framework for Sentiment Classi-
+<br>ﬁcation. </span><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:11px">CoRR, abs/1401.6330.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:72px; top:4774px; width:218px; height:33px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">A. Graves, A. Mohamed, G. Hinton. 2013. Speech
+<br>recognition with deep recurrent neural networks. </span><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:11px">In
+<br>Proceedings of ICASSP 2013.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:307px; top:4571px; width:218px; height:44px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">B. Pang, L. Lee. 2004. A sentimental education:
+<br>Sentiment analysis using subjectivity summarization
+<br>based on minimum cuts. </span><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:11px">In Proceedings of ACL
+<br>2004.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:307px; top:4624px; width:218px; height:33px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">B. Pang, L. Lee. 2005. Seeing stars: Exploiting class
+<br>relationships for sentiment categorization with re-
+<br>spect to rating scales. </span><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:11px">In Proceedings of ACL 2005.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:307px; top:4665px; width:218px; height:33px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">A.S. Razavian, H. Azizpour, J. Sullivan, S. Carlsson
+<br>2014. CNN Features off-the-shelf: an Astounding
+<br>Baseline. </span><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:11px">CoRR, abs/1403.6382</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:307px; top:4707px; width:218px; height:44px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">Y. Shen, X. He, J. Gao, L. Deng, G. Mesnil. 2014.
+<br>Learning Semantic Representations Using Convolu-
+<br>tional Neural Networks for Web Search. </span><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:11px">In Proceed-
+<br>ings of WWW 2014</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:307px; top:4760px; width:218px; height:44px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">J. Silva, L. Coheur, A. Mendes, A. Wichert. 2011.
+<br>From symbolic to sub-symbolic information in ques-
+<br>tion classiﬁcation. </span><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:11px">Artiﬁcial Intelligence Review</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">,
+<br>35(2):137–154.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:72px; top:4814px; width:218px; height:44px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">G. Hinton, N. Srivastava, A. Krizhevsky, I. Sutskever,
+<br>R. Salakhutdinov. 2012. Improving neural net-
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">works by preventing co-adaptation of feature detec-
+<br>tors. </span><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:11px">CoRR, abs/1207.0580</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:307px; top:4813px; width:218px; height:44px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">R. Socher, J. Pennington, E. Huang, A. Ng, C. Man-
+<br>ning. 2011. Semi-Supervised Recursive Autoen-
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">coders for Predicting Sentiment Distributions. </span><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:11px">In
+<br></span><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:11px">Proceedings of EMNLP 2011.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:72px; top:4866px; width:218px; height:33px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">K. Hermann, P. Blunsom. 2013. The Role of Syntax in
+<br>Vector Space Models of Compositional Semantics.
+<br></span><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:11px">In Proceedings of ACL 2013</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:307px; top:4866px; width:218px; height:33px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">R. Socher, B. Huval, C. Manning, A. Ng. 2012. Se-
+<br>mantic Compositionality through Recursive Matrix-
+<br>Vector Spaces. </span><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:11px">In Proceedings of EMNLP 2012.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:72px; top:4907px; width:218px; height:33px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">M. Hu, B. Liu. 2004. Mining and Summarizing Cus-
+<br>tomer Reviews. </span><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:11px">In Proceedings of ACM SIGKDD
+<br>2004.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:72px; top:4948px; width:218px; height:33px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">M. Iyyer, P. Enns, J. Boyd-Graber, P. Resnik 2014.
+<br>Political Ideology Detection Using Recursive Neural
+<br>Networks. </span><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:11px">In Proceedings of ACL 2014.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:72px; top:4989px; width:218px; height:33px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">N. Kalchbrenner, E. Grefenstette, P. Blunsom. 2014. A
+<br>Convolutional Neural Network for Modelling Sen-
+<br>tences. </span><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:11px">In Proceedings of ACL 2014.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:72px; top:5030px; width:218px; height:33px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">A. Krizhevsky, I. Sutskever, G. Hinton. 2012. Ima-
+<br>geNet Classiﬁcation with Deep Convolutional Neu-
+<br>ral Networks. </span><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:11px">In Proceedings of NIPS 2012.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:72px; top:5071px; width:218px; height:33px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">Q. Le, T. Mikolov. 2014. Distributed Represenations
+<br>of Sentences and Documents. </span><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:11px">In Proceedings of
+<br></span><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:11px">ICML 2014.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:72px; top:5112px; width:218px; height:44px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">Y. LeCun, L. Bottou, Y. Bengio, P. Haffner. 1998.
+<br>Gradient-based learning applied to document recog-
+<br>nition. </span><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:11px">In Proceedings of the IEEE</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">, 86(11):2278–
+<br>2324, November.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:72px; top:5164px; width:218px; height:12px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">X. Li, D. Roth. 2002. Learning Question Classiﬁers.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:82px; top:5175px; width:115px; height:11px;"><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:11px">In Proceedings of ACL 2002.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:72px; top:5193px; width:218px; height:44px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">T. Mikolov, I. Sutskever, K. Chen, G. Corrado, J. Dean.
+<br>2013. Distributed Representations of Words and
+<br>Phrases and their Compositionality. </span><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:11px">In Proceedings
+<br>of NIPS 2013.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:72px; top:5243px; width:218px; height:44px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">T. Nakagawa, K. Inui, S. Kurohashi. 2010. De-
+<br>pendency tree-based sentiment classiﬁcation using
+<br>CRFs with hidden variables. </span><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:11px">In Proceedings of ACL
+<br></span><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:11px">2010.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:307px; top:4907px; width:218px; height:44px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">R. Socher, A. Perelygin, J. Wu, J. Chuang, C. Manning,
+<br>A. Ng, C. Potts. 2013. Recursive Deep Models for
+<br>Semantic Compositionality Over a Sentiment Tree-
+<br>bank. </span><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:11px">In Proceedings of EMNLP 2013.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:307px; top:4960px; width:218px; height:44px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">J. Wiebe, T. Wilson, C. Cardie. 2005. Annotating Ex-
+<br>pressions of Opinions and Emotions in Language.
+<br></span><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:11px">Language Resources and Evaluation</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">, 39(2-3): 165–
+<br>210.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:307px; top:5013px; width:218px; height:33px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">S. Wang, C. Manning. 2012. Baselines and Bigrams:
+<br>Simple, Good Sentiment and Topic Classiﬁcation.
+<br></span><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:11px">In Proceedings of ACL 2012.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:307px; top:5055px; width:218px; height:12px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">S. Wang, C. Manning. 2013. Fast Dropout Training.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:318px; top:5066px; width:121px; height:12px;"><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:11px">In Proceedings of ICML 2013</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:307px; top:5086px; width:218px; height:33px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">B. Yang, C. Cardie. 2014. Context-aware Learning
+<br></span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">for Sentence-level Sentiment Analysis with Poste-
+<br>rior Regularization. </span><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:11px">In Proceedings of ACL 2014</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:307px; top:5128px; width:218px; height:55px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">W. Yih, K. Toutanova, J. Platt, C. Meek. 2011. Learn-
+<br>ing Discriminative Projections for Text Similarity
+<br>Measures. </span><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:11px">Proceedings of the Fifteenth Confer-
+<br>ence on Computational Natural Language Learning,
+<br>247–256</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:307px; top:5191px; width:218px; height:33px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">W. Yih, X. He, C. Meek. 2014. Semantic Parsing for
+<br>Single-Relation Question Answering. </span><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:11px">In Proceed-
+<br>ings of ACL 2014</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:307px; top:5233px; width:218px; height:12px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">M. Zeiler. 2012. Adadelta: An adaptive learning rate
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:318px; top:5244px; width:126px; height:12px;"><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">method. </span><span style="font-family: ACAMOU+NimbusRomNo9L-ReguItal; font-size:11px">CoRR, abs/1212.5701</span><span style="font-family: FGFCHU+NimbusRomNo9L-Regu; font-size:12px">.
+<br></span></div></div><div style="position:absolute; top:0px;">Page: <a href="#1">1</a>, <a href="#2">2</a>, <a href="#3">3</a>, <a href="#4">4</a>, <a href="#5">5</a>, <a href="#6">6</a></div>
+</body></html>

@@ -84,6 +84,10 @@ for item in paragraphs_1_column:
     print("\n\nParagraph: " + item)
     for sent in find_sentences(item):
         print('\nSentence: ' + sent)
+text_file = open("pdf_html_1_column.txt", "w")
+text_file.write(pdfHtml_1_column)
+text_file.close()
+
 
 pdfText_2_column = convert_pdf_to_txt("2ColumnPaper.pdf")
 paragraphs_2_column = find_paragraphs(pdfText_2_column)
@@ -94,7 +98,9 @@ for item in paragraphs_2_column:
     for sent in find_sentences(item):
         print('\nSentence ' + sent)
 
-
+text_file = open("pdf_html_2_column.txt", "w")
+text_file.write(pdfHtml_2_column)
+text_file.close()
 
 
 print("EOP")

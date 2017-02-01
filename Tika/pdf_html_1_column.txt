@@ -1,0 +1,148 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="date" content="2009-04-24T13:57:08Z" />
+<meta name="pdf:PDFVersion" content="1.4" />
+<meta name="xmp:CreatorTool" content="Acrobat PDFMaker 7.0 for Word" />
+<meta name="access_permission:modify_annotations" content="true" />
+<meta name="access_permission:can_print_degraded" content="true" />
+<meta name="dc:creator" content="Chris Kotsionis" />
+<meta name="dcterms:created" content="2009-04-24T13:56:02Z" />
+<meta name="Last-Modified" content="2009-04-24T13:57:08Z" />
+<meta name="dcterms:modified" content="2009-04-24T13:57:08Z" />
+<meta name="dc:format" content="application/pdf; version=1.4" />
+<meta name="xmpMM:DocumentID" content="uuid:5999ce00-e498-4b1b-a584-21b9c7e035e6" />
+<meta name="Last-Save-Date" content="2009-04-24T13:57:08Z" />
+<meta name="access_permission:fill_in_form" content="true" />
+<meta name="meta:save-date" content="2009-04-24T13:57:08Z" />
+<meta name="pdf:encrypted" content="false" />
+<meta name="dc:title" content="Sample Letter of Interest / Prospecting Letter" />
+<meta name="modified" content="2009-04-24T13:57:08Z" />
+<meta name="Content-Type" content="application/pdf" />
+<meta name="X-Parsed-By" content="org.apache.tika.parser.DefaultParser" />
+<meta name="X-Parsed-By" content="org.apache.tika.parser.pdf.PDFParser" />
+<meta name="creator" content="Chris Kotsionis" />
+<meta name="meta:author" content="Chris Kotsionis" />
+<meta name="meta:creation-date" content="2009-04-24T13:56:02Z" />
+<meta name="created" content="Fri Apr 24 09:56:02 EDT 2009" />
+<meta name="access_permission:extract_for_accessibility" content="true" />
+<meta name="access_permission:assemble_document" content="true" />
+<meta name="xmpTPg:NPages" content="2" />
+<meta name="Creation-Date" content="2009-04-24T13:56:02Z" />
+<meta name="resourceName" content="SampleLetter1.pdf" />
+<meta name="access_permission:extract_content" content="true" />
+<meta name="access_permission:can_print" content="true" />
+<meta name="SourceModified" content="D:20090424124026" />
+<meta name="Author" content="Chris Kotsionis" />
+<meta name="producer" content="Acrobat Distiller 7.0 (Windows)" />
+<meta name="access_permission:can_modify" content="true" />
+<title>Sample Letter of Interest / Prospecting Letter</title>
+</head>
+<body><div class="page"><p />
+<p>Sample Letter of Interest / Prospecting Letter 
+A letter of interest, also known as a prospecting letter or inquiry letter, is sent to prospective 
+employers that may be hiring, but, haven't listed a specific job opening to apply for. Your letter 
+should contain information on why the company interests you and why your skills and experience 
+would be an asset to the company. Also provide information on how you will follow-up and where 
+you can be reached.  
+</p>
+<p>Sample Letter of Interest / Prospecting Letter  
+</p>
+<p>Your Name  
+Your Address  
+Your City, State, Zip Code  
+Your Phone Number  
+Your Email  
+</p>
+<p>Date  
+</p>
+<p>Name 
+Job Title 
+Company 
+Street 
+City, State Zip 
+</p>
+<p>Dear Mr./Ms. LastName,  
+</p>
+<p>I read about Company X's retail management training program in College Graduate Magazine and 
+I would like to inquire about the possibility of openings.  
+</p>
+<p>I am interested in a career in retail management and am planning to relocate to the New York 
+City area in the near future. I would be interested in learning more about the company and about 
+available opportunities.  
+</p>
+<p>I have a Bachelor of Science degree in Management and Business, as well as retail experience as 
+a Sales Associate and Key Holder. In addition, I completed two internships focusing on retail 
+management.  
+</p>
+<p>My resume, which is enclosed, contains additional information on my experience and skills. I 
+would appreciate the opportunity to discuss the training program with you and to provide further 
+information on my candidacy. I can be reached anytime via my cell phone, 555-555-5555.  
+</p>
+<p>Thank you for your time and consideration. I look forward to speaking with you about this 
+exciting opportunity.  
+</p>
+<p>Sincerely,  
+ 
+Your Signature  
+ 
+Your Typed Name  
+</p>
+<p> </p>
+<p />
+</div>
+<div class="page"><p />
+<p>PROSPECTING LETTER SAMPLE 
+ 
+Your Name 
+Street Address 
+City, State, Zip 
+ 
+</p>
+<p>Date of writing 
+</p>
+<p>Name 
+Title 
+Company 
+Street Address 
+City, State, Zip 
+</p>
+<p>Dear Mr./Ms.: 
+</p>
+<p>Union Carbide's extensive list of products and wide range of sales offices are attractive to me as I 
+seek a position in the area of technical sales. My background encompasses both technical and 
+sales abilities. 
+</p>
+<p>You will notice in my resume that I worked as a summer intern for the city of Philadelphia and 
+assisted a city engineer in the field of wastewater treatment. The UNOX System that you have 
+developed is a method with which I am familiar, both from an experiential and a research 
+capacity. In my summer job, the process we used involved utilizing oxygen gas in the wastewater 
+treatment process. For various course projects, I had the opportunity to conduct in-depth 
+research on a filtering process that supports wastewater treatment. 
+</p>
+<p>As a supplement to my technical skills, I have developed capabilities in the field of sales. My 
+position with the ACME Sales Company netted a $20,000 profit this past summer and the honor 
+of being named Number 1 Salesperson in Cuyahoga County, Ohio. In addition, I was privileged to 
+be the co-author, with my marketing professor, of an article entitled "The Art of The Sales Deal." 
+This combination of practical and research experiences can be applied to the distribution of the 
+growing number of consumer products of Union Carbide. 
+</p>
+<p>I would welcome the opportunity to review my qualifications and background in greater detail 
+and will call you next week about the possibility of such a meeting. I plan on being in South 
+Charleston the week of (date) and hope we can arrange a meeting at your convenience during 
+this period. 
+</p>
+<p>Thank you for your attention. 
+</p>
+<p>Sincerely, 
+(Handwritten sig.) 
+Your name, typed 
+</p>
+<p> </p>
+<p />
+</div>
+<ul>	<li>Sample Letter of Interest / Prospecting Letter </li>
+	<li>Prospecting_Letter_Sample.pdf</li>
+<ul>	<li>PROSPECTING LETTER SAMPLE </li>
+</ul>
+</ul>
+</body></html>
