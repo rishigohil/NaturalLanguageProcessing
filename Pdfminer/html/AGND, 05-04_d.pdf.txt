@@ -1,0 +1,251 @@
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body>
+<span style="position:absolute; border: gray 1px solid; left:0px; top:50px; width:612px; height:792px;"></span>
+<div style="position:absolute; top:50px;"><a name="1">Page 1</a></div>
+<div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:83px; top:114px; width:3px; height:6px;"><span style="font-family: Helvetica-Bold; font-size:6px">®
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:36px; top:186px; width:109px; height:11px;"><span style="font-family: Helvetica-Bold; font-size:11px">Program Administrator
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:182px; top:102px; width:246px; height:11px;"><span style="font-family: Helvetica-Bold; font-size:11px">American National Property And Casualty Company
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:356px; top:70px; width:2px; height:4px;"><span style="font-family: Helvetica-Bold; font-size:4px">®
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:337px; top:70px; width:34px; height:16px;"><span style="font-family: MPLJKA+Helvetica-Black; font-size:5px">American
+<br>National  Property
+<br>And  Casualty
+<br>Companies
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:421px; top:72px; width:34px; height:10px;"><span style="font-family: Helvetica; font-size:10px">Number:
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:421px; top:90px; width:124px; height:10px;"><span style="font-family: Helvetica; font-size:10px">Date of Loan              /             /
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:242px; top:114px; width:126px; height:11px;"><span style="font-family: Helvetica-Bold; font-size:11px">c/o Program Administrator
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:271px; top:126px; width:68px; height:23px;"><span style="font-family: Helvetica-Bold; font-size:11px">JM&amp;A Group
+<br>P. O. Box 8567
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:242px; top:150px; width:126px; height:11px;"><span style="font-family: Helvetica-Bold; font-size:11px">Deerfield Beach, FL  33443
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:271px; top:162px; width:68px; height:11px;"><span style="font-family: Helvetica-Bold; font-size:11px">(800) 443-9841
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:251px; top:180px; width:109px; height:14px;"><span style="font-family: Helvetica-Bold; font-size:14px">GAP APPLICATION
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:36px; top:204px; width:540px; height:33px;"><span style="font-family: Helvetica; font-size:11px">Any  person  who  knowingly  and  with  intent  to  defraud  any  insurance  company  or  other  person  files  an  application  for
+<br>insurance containing any materially false information or conceals, for the purpose of misleading, information concerning
+<br>any fact material thereto commits a fraudulent act, which is a crime.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:228px; top:242px; width:155px; height:14px;"><span style="font-family: Helvetica-Bold; font-size:14px">APPLICANT INFORMATION
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:36px; top:263px; width:33px; height:11px;"><span style="font-family: Helvetica; font-size:11px">Insured
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:36px; top:281px; width:36px; height:11px;"><span style="font-family: Helvetica; font-size:11px">Address
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:36px; top:299px; width:17px; height:11px;"><span style="font-family: Helvetica; font-size:11px">City
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:36px; top:317px; width:105px; height:11px;"><span style="font-family: Helvetica; font-size:11px">Phone             (            )
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:36px; top:362px; width:31px; height:11px;"><span style="font-family: Helvetica; font-size:11px">Lender
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:36px; top:380px; width:36px; height:11px;"><span style="font-family: Helvetica; font-size:11px">Address
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:36px; top:398px; width:17px; height:11px;"><span style="font-family: Helvetica; font-size:11px">City
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:36px; top:416px; width:105px; height:11px;"><span style="font-family: Helvetica; font-size:11px">Phone             (            )
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:36px; top:434px; width:55px; height:11px;"><span style="font-family: Helvetica; font-size:11px">Vehicle Year
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:36px; top:452px; width:63px; height:11px;"><span style="font-family: Helvetica; font-size:11px">Vehicle ID No.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:36px; top:470px; width:76px; height:11px;"><span style="font-family: Helvetica; font-size:11px">Purchase Price $
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:36px; top:488px; width:72px; height:11px;"><span style="font-family: Helvetica; font-size:11px">Starting Mileage
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:36px; top:506px; width:131px; height:11px;"><span style="font-family: Helvetica; font-size:11px">GAP Coverage Effective Date
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:36px; top:524px; width:72px; height:11px;"><span style="font-family: Helvetica; font-size:11px">GAP Premium $
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:324px; top:299px; width:23px; height:11px;"><span style="font-family: Helvetica; font-size:11px">State
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:396px; top:299px; width:13px; height:11px;"><span style="font-family: Helvetica; font-size:11px">Zip
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:245px; top:334px; width:121px; height:14px;"><span style="font-family: Helvetica-Bold; font-size:14px">LOAN INFORMATION
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:324px; top:398px; width:23px; height:11px;"><span style="font-family: Helvetica; font-size:11px">State
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:396px; top:398px; width:13px; height:11px;"><span style="font-family: Helvetica; font-size:11px">Zip
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:294px; top:434px; width:89px; height:11px;"><span style="font-family: Helvetica; font-size:11px">Vehicle Make/Model
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:293px; top:470px; width:78px; height:11px;"><span style="font-family: Helvetica; font-size:11px">Amount of Loan $
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:293px; top:488px; width:58px; height:11px;"><span style="font-family: Helvetica; font-size:11px">Term of Loan
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:522px; top:488px; width:29px; height:11px;"><span style="font-family: Helvetica; font-size:11px">mo./yr.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:35px; top:542px; width:540px; height:46px;"><span style="font-family: Helvetica; font-size:10px">GAP coverage will provide protection for the insured when the above listed vehicle is involved in a loss which is determined to be a </span><span style="font-family: Helvetica-Bold; font-size:10px">total loss</span><span style="font-family: Helvetica; font-size:10px"> by
+<br></span><span style="font-family: Helvetica-Bold; font-size:10px">your vehicle’s physical damage insurer.</span><span style="font-family: Helvetica; font-size:10px"> GAP coverage will pay the difference between the loan balance at the time of loss and the </span><span style="font-family: Helvetica-Bold; font-size:10px">actual cash
+<br>value</span><span style="font-family: Helvetica; font-size:10px"> (as defined in the GAP Agreement). GAP coverage does not cover any portion of any applicable physical damage insurance deductible that
+<br>exceeds $500, past due payments, interest, penalties, costs of extended warranties, credit life or any other loan add-ons. Other conditions and
+<br>restrictions apply to this coverage. Refer to the GAP Agreement, attached hereto and made a part hereof, for specific details of coverage.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:215px; top:601px; width:181px; height:10px;"><span style="font-family: Helvetica-Bold; font-size:10px">INSURED’S APPROVAL AND AGREEMENT
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:47px; top:614px; width:516px; height:73px;"><span style="font-family: Helvetica; font-size:10px">The insured(s), by signing below, acknowledge that they have read this application, received a copy of the GAP Agreement, and that
+<br>the benefits and limitations of GAP coverage have been explained to them.  Signature(s) below also indicate an understanding that:
+<br>(1) GAP Insurance is not required nor is a condition of the extension of credit, (2) Gap Insurance may be obtained from other sources
+<br>than this Dealer/Creditor, (3) GAP Insurance will not be provided unless this application is signed and I/we agree to pay the GAP
+<br>Premium listed above, and (4) the information contained in this application is to the best of my/our knowledge, true. The undersigned
+<br>also authorize American National Property And Casualty Company and their designees to obtain any and all insurance information
+<br>pertaining to any loss on the above listed vehicle and any and all financial information from the lender or others pertaining to the
+<br>above listed loan.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:48px; top:703px; width:78px; height:11px;"><span style="font-family: Helvetica; font-size:11px">Insured Signature
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:263px; top:703px; width:21px; height:11px;"><span style="font-family: Helvetica; font-size:11px">Date
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:315px; top:703px; width:78px; height:11px;"><span style="font-family: Helvetica; font-size:11px">Insured Signature
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:527px; top:703px; width:21px; height:11px;"><span style="font-family: Helvetica; font-size:11px">Date
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:36px; top:751px; width:108px; height:11px;"><span style="font-family: Helvetica; font-size:11px">Lender/Dealer Signature
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:264px; top:751px; width:21px; height:11px;"><span style="font-family: Helvetica; font-size:11px">Date
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:315px; top:751px; width:47px; height:11px;"><span style="font-family: Helvetica; font-size:11px">Dealership
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:36px; top:781px; width:50px; height:11px;"><span style="font-family: Helvetica; font-size:11px">Print Name
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:35px; top:804px; width:56px; height:24px;"><span style="font-family: Helvetica; font-size:8px">SG0144ND (1-04)
+<br>JM&amp;A
+<br></span><span style="font-family: Helvetica; font-size:8px">AG-ND (05/04)
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:314px; top:781px; width:56px; height:11px;"><span style="font-family: Helvetica; font-size:11px">Dealer Code
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:190px; top:814px; width:266px; height:10px;"><span style="font-family: Helvetica-Bold; font-size:10px">White - Administrator          Yellow - Lender          Pink - Insured
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:543px; top:821px; width:32px; height:8px;"><span style="font-family: Helvetica; font-size:8px">C/S# 0011
+<br></span></div><span style="position:absolute; border: black 1px solid; left:287px; top:72px; width:48px; height:14px;"></span>
+<span style="position:absolute; border: black 1px solid; left:280px; top:72px; width:19px; height:14px;"></span>
+<span style="position:absolute; border: black 1px solid; left:295px; top:72px; width:22px; height:14px;"></span>
+<span style="position:absolute; border: black 1px solid; left:314px; top:71px; width:21px; height:14px;"></span>
+<span style="position:absolute; border: black 1px solid; left:239px; top:71px; width:22px; height:14px;"></span>
+<span style="position:absolute; border: black 1px solid; left:261px; top:71px; width:20px; height:14px;"></span>
+<span style="position:absolute; border: black 1px solid; left:100px; top:273px; width:475px; height:261px;"></span>
+<span style="position:absolute; border: black 1px solid; left:36px; top:594px; width:539px; height:127px;"></span>
+<span style="position:absolute; border: black 1px solid; left:49px; top:702px; width:514px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:36px; top:99px; width:541px; height:681px;"></span>
+<span style="position:absolute; border: black 1px solid; left:409px; top:163px; width:11px; height:7px;"></span>
+<span style="position:absolute; border: black 1px solid; left:421px; top:165px; width:7px; height:5px;"></span>
+<span style="position:absolute; border: black 1px solid; left:429px; top:163px; width:8px; height:8px;"></span>
+<span style="position:absolute; border: black 1px solid; left:438px; top:165px; width:2px; height:5px;"></span>
+<span style="position:absolute; border: black 1px solid; left:401px; top:142px; width:16px; height:16px;"></span>
+<span style="position:absolute; border: black 1px solid; left:401px; top:142px; width:16px; height:16px;"></span>
+<div style="position:absolute; border: figure 1px solid; writing-mode:False; left:393px; top:134px; width:33px; height:33px;"></div><span style="position:absolute; border: black 1px solid; left:402px; top:143px; width:14px; height:14px;"></span>
+<span style="position:absolute; border: black 1px solid; left:403px; top:144px; width:12px; height:12px;"></span>
+<span style="position:absolute; border: black 1px solid; left:402px; top:143px; width:14px; height:14px;"></span>
+<div style="position:absolute; border: figure 1px solid; writing-mode:False; left:396px; top:137px; width:26px; height:26px;"></div><span style="position:absolute; border: black 1px solid; left:432px; top:142px; width:16px; height:16px;"></span>
+<span style="position:absolute; border: black 1px solid; left:432px; top:142px; width:16px; height:16px;"></span>
+<div style="position:absolute; border: figure 1px solid; writing-mode:False; left:424px; top:134px; width:33px; height:33px;"></div><span style="position:absolute; border: black 1px solid; left:434px; top:144px; width:12px; height:12px;"></span>
+<span style="position:absolute; border: black 1px solid; left:433px; top:143px; width:14px; height:14px;"></span>
+<div style="position:absolute; border: figure 1px solid; writing-mode:False; left:427px; top:137px; width:26px; height:26px;"></div><span style="position:absolute; border: black 1px solid; left:424px; top:144px; width:12px; height:12px;"></span>
+<span style="position:absolute; border: black 1px solid; left:423px; top:143px; width:14px; height:14px;"></span>
+<div style="position:absolute; border: figure 1px solid; writing-mode:False; left:417px; top:137px; width:26px; height:26px;"></div><span style="position:absolute; border: black 1px solid; left:422px; top:142px; width:16px; height:16px;"></span>
+<span style="position:absolute; border: black 1px solid; left:422px; top:142px; width:16px; height:16px;"></span>
+<div style="position:absolute; border: figure 1px solid; writing-mode:False; left:413px; top:134px; width:33px; height:33px;"></div><span style="position:absolute; border: black 1px solid; left:413px; top:144px; width:12px; height:12px;"></span>
+<span style="position:absolute; border: black 1px solid; left:413px; top:143px; width:14px; height:14px;"></span>
+<div style="position:absolute; border: figure 1px solid; writing-mode:False; left:406px; top:137px; width:26px; height:26px;"></div><span style="position:absolute; border: black 1px solid; left:411px; top:142px; width:16px; height:16px;"></span>
+<span style="position:absolute; border: black 1px solid; left:411px; top:142px; width:16px; height:16px;"></span>
+<div style="position:absolute; border: figure 1px solid; writing-mode:False; left:403px; top:134px; width:33px; height:33px;"></div><span style="position:absolute; border: black 1px solid; left:413px; top:143px; width:35px; height:14px;"></span>
+<span style="position:absolute; border: black 1px solid; left:490px; top:164px; width:8px; height:9px;"></span>
+<span style="position:absolute; border: black 1px solid; left:501px; top:164px; width:4px; height:6px;"></span>
+<span style="position:absolute; border: black 1px solid; left:508px; top:164px; width:8px; height:6px;"></span>
+<span style="position:absolute; border: black 1px solid; left:518px; top:162px; width:5px; height:8px;"></span>
+<span style="position:absolute; border: black 1px solid; left:525px; top:164px; width:8px; height:6px;"></span>
+<span style="position:absolute; border: black 1px solid; left:535px; top:164px; width:7px; height:6px;"></span>
+<span style="position:absolute; border: black 1px solid; left:544px; top:162px; width:5px; height:8px;"></span>
+<span style="position:absolute; border: black 1px solid; left:552px; top:161px; width:2px; height:9px;"></span>
+<span style="position:absolute; border: black 1px solid; left:556px; top:164px; width:8px; height:6px;"></span>
+<span style="position:absolute; border: black 1px solid; left:567px; top:164px; width:7px; height:6px;"></span>
+<span style="position:absolute; border: black 1px solid; left:473px; top:143px; width:15px; height:16px;"></span>
+<span style="position:absolute; border: black 1px solid; left:490px; top:147px; width:14px; height:12px;"></span>
+<span style="position:absolute; border: black 1px solid; left:508px; top:147px; width:8px; height:12px;"></span>
+<span style="position:absolute; border: black 1px solid; left:518px; top:147px; width:14px; height:12px;"></span>
+<span style="position:absolute; border: black 1px solid; left:37px; top:134px; width:6px; height:3px;"></span>
+<span style="position:absolute; border: black 1px solid; left:41px; top:132px; width:44px; height:1px;"></span>
+<span style="position:absolute; border: black 1px solid; left:42px; top:130px; width:43px; height:1px;"></span>
+<span style="position:absolute; border: black 1px solid; left:42px; top:119px; width:41px; height:11px;"></span>
+<span style="position:absolute; border: black 1px solid; left:40px; top:116px; width:39px; height:2px;"></span>
+<span style="position:absolute; border: black 1px solid; left:43px; top:143px; width:37px; height:1px;"></span>
+<span style="position:absolute; border: black 1px solid; left:42px; top:141px; width:37px; height:1px;"></span>
+<span style="position:absolute; border: black 1px solid; left:42px; top:140px; width:37px; height:1px;"></span>
+<span style="position:absolute; border: black 1px solid; left:41px; top:138px; width:41px; height:1px;"></span>
+<span style="position:absolute; border: black 1px solid; left:41px; top:136px; width:42px; height:1px;"></span>
+<span style="position:absolute; border: black 1px solid; left:42px; top:135px; width:41px; height:1px;"></span>
+<span style="position:absolute; border: black 1px solid; left:43px; top:134px; width:39px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:66px; top:116px; width:8px; height:9px;"></span>
+<span style="position:absolute; border: black 1px solid; left:37px; top:72px; width:49px; height:41px;"></span>
+<span style="position:absolute; border: black 1px solid; left:38px; top:78px; width:47px; height:34px;"></span>
+<span style="position:absolute; border: black 1px solid; left:67px; top:86px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:74px; top:86px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:53px; top:87px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:68px; top:89px; width:3px; height:2px;"></span>
+<span style="position:absolute; border: black 1px solid; left:73px; top:89px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:76px; top:89px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:76px; top:90px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:82px; top:91px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:79px; top:92px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:81px; top:92px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:46px; top:95px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:72px; top:96px; width:3px; height:2px;"></span>
+<span style="position:absolute; border: black 1px solid; left:80px; top:96px; width:2px; height:1px;"></span>
+<span style="position:absolute; border: black 1px solid; left:76px; top:97px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:49px; top:98px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:61px; top:99px; width:1px; height:1px;"></span>
+<span style="position:absolute; border: black 1px solid; left:45px; top:99px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:57px; top:101px; width:1px; height:1px;"></span>
+<span style="position:absolute; border: black 1px solid; left:51px; top:103px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:80px; top:103px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:49px; top:104px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:76px; top:105px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:74px; top:105px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:49px; top:106px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:64px; top:95px; width:3px; height:1px;"></span>
+<span style="position:absolute; border: black 1px solid; left:67px; top:95px; width:2px; height:1px;"></span>
+<span style="position:absolute; border: black 1px solid; left:71px; top:98px; width:3px; height:1px;"></span>
+<span style="position:absolute; border: black 1px solid; left:72px; top:100px; width:3px; height:2px;"></span>
+<span style="position:absolute; border: black 1px solid; left:60px; top:100px; width:6px; height:4px;"></span>
+<span style="position:absolute; border: black 1px solid; left:70px; top:101px; width:3px; height:1px;"></span>
+<span style="position:absolute; border: black 1px solid; left:37px; top:74px; width:49px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:37px; top:111px; width:49px; height:1px;"></span>
+<span style="position:absolute; border: black 1px solid; left:37px; top:110px; width:49px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:37px; top:109px; width:49px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:37px; top:76px; width:49px; height:29px;"></span>
+<span style="position:absolute; border: gray 1px solid; left:0px; top:892px; width:612px; height:792px;"></span>
+<div style="position:absolute; top:892px;"><a name="2">Page 2</a></div>
+<div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:356px; top:920px; width:2px; height:4px;"><span style="font-family: Helvetica-Bold; font-size:4px">®
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:337px; top:920px; width:34px; height:16px;"><span style="font-family: MPLJKA+Helvetica-Black; font-size:5px">American
+<br>National  Property
+<br>And  Casualty
+<br>Companies
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:158px; top:952px; width:295px; height:14px;"><span style="font-family: Helvetica-Bold; font-size:14px">American National Property And Casualty Company
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:258px; top:966px; width:95px; height:14px;"><span style="font-family: Helvetica-Bold; font-size:14px">GAP Claim Form
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:36px; top:988px; width:56px; height:11px;"><span style="font-family: Helvetica; font-size:11px">Date of Loss
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:36px; top:1006px; width:208px; height:11px;"><span style="font-family: Helvetica; font-size:11px">Is the vehicle a total loss?      Yes                  No
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:246px; top:1034px; width:118px; height:14px;"><span style="font-family: Helvetica-Bold; font-size:14px">CLAIM WORKSHEET
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:48px; top:1062px; width:251px; height:11px;"><span style="font-family: Helvetica; font-size:11px">1. Outstanding loan balance at time of loss ..........   $
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:48px; top:1080px; width:8px; height:11px;"><span style="font-family: Helvetica; font-size:11px">2.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:48px; top:1104px; width:8px; height:11px;"><span style="font-family: Helvetica; font-size:11px">3.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:48px; top:1128px; width:8px; height:11px;"><span style="font-family: Helvetica; font-size:11px">4.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:48px; top:1158px; width:8px; height:23px;"><span style="font-family: Helvetica; font-size:11px">5.
+<br></span><span style="font-family: Helvetica; font-size:11px">6.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:48px; top:1206px; width:8px; height:11px;"><span style="font-family: Helvetica; font-size:11px">7.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:77px; top:1080px; width:224px; height:71px;"><span style="font-family: Helvetica; font-size:11px">Less </span><span style="font-family: Helvetica-Bold; font-size:11px">physical damage insurer</span><span style="font-family: Helvetica; font-size:11px"> settlement or
+<br>NADA retail value (if no insurance at the time of loss)    -
+<br>Less salvage value (if retained by
+<br>insured) .............................................................     -
+<br>Less amount of any past due payments,
+<br>interest, and penalties .......................................     -
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:77px; top:1158px; width:224px; height:71px;"><span style="font-family: Helvetica; font-size:11px">Less carry-over balances ..................................     -
+<br></span><span style="font-family: Helvetica; font-size:11px">Less extended warranties, Credit Life
+<br></span><span style="font-family: Helvetica; font-size:11px">Insurance, Health, Accident or Disability
+<br>Insurance ..........................................................     -
+<br>Less portion of </span><span style="font-family: Helvetica-Bold; font-size:11px">physical damage insurer’s
+<br></span><span style="font-family: Helvetica; font-size:11px">deductible, if any, that exceeds $500 ................     -
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:48px; top:1236px; width:251px; height:11px;"><span style="font-family: Helvetica; font-size:11px">8. Amount due (not to exceed $50,000.00) ...........   $
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:372px; top:1060px; width:2px; height:11px;"><span style="font-family: Helvetica; font-size:11px">.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:372px; top:1090px; width:2px; height:11px;"><span style="font-family: Helvetica; font-size:11px">.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:372px; top:1114px; width:2px; height:11px;"><span style="font-family: Helvetica; font-size:11px">.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:372px; top:1138px; width:2px; height:11px;"><span style="font-family: Helvetica; font-size:11px">.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:372px; top:1156px; width:2px; height:11px;"><span style="font-family: Helvetica; font-size:11px">.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:372px; top:1192px; width:2px; height:11px;"><span style="font-family: Helvetica; font-size:11px">.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:372px; top:1216px; width:2px; height:11px;"><span style="font-family: Helvetica; font-size:11px">.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:372px; top:1234px; width:2px; height:11px;"><span style="font-family: Helvetica; font-size:11px">.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:36px; top:1272px; width:238px; height:11px;"><span style="font-family: Helvetica; font-size:11px">To all Lending Institutions. Please attach the following:
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:36px; top:1290px; width:539px; height:35px;"><span style="font-family: Helvetica; font-size:11px">1. Complete documentation from your </span><span style="font-family: Helvetica-Bold; font-size:11px">physical damage insurer</span><span style="font-family: Helvetica; font-size:11px"> substantiating the date and cause of the </span><span style="font-family: Helvetica-Bold; font-size:11px">total loss</span><span style="font-family: Helvetica; font-size:11px"> and
+<br>the  computation  of  the  total  monetary  payment  under  your  </span><span style="font-family: Helvetica-Bold; font-size:11px">physical  damage  insurance</span><span style="font-family: Helvetica; font-size:11px">  policy.  (The  insurance
+<br>company’s settlement statement)
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:35px; top:1326px; width:540px; height:35px;"><span style="font-family: Helvetica; font-size:11px">2. Proof of payment to your </span><span style="font-family: Helvetica-Bold; font-size:11px">lender</span><span style="font-family: Helvetica; font-size:11px"> by your </span><span style="font-family: Helvetica-Bold; font-size:11px">physical damage insurer.
+<br></span><span style="font-family: Helvetica; font-size:11px">3. Twelve months prior to loss loan history and a copy of your original loan contract.
+<br>4. Complete documentation from the </span><span style="font-family: Helvetica-Bold; font-size:11px">lender</span><span style="font-family: Helvetica; font-size:11px"> showing the amount owed on </span><span style="font-family: Helvetica-Bold; font-size:11px">your vehicle</span><span style="font-family: Helvetica; font-size:11px"> as of the </span><span style="font-family: Helvetica-Bold; font-size:11px">date of total loss,</span><span style="font-family: Helvetica; font-size:11px"> and
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:59px; top:1362px; width:179px; height:11px;"><span style="font-family: Helvetica; font-size:11px">the date the next payment is or was due.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:35px; top:1374px; width:223px; height:11px;"><span style="font-family: Helvetica; font-size:11px">5. The </span><span style="font-family: Helvetica-Bold; font-size:11px">lender’s</span><span style="font-family: Helvetica; font-size:11px"> original of the GAP Application.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:35px; top:1395px; width:171px; height:11px;"><span style="font-family: Helvetica; font-size:11px">Claims Information Should Be Sent To:
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:59px; top:1416px; width:230px; height:59px;"><span style="font-family: Helvetica; font-size:11px">American National Property And Casualty Company
+<br>c/o Program Administrator
+<br>JM&amp;A Group
+<br>P. O. Box 8567
+<br>Deerfield Beach, FL  33443
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:35px; top:1485px; width:389px; height:11px;"><span style="font-family: Helvetica; font-size:11px">I certify that the above-listed information is true and correct to the best of my knowledge.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:36px; top:1506px; width:540px; height:35px;"><span style="font-family: Helvetica; font-size:11px">Any person who knowingly and with intent to defraud any insurance company or other person files a statement for claim
+<br>containing any materially false information or conceals, for the purpose of misleading, information concerning any fact
+<br>material thereto commits a fraudulent act, which is a crime.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:36px; top:1554px; width:103px; height:11px;"><span style="font-family: Helvetica; font-size:11px">Lender Representative:
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:35px; top:1646px; width:56px; height:24px;"><span style="font-family: Helvetica; font-size:8px">SG0144ND (1-04)
+<br>JM&amp;A
+<br></span><span style="font-family: Helvetica; font-size:8px">AG-ND (05/04)
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:370px; top:1566px; width:50px; height:11px;"><span style="font-family: Helvetica; font-size:11px">Print Name
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:374px; top:1602px; width:42px; height:11px;"><span style="font-family: Helvetica; font-size:11px">Signature
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:385px; top:1638px; width:21px; height:11px;"><span style="font-family: Helvetica; font-size:11px">Date
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:543px; top:1663px; width:32px; height:8px;"><span style="font-family: Helvetica; font-size:8px">C/S# 0011
+<br></span></div><span style="position:absolute; border: black 1px solid; left:287px; top:922px; width:48px; height:14px;"></span>
+<span style="position:absolute; border: black 1px solid; left:280px; top:922px; width:19px; height:14px;"></span>
+<span style="position:absolute; border: black 1px solid; left:295px; top:922px; width:22px; height:14px;"></span>
+<span style="position:absolute; border: black 1px solid; left:314px; top:921px; width:21px; height:14px;"></span>
+<span style="position:absolute; border: black 1px solid; left:239px; top:921px; width:22px; height:14px;"></span>
+<span style="position:absolute; border: black 1px solid; left:261px; top:921px; width:20px; height:14px;"></span>
+<span style="position:absolute; border: black 1px solid; left:36px; top:1283px; width:5px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:40px; top:1283px; width:109px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:36px; top:1025px; width:539px; height:236px;"></span>
+<span style="position:absolute; border: black 1px solid; left:94px; top:997px; width:481px; height:640px;"></span>
+<div style="position:absolute; top:0px;">Page: <a href="#1">1</a>, <a href="#2">2</a></div>
+</body></html>

@@ -9,6 +9,9 @@ from pdfminer.pdfparser import PDFParser
 from bs4 import BeautifulSoup
 from cStringIO import StringIO
 import nltk.data
+import os
+import re
+PDF_DIR = "pdfs/"
 
 def convert_pdf_to_txt(path):
     rsrcmgr = PDFResourceManager()
@@ -74,33 +77,38 @@ def find_headings(text):
     for heading in headings:
         print("Heading: "+ str(heading))
 
+def find_sections(text):
+    planSections = list()
+    soup = BeautifulSoup(text, "html.parser")
+    sections = soup.findAll('span',text=re.compile("[A-Z]+:"))
+    for section in sections:
+        try:
+            heading = str(section.findAll(text=True))
+            sectionText = section.next_sibling.findAll(text=True)
+            if str(sectionText) <> "":
+                aTempDict = {}
+                aTempDict[heading] = sectionText
+                planSections.append(aTempDict)
 
+            print("Section** : " + str(section))
+        except:
+           print "no sibling"
+    return planSections
 
-pdfText_1_column = convert_pdf_to_txt("SampleLetter1.pdf")
-pdfHtml_1_column = convert_pdf_to_html("SampleLetter1.pdf")
-find_headings(pdfHtml_1_column)
-paragraphs_1_column = find_paragraphs(pdfText_1_column)
-for item in paragraphs_1_column:
-    print("\n\nParagraph: " + item)
-    for sent in find_sentences(item):
-        print('\nSentence: ' + sent)
-text_file = open("pdf_html_1_column.txt", "w")
-text_file.write(pdfHtml_1_column)
-text_file.close()
+contracts = list()
 
+for filename in os.listdir(PDF_DIR):
+    if filename.endswith(".pdf"):
+        pdfHtml_2_column = convert_pdf_to_html(os.path.join(PDF_DIR, filename))
+        planCoverage = find_sections(pdfHtml_2_column)
+        print("Coverage Read")
+        aTempDict = {}
+        aTempDict[filename] = planCoverage
+        contracts.append(aTempDict)
 
-pdfText_2_column = convert_pdf_to_txt("2ColumnPaper.pdf")
-paragraphs_2_column = find_paragraphs(pdfText_2_column)
-pdfHtml_2_column = convert_pdf_to_html("2ColumnPaper.pdf")
-find_headings(pdfHtml_2_column)
-for item in paragraphs_2_column:
-    print("\n\nParagraph: " + item)
-    for sent in find_sentences(item):
-        print('\nSentence ' + sent)
-
-text_file = open("pdf_html_2_column.txt", "w")
-text_file.write(pdfHtml_2_column)
-text_file.close()
+        continue
+    else:
+        continue
 
 
 print("EOP")
