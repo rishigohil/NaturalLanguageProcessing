@@ -1,0 +1,459 @@
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body>
+<span style="position:absolute; border: gray 1px solid; left:0px; top:50px; width:612px; height:1008px;"></span>
+<div style="position:absolute; top:50px;"><a name="1">Page 1</a></div>
+<div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:143px; top:83px; width:342px; height:27px;"><span style="font-family: APDCPK+AntiqueOlive-Black; font-size:27px">CAREFREE CAR PROTECTION</span><span style="font-family: Helvetica-Bold; font-size:8px">®
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:535px; top:91px; width:16px; height:14px;"><span style="font-family: Helvetica; font-size:6px">A-231
+<br>01/01
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:193px; top:114px; width:243px; height:13px;"><span style="font-family: Helvetica-Bold; font-size:13px">MECHANICAL FAILURE SERVICE CONTRACT
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:240px; top:128px; width:150px; height:13px;"><span style="font-family: Helvetica-Bold; font-size:13px">USED VEHICLE COVERAGE
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:49px; top:142px; width:140px; height:14px;"><span style="font-family: Helvetica-Bold; font-size:14px">VEHICLE INFORMATION
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:57px; top:160px; width:42px; height:29px;"><span style="font-family: Helvetica; font-size:10px">CONTRACT
+<br>NUMBER
+<br></span><span style="font-family: Helvetica; font-size:5px">YEAR
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:142px; top:184px; width:14px; height:5px;"><span style="font-family: Helvetica; font-size:5px">MAKE
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:287px; top:160px; width:39px; height:20px;"><span style="font-family: Helvetica; font-size:10px">SERIAL
+<br>NUMBER
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:297px; top:184px; width:17px; height:5px;"><span style="font-family: Helvetica; font-size:5px">MODEL
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:441px; top:183px; width:83px; height:5px;"><span style="font-family: Helvetica; font-size:5px">CURRENT ODOMETER READING
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:57px; top:209px; width:157px; height:15px;"><span style="font-family: Helvetica; font-size:8px">ADDITIONAL EQUIPMENT (Check All That Apply)
+<br></span><span style="font-family: Helvetica; font-size:6px">FOR PRICING PURPOSES ONLY
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:270px; top:216px; width:28px; height:9px;"><span style="font-family: Helvetica; font-size:9px">TURBO
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:373px; top:216px; width:28px; height:9px;"><span style="font-family: Helvetica; font-size:9px">DIESEL
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:473px; top:216px; width:14px; height:9px;"><span style="font-family: Helvetica; font-size:9px">4X4
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:49px; top:238px; width:137px; height:14px;"><span style="font-family: Helvetica-Bold; font-size:14px">DEALER INFORMATION
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:56px; top:256px; width:42px; height:5px;"><span style="font-family: Helvetica; font-size:5px">SELLING DEALER
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:56px; top:278px; width:45px; height:5px;"><span style="font-family: Helvetica; font-size:5px">DEALER ADDRESS
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:56px; top:303px; width:31px; height:5px;"><span style="font-family: Helvetica; font-size:5px">LIENHOLDER
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:466px; top:256px; width:26px; height:5px;"><span style="font-family: Helvetica; font-size:5px">DEALER  #
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:261px; top:278px; width:11px; height:5px;"><span style="font-family: Helvetica; font-size:5px">CITY
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:418px; top:278px; width:16px; height:5px;"><span style="font-family: Helvetica; font-size:5px">STATE
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:466px; top:278px; width:8px; height:5px;"><span style="font-family: Helvetica; font-size:5px">ZIP
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:298px; top:303px; width:24px; height:5px;"><span style="font-family: Helvetica; font-size:5px">ADDRESS
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:56px; top:328px; width:67px; height:5px;"><span style="font-family: Helvetica; font-size:5px">SERVICE CONTRACT PRICE
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:200px; top:326px; width:50px; height:5px;"><span style="font-family: Helvetica; font-size:5px">DEALER SIGNATURE
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:465px; top:326px; width:13px; height:5px;"><span style="font-family: Helvetica; font-size:5px">DATE
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:48px; top:358px; width:211px; height:14px;"><span style="font-family: Helvetica-Bold; font-size:14px">SERVICE CONTRACT INFORMATION
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:56px; top:401px; width:42px; height:5px;"><span style="font-family: Helvetica; font-size:5px">PURCHASE DATE
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:160px; top:398px; width:13px; height:14px;"><span style="font-family: Helvetica-Bold; font-size:14px">12
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:151px; top:413px; width:30px; height:8px;"><span style="font-family: Helvetica; font-size:8px">MONTHS
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:160px; top:423px; width:13px; height:14px;"><span style="font-family: Helvetica-Bold; font-size:14px">24
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:150px; top:438px; width:32px; height:8px;"><span style="font-family: Helvetica; font-size:8px"> MONTHS
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:160px; top:446px; width:13px; height:14px;"><span style="font-family: Helvetica-Bold; font-size:14px">36
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:152px; top:462px; width:30px; height:8px;"><span style="font-family: Helvetica; font-size:8px">MONTHS
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:160px; top:469px; width:13px; height:14px;"><span style="font-family: Helvetica-Bold; font-size:14px">48
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:151px; top:484px; width:30px; height:8px;"><span style="font-family: Helvetica; font-size:8px">MONTHS
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:196px; top:383px; width:79px; height:30px;"><span style="font-family: Helvetica-Bold; font-size:10px">TERM  /  MILEAGE
+<br></span><span style="font-family: Helvetica-Bold; font-size:14px">12,000
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:244px; top:414px; width:21px; height:8px;"><span style="font-family: Helvetica; font-size:8px">MILES
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:236px; top:423px; width:36px; height:14px;"><span style="font-family: Helvetica-Bold; font-size:14px">24,000
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:235px; top:438px; width:36px; height:23px;"><span style="font-family: Helvetica; font-size:8px">MILES
+<br></span><span style="font-family: Helvetica-Bold; font-size:14px">36,000
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:243px; top:462px; width:21px; height:8px;"><span style="font-family: Helvetica; font-size:8px">MILES
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:235px; top:470px; width:36px; height:14px;"><span style="font-family: Helvetica-Bold; font-size:14px">48,000
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:243px; top:485px; width:21px; height:8px;"><span style="font-family: Helvetica; font-size:8px">MILES
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:48px; top:502px; width:265px; height:14px;"><span style="font-family: Helvetica-Bold; font-size:14px">SERVICE CONTRACT HOLDER INFORMATION
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:352px; top:382px; width:51px; height:10px;"><span style="font-family: Helvetica-Bold; font-size:10px">COVERAGE
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:464px; top:382px; width:40px; height:10px;"><span style="font-family: Helvetica-Bold; font-size:10px">OPTIONS
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:364px; top:409px; width:60px; height:10px;"><span style="font-family: Helvetica-Bold; font-size:10px">POWERTRAIN
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:386px; top:418px; width:16px; height:7px;"><span style="font-family: Helvetica-Bold; font-size:7px">(PTR)
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:469px; top:408px; width:80px; height:10px;"><span style="font-family: Helvetica-Bold; font-size:10px">$250 DEDUCTIBLE
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:501px; top:418px; width:15px; height:7px;"><span style="font-family: Helvetica-Bold; font-size:7px">(ZTF)
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:378px; top:439px; width:32px; height:10px;"><span style="font-family: Helvetica-Bold; font-size:10px">SILVER
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:386px; top:448px; width:16px; height:7px;"><span style="font-family: Helvetica-Bold; font-size:7px">(PUS)
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:381px; top:472px; width:26px; height:17px;"><span style="font-family: Helvetica-Bold; font-size:10px">GOLD
+<br></span><span style="font-family: Helvetica-Bold; font-size:7px">(PUG)
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:471px; top:441px; width:75px; height:10px;"><span style="font-family: Helvetica-Bold; font-size:10px">$50 DEDUCTIBLE
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:502px; top:451px; width:14px; height:7px;"><span style="font-family: Helvetica-Bold; font-size:7px">(Z50)
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:468px; top:466px; width:74px; height:19px;"><span style="font-family: Helvetica-Bold; font-size:10px">ROAD HAZARD
+<br>TIRE COVERAGE*
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:501px; top:485px; width:15px; height:7px;"><span style="font-family: Helvetica-Bold; font-size:7px">(HTC)
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:431px; top:499px; width:129px; height:8px;"><span style="font-family: Helvetica; font-size:8px">*(NOT  AVAILABLE  ON  4X4  VEHICLES)
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:57px; top:517px; width:30px; height:5px;"><span style="font-family: Helvetica; font-size:5px">FIRST NAME
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:56px; top:541px; width:24px; height:5px;"><span style="font-family: Helvetica; font-size:5px">ADDRESS
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:56px; top:563px; width:88px; height:8px;"><span style="font-family: Helvetica; font-size:8px">(</span><span style="font-family: Helvetica; font-size:5px">AREA CODE) TELEPHONE NUMBER
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:56px; top:590px; width:29px; height:5px;"><span style="font-family: Helvetica; font-size:5px">SIGNATURE
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:321px; top:517px; width:28px; height:5px;"><span style="font-family: Helvetica; font-size:5px">LAST NAME
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:236px; top:541px; width:11px; height:5px;"><span style="font-family: Helvetica; font-size:5px">CITY
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:463px; top:541px; width:16px; height:5px;"><span style="font-family: Helvetica; font-size:5px">STATE
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:500px; top:541px; width:7px; height:5px;"><span style="font-family: Helvetica; font-size:5px">ZIP
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:206px; top:568px; width:259px; height:15px;"><span style="font-family: Helvetica-Bold; font-size:8px">YOU</span><span style="font-family: Helvetica; font-size:8px"> understand that the purchase of this Service Contract is not required in order to
+<br>obtain financing or to purchase this vehicle and has a standard $100 deductible.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:475px; top:565px; width:13px; height:5px;"><span style="font-family: Helvetica; font-size:5px">DATE
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:42px; top:619px; width:220px; height:42px;"><span style="font-family: Helvetica-Bold; font-size:14px">OPTIONAL CAR CARE SERVICE PLAN
+<br>INFORMATION
+<br></span><span style="font-family: Helvetica-Bold; font-size:9px">SEE OWNERS MANUAL FOR COMPLETE LISTING OF
+<br>FULL FACTORY RECOMMENDED SERVICES
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:383px; top:590px; width:164px; height:22px;"><span style="font-family: Helvetica; font-size:8px">NOTICE  TO  SERVICE  CONTRACT  HOLDER:  You
+<br>are required to obtain authorization prior to beginning
+<br>any repairs covered by this Service Contract.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:346px; top:630px; width:186px; height:16px;"><span style="font-family: Helvetica; font-size:8px">I hereby acknowledge the purchase of Optional Car Care
+<br>Service Plan.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:346px; top:654px; width:31px; height:8px;"><span style="font-family: Helvetica; font-size:8px">Signature
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:65px; top:666px; width:49px; height:6px;"><span style="font-family: Helvetica; font-size:6px">PURCHASE DATE
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:128px; top:666px; width:66px; height:6px;"><span style="font-family: Helvetica; font-size:6px">CAR CARE PURCHASE PRICE
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:275px; top:665px; width:198px; height:10px;"><span style="font-family: Helvetica-Bold; font-size:10px">SERVICE INTERVALS - SERVICE DUE EVERY:
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:219px; top:677px; width:46px; height:9px;"><span style="font-family: Helvetica; font-size:9px">3,000 MILES
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:233px; top:688px; width:16px; height:9px;"><span style="font-family: Helvetica; font-size:9px">MN3
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:307px; top:677px; width:46px; height:9px;"><span style="font-family: Helvetica; font-size:9px">3,750 MILES
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:321px; top:688px; width:17px; height:9px;"><span style="font-family: Helvetica; font-size:9px">MNP
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:396px; top:677px; width:46px; height:9px;"><span style="font-family: Helvetica; font-size:9px">5,000 MILES
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:410px; top:688px; width:16px; height:9px;"><span style="font-family: Helvetica; font-size:9px">MN5
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:484px; top:677px; width:46px; height:9px;"><span style="font-family: Helvetica; font-size:9px">7,500 MILES
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:498px; top:688px; width:17px; height:9px;"><span style="font-family: Helvetica; font-size:9px">MNV
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:75px; top:762px; width:101px; height:11px;"><span style="font-family: Helvetica-Bold; font-size:11px">TERM AND MILEAGE
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:81px; top:774px; width:88px; height:11px;"><span style="font-family: Helvetica-Bold; font-size:11px">(MONTHS / MILES)
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:95px; top:798px; width:60px; height:11px;"><span style="font-family: Helvetica-Bold; font-size:11px">CHECK ONE
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:216px; top:716px; width:40px; height:10px;"><span style="font-family: Helvetica; font-size:10px">24/30,000
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:393px; top:716px; width:40px; height:10px;"><span style="font-family: Helvetica; font-size:10px">24/30,000
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:216px; top:748px; width:40px; height:10px;"><span style="font-family: Helvetica; font-size:10px">36/36,000
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:304px; top:748px; width:40px; height:10px;"><span style="font-family: Helvetica; font-size:10px">36/37,500
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:393px; top:748px; width:40px; height:10px;"><span style="font-family: Helvetica; font-size:10px">36/35,000
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:481px; top:748px; width:40px; height:10px;"><span style="font-family: Helvetica; font-size:10px">36/37,500
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:216px; top:780px; width:40px; height:10px;"><span style="font-family: Helvetica; font-size:10px">36/45,000
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:393px; top:780px; width:40px; height:10px;"><span style="font-family: Helvetica; font-size:10px">36/45,000
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:216px; top:812px; width:40px; height:10px;"><span style="font-family: Helvetica; font-size:10px">48/48,000
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:304px; top:812px; width:40px; height:10px;"><span style="font-family: Helvetica; font-size:10px">48/52,500
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:393px; top:812px; width:40px; height:10px;"><span style="font-family: Helvetica; font-size:10px">48/50,000
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:481px; top:812px; width:40px; height:10px;"><span style="font-family: Helvetica; font-size:10px">48/52,500
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:216px; top:844px; width:40px; height:10px;"><span style="font-family: Helvetica; font-size:10px">60/60,000
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:304px; top:844px; width:40px; height:10px;"><span style="font-family: Helvetica; font-size:10px">60/60,000
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:393px; top:844px; width:40px; height:10px;"><span style="font-family: Helvetica; font-size:10px">60/60,000
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:481px; top:844px; width:40px; height:10px;"><span style="font-family: Helvetica; font-size:10px">60/60,000
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:54px; top:881px; width:255px; height:6px;"><span style="font-family: Helvetica; font-size:6px">COPY 1 - FWS    COPIES 2 &amp; 3 - DEALER    COPY 4 - LIENHOLDER    COPY 5 - CUSTOMER
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:85px; top:927px; width:437px; height:27px;"><span style="font-family: APDCPK+AntiqueOlive-Black; font-size:27px">FIDELITY WARRANTY SERVICES, INC.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:265px; top:913px; width:75px; height:9px;"><span style="font-family: Helvetica; font-size:9px">ADMINISTERED BY:
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:138px; top:966px; width:333px; height:14px;"><span style="font-family: Helvetica-Bold; font-size:14px">P.O. BOX 8567 </span><span style="font-family: ZapfDingbats; font-size:11px">M</span><span style="font-family: Helvetica-Bold; font-size:14px"> DEERFIELD BEACH, FL 33443</span><span style="font-family: Helvetica-Bold; font-size:10px">  </span><span style="font-family: ZapfDingbats; font-size:11px">M</span><span style="font-family: Helvetica-Bold; font-size:10px">  </span><span style="font-family: Helvetica-Bold; font-size:14px">1 - 8 0 0 - 3 2 7 - 5 1 7 2
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:235px; top:987px; width:139px; height:14px;"><span style="font-family: Helvetica-Bold; font-size:14px">FLORIDA LICENSE NO. 60026
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:521px; top:1012px; width:38px; height:9px;"><span style="font-family: Helvetica; font-size:9px">C/S#  4198
+<br></span></div><div style="position:absolute; border: figure 1px solid; writing-mode:False; left:0px; top:158px; width:612px; height:792px;"><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:90px; top:320px; width:84px; height:15px;"><span style="font-family: TimesNewRoman; font-size:15px">                            
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:419px; top:320px; width:3px; height:15px;"><span style="font-family: TimesNewRoman; font-size:15px"> 
+<br></span></div><div style="position:absolute; border: figure 1px solid; writing-mode:False; left:175px; top:284px; width:38px; height:49px;"></div><div style="position:absolute; border: figure 1px solid; writing-mode:False; left:219px; top:274px; width:41px; height:51px;"></div><div style="position:absolute; border: figure 1px solid; writing-mode:False; left:252px; top:259px; width:54px; height:55px;"></div><div style="position:absolute; border: figure 1px solid; writing-mode:False; left:302px; top:251px; width:36px; height:50px;"></div><div style="position:absolute; border: figure 1px solid; writing-mode:False; left:340px; top:244px; width:41px; height:47px;"></div><div style="position:absolute; border: figure 1px solid; writing-mode:False; left:375px; top:230px; width:43px; height:52px;"></div><span style="position:absolute; border: black 1px solid; left:175px; top:230px; width:242px; height:102px;"></span>
+</div><span style="position:absolute; border: black 1px solid; left:30px; top:68px; width:546px; height:966px;"></span>
+<div style="position:absolute; border: figure 1px solid; writing-mode:False; left:54px; top:-838px; width:100px; height:971px;"><div style="position:absolute; border: figure 1px solid; writing-mode:False; left:0px; top:974px; width:558px; height:83px;"><div style="position:absolute; border: figure 1px solid; writing-mode:False; left:54px; top:86px; width:46px; height:47px;"></div></div></div><span style="position:absolute; border: black 1px solid; left:55px; top:665px; width:496px; height:211px;"></span>
+<span style="position:absolute; border: black 1px solid; left:198px; top:664px; width:0px; height:211px;"></span>
+<span style="position:absolute; border: black 1px solid; left:330px; top:628px; width:221px; height:37px;"></span>
+<span style="position:absolute; border: black 1px solid; left:198px; top:677px; width:353px; height:199px;"></span>
+<span style="position:absolute; border: black 1px solid; left:263px; top:715px; width:15px; height:15px;"></span>
+<span style="position:absolute; border: black 1px solid; left:54px; top:664px; width:144px; height:33px;"></span>
+<span style="position:absolute; border: black 1px solid; left:54px; top:672px; width:144px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:332px; top:663px; width:217px; height:5px;"></span>
+<span style="position:absolute; border: black 1px solid; left:331px; top:662px; width:218px; height:3px;"></span>
+<span style="position:absolute; border: black 1px solid; left:126px; top:665px; width:0px; height:32px;"></span>
+<span style="position:absolute; border: black 1px solid; left:263px; top:715px; width:279px; height:143px;"></span>
+<span style="position:absolute; border: black 1px solid; left:55px; top:832px; width:143px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:55px; top:182px; width:496px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:54px; top:158px; width:497px; height:71px;"></span>
+<span style="position:absolute; border: black 1px solid; left:139px; top:158px; width:299px; height:48px;"></span>
+<span style="position:absolute; border: black 1px solid; left:55px; top:205px; width:496px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:54px; top:516px; width:496px; height:96px;"></span>
+<span style="position:absolute; border: black 1px solid; left:54px; top:516px; width:497px; height:96px;"></span>
+<span style="position:absolute; border: black 1px solid; left:233px; top:540px; width:0px; height:24px;"></span>
+<span style="position:absolute; border: black 1px solid; left:461px; top:540px; width:0px; height:24px;"></span>
+<span style="position:absolute; border: black 1px solid; left:55px; top:254px; width:496px; height:95px;"></span>
+<span style="position:absolute; border: black 1px solid; left:55px; top:277px; width:496px; height:48px;"></span>
+<span style="position:absolute; border: black 1px solid; left:198px; top:255px; width:264px; height:95px;"></span>
+<span style="position:absolute; border: black 1px solid; left:259px; top:277px; width:0px; height:24px;"></span>
+<span style="position:absolute; border: black 1px solid; left:54px; top:375px; width:496px; height:119px;"></span>
+<span style="position:absolute; border: black 1px solid; left:54px; top:399px; width:496px; height:48px;"></span>
+<span style="position:absolute; border: black 1px solid; left:138px; top:375px; width:287px; height:120px;"></span>
+<span style="position:absolute; border: black 1px solid; left:186px; top:402px; width:125px; height:67px;"></span>
+<span style="position:absolute; border: black 1px solid; left:54px; top:471px; width:276px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:186px; top:408px; width:278px; height:83px;"></span>
+<span style="position:absolute; border: black 1px solid; left:425px; top:466px; width:125px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:333px; top:409px; width:29px; height:80px;"></span>
+<span style="position:absolute; border: black 1px solid; left:425px; top:432px; width:125px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:303px; top:209px; width:205px; height:15px;"></span>
+<span style="position:absolute; border: gray 1px solid; left:0px; top:1108px; width:612px; height:1008px;"></span>
+<div style="position:absolute; top:1108px;"><a name="2">Page 2</a></div>
+<div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:17px; top:1121px; width:576px; height:231px;"><span style="font-family: Helvetica; font-size:11px">The following </span><span style="font-family: Helvetica-Bold; font-size:11px">BOLD</span><span style="font-family: Helvetica; font-size:11px"> print appearing throughout this Service Contract has the following meanings: &quot;</span><span style="font-family: Helvetica-Bold; font-size:11px">YOU</span><span style="font-family: Helvetica; font-size:11px">&quot; and &quot;</span><span style="font-family: Helvetica-Bold; font-size:11px">YOUR</span><span style="font-family: Helvetica; font-size:11px">&quot; mean the
+<br>customer named as Service Contract Holder on the front of this Service Contract. &quot;</span><span style="font-family: Helvetica-Bold; font-size:11px">WE</span><span style="font-family: Helvetica; font-size:11px">&quot;, &quot;</span><span style="font-family: Helvetica-Bold; font-size:11px">US</span><span style="font-family: Helvetica; font-size:11px">&quot; and &quot;</span><span style="font-family: Helvetica-Bold; font-size:11px">OUR</span><span style="font-family: Helvetica; font-size:11px">&quot; refer to the Selling Dealer
+<br>on the front of this Service Contract.
+<br></span><span style="font-family: Helvetica-Bold; font-size:11px">PARTIES TO THIS SERVICE CONTRACT: </span><span style="font-family: Helvetica; font-size:11px">This Service Contract is between</span><span style="font-family: Helvetica-Bold; font-size:11px"> YOU </span><span style="font-family: Helvetica; font-size:11px">and</span><span style="font-family: Helvetica-Bold; font-size:11px"> US. </span><span style="font-family: Helvetica; font-size:11px"> </span><span style="font-family: Helvetica-Bold; font-size:11px">WE </span><span style="font-family: Helvetica; font-size:11px">have appointed Fidelity Warranty
+<br>Services, Inc. (&quot;FWS&quot;) as the authorized administrator of this Service Contract. FWS in any way neither assumes nor has any liability
+<br>whatsoever for the obligations of this Service Contract.
+<br></span><span style="font-family: Helvetica-Bold; font-size:11px">SERVICE CONTRACT PERIOD: </span><span style="font-family: Helvetica; font-size:11px"> Coverage under this Service Contract begins on the “Purchase Date” shown on the front of this
+<br>Service  Contract  and  expires  according  to  the Term  or  Mileage  of  the  plan  selected,  whichever  occurs  first.    Plan  expiration  is
+<br>measured in Term/Mileage from the “Purchase Date” and “Current Odometer Reading”.
+<br></span><span style="font-family: Helvetica-Bold; font-size:11px">SERVICE CONTRACT COVERAGE:</span><span style="font-family: Helvetica; font-size:11px"> In the event of Mechanical Breakdown of a Covered Part, </span><span style="font-family: Helvetica-Bold; font-size:11px">WE</span><span style="font-family: Helvetica; font-size:11px"> agree to make repairs or reimburse
+<br></span><span style="font-family: Helvetica-Bold; font-size:11px">YOU</span><span style="font-family: Helvetica; font-size:11px">  for the cost of parts and labor,  to repair or replace Covered Parts, less applicable deductible, subject to the terms, conditions,
+<br>and limitations herein. Mechanical Breakdown means: (1) The failure of a Covered Part due to faulty workmanship or materials supplied
+<br>by the original vehicle manufacturer or distributor, or; (2) The failure of a Covered Part due to a gradual reduction in operating
+<br>performance as a result of normal wear and tear, prior to the vehicle reaching 50,000 miles. A Covered Part has failed when it can no
+<br>longer perform the function for which it was designed solely because of its condition and not because of the action, inaction, or failure
+<br>of any non-covered parts. If the Mechanical Breakdown is covered under any other warranty, service policy, recall, or repair adjustment
+<br>(&quot;Other Coverage&quot;), </span><span style="font-family: Helvetica-Bold; font-size:11px">WE</span><span style="font-family: Helvetica; font-size:11px"> will pay the difference, if any, between the payments due under this Service Contract and the payments due
+<br>under the Other Coverage. This Service Contract is not an insurance policy, a warranty, or a guarantee.
+<br></span><span style="font-family: Helvetica-Bold; font-size:11px">PLAN COVERAGE:</span><span style="font-family: Helvetica; font-size:11px"> There are three coverage plans (Powertrain, Silver and Gold) described in this Service Contract. The coverage
+<br>plan that applies to </span><span style="font-family: Helvetica-Bold; font-size:11px">YOUR</span><span style="font-family: Helvetica; font-size:11px"> vehicle is determined by which box has been checked on the front of this Service Contract.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:222px; top:1360px; width:166px; height:22px;"><span style="font-family: Helvetica-Bold; font-size:11px">USED  VEHICLE  COVERED  PARTS
+<br>POWERTRAIN  COVERAGE  PLAN
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:17px; top:1384px; width:283px; height:187px;"><span style="font-family: Helvetica-Bold; font-size:11px">ENGINE:</span><span style="font-family: Helvetica; font-size:11px">  Engine  block  and  cylinder  heads  and  all  internally
+<br>lubricated parts including pistons, piston rings, pins and cylinder
+<br>sleeves;  crankshaft,  pulley,  mainbearings,  caps  and  bolts;
+<br>connecting  rods,  rod  bearings,  caps  and  bolts;  camshaft(s),
+<br>camshaft bearings, buttons and plugs; timing gears and timing
+<br>chain or belt; rocker arms, rocker arm pivots, shafts and bushings;
+<br>intake and exhaust valves, springs, guides, adjusters, retainers
+<br>and  seats;  pushrods  and  lifters;  intake  manifold  and  exhaust
+<br>manifolds; balance shaft; water pump; fuel pump; thermostat; oil
+<br>pump, cover, gears, pressure relief valve and screen; rotor housing,
+<br>rotors, shims and silent shaft; all internal fasteners, nuts and bolts;
+<br>seals  and  gaskets.
+<br></span><span style="font-family: Helvetica-Bold; font-size:11px">TRANSMISSION/TRANSAXLE:  </span><span style="font-family: Helvetica; font-size:11px">Transmission/Transaxle  case
+<br>and all internally lubricated parts including ring and pinion gears;
+<br>oil pump, cover, gears, housing and vanes; torque converter; valve
+<br>body(s);  throttle  valve;  valve  pack;  governor,  gear  and  cover;
+<br>parking gear and pawl; roll pins; sprags; sprockets; chain; springs;
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:315px; top:1384px; width:279px; height:176px;"><span style="font-family: Helvetica; font-size:11px">stator  and  shaft;  pressure  regulator  valve;  pressure  switches;
+<br>solenoids; bands; automatic transmission/transaxle clutch, drums,
+<br>pistons and steel plates; planetary and sun gears; servos and
+<br>rings; blockers; synchronizer hubs and keys; bearings; bushings;
+<br>supports  and  shafts;  control  rings;  yoke;  extension  housing;
+<br>speedometer drive gears; accumulators and rings; adjusters; all
+<br>internal  fasteners,  nuts  and  bolts;  shift  cover  and  forks;  seals
+<br>and  gaskets.  </span><span style="font-family: Helvetica-Bold; font-size:11px">(STANDARD  TRANSMISSION  CLUTCH
+<br>ASSEMBLIES  AND  ALL  COMPONENT  PARTS  ARE  NOT
+<br>COVERED.)
+<br>DRIVE AXLE:</span><span style="font-family: Helvetica; font-size:11px"> Differential/axle housing(s) and all internal parts
+<br>contained within the differential/axle housing(s) including the axle
+<br>flange; ring and pinion gear/carrier assembly; spider gears and
+<br>bearings; pins; retainers; positraction clutches, plates and springs;
+<br>cover. Transfer case and all internal parts contained within the
+<br>transfer  case.  Seals  and  gaskets.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:136px; top:1589px; width:339px; height:11px;"><span style="font-family: Helvetica-Bold; font-size:11px">(Includes  POWERTRAIN  coverage  plus  the  following  additional  parts)
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:241px; top:1578px; width:128px; height:11px;"><span style="font-family: Helvetica-Bold; font-size:11px">SILVER  COVERAGE  PLAN
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:17px; top:1603px; width:283px; height:112px;"><span style="font-family: Helvetica-Bold; font-size:11px">STEERING:</span><span style="font-family: Helvetica; font-size:11px"> Steering gear housing and internal parts including
+<br>control rings, valves, pinion shaft, pitman shaft, worm shaft and
+<br>gear, sector shaft, bearings, adjusters; rack and pinion housing
+<br>and internal parts including control valve, rack bellows, mounts,
+<br>rack shaft and yoke, spool valve, bearings; power steering pump
+<br>and internal parts including housing, reservoir, shaft and vanes;
+<br>pump  mounting  brackets;  seals  and  gaskets.
+<br></span><span style="font-family: Helvetica-Bold; font-size:11px">BRAKES:</span><span style="font-family: Helvetica; font-size:11px">  Master  cylinder;  vacuum  or  hydraulic  brake  booster
+<br>assembly; hydraulic lines and fittings; brake pedal apply pin; seals
+<br>and  gaskets.  </span><span style="font-family: Helvetica-Bold; font-size:11px">(ABS  COMPONENTS  NOT  COVERED).
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:315px; top:1603px; width:279px; height:116px;"><span style="font-family: Helvetica-Bold; font-size:11px">AIR  CONDITIONER*:</span><span style="font-family: Helvetica; font-size:11px">  Condensor;  compressor;  evaporator;
+<br>orifice;  POA  valve;  seals  and  gaskets.
+<br></span><span style="font-family: Helvetica-Bold; font-size:11px">FRONT SUSPENSION:</span><span style="font-family: Helvetica; font-size:11px"> Upper and Lower control arms, shafts
+<br>and  bushings;  struts,  housing  and  cartridge;  spindle/steering
+<br>knuckle  and  spindle  support.
+<br></span><span style="font-family: Helvetica-Bold; font-size:11px">ELECTRICAL:</span><span style="font-family: Helvetica; font-size:11px"> Alternator housing and all internal parts including
+<br>bearings,  bushings,  brushes,  rectifier  bridge,  diodes,  field  coil
+<br>and rotor; alternator mounting bracket; voltage regulator; starter
+<br>motor housing and all internal parts including bushings, brushes,
+<br>field  windings,  starter  drive  and  solenoid.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:102px; top:1737px; width:406px; height:11px;"><span style="font-family: Helvetica-Bold; font-size:11px">(includes  POWERTRAIN  and  SILVER    coverage  plus  the  following  additional  parts)
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:245px; top:1726px; width:121px; height:11px;"><span style="font-family: Helvetica-Bold; font-size:11px">GOLD  COVERAGE  PLAN
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:17px; top:1752px; width:283px; height:177px;"><span style="font-family: Helvetica-Bold; font-size:11px">ENGINE:</span><span style="font-family: Helvetica; font-size:11px">  Oil  pan;  valve,  timing  and  side  covers;  thermostat
+<br>housing; water pump pulley; turbocharger/supercharger assembly
+<br>including boost valve and wastegate; engine mounts; harmonic
+<br>balancer;  flexplate/flywheel  and  ring  gear.
+<br></span><span style="font-family: Helvetica-Bold; font-size:11px">TRANSMISSION:</span><span style="font-family: Helvetica; font-size:11px"> Detent cable; kickdown link; TVI/throttle cable;
+<br>vacuum  modulator;  transmission  mounts.
+<br></span><span style="font-family: Helvetica-Bold; font-size:11px">DRIVE AXLE:</span><span style="font-family: Helvetica; font-size:11px"> Constant velocity joints; slip joint; front wheel drive
+<br>axles/halfshafts and wheel bearings; u-joints; couplings; flex disc;
+<br>propshafts;  center  support  bearings.
+<br></span><span style="font-family: Helvetica-Bold; font-size:11px">STEERING:</span><span style="font-family: Helvetica; font-size:11px">  Tie  rods,  idler  and  pitman  arms,  center/drag  link,
+<br>coupling  and  shafts;  cooler  lines.
+<br></span><span style="font-family: Helvetica-Bold; font-size:11px">BRAKES: </span><span style="font-family: Helvetica; font-size:11px">Compensator or proportioning valve and metering valve;
+<br>Calipers, piston, seal and dust boot; wheel cylinders, cups, seals,
+<br>spring and dust boots; backing plate; brake adjusters; brake pedal,
+<br>pedal lever and pedal pivot. </span><span style="font-family: Helvetica-Bold; font-size:11px">(ABS COMPONENTS NOT COVERED).
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:315px; top:1752px; width:279px; height:169px;"><span style="font-family: Helvetica-Bold; font-size:11px">AIR CONDITIONER*:</span><span style="font-family: Helvetica; font-size:11px"> Accumulator; automatic temperature control
+<br>programmer;  clutch  assembly  including  coil,  disc  and  pulley;
+<br>control cables; cutoff switch; serpentine belt, tensioner, bearing
+<br>and  pulley.
+<br></span><span style="font-family: Helvetica-Bold; font-size:11px">FRONT SUSPENSION:</span><span style="font-family: Helvetica; font-size:11px"> Ball joints, bearings and bushings; kingpin
+<br>and bushings; stabilizer bar, links and bushings; torsion bar; track
+<br>bar,  links  and  bushings.
+<br></span><span style="font-family: Helvetica-Bold; font-size:11px">ELECTRICAL:</span><span style="font-family: Helvetica; font-size:11px">  Front  and  rear  wiper  motor  and  linkage;  power
+<br>window  motor;  power  seat  motor;  headlight  switch;  wiper  motor
+<br>switch; mirror motor switch; stoplight switch; neutral safety switch;
+<br>glove box light switch; courtesy light switch; cooling fan relay; air
+<br>control solenoid; air regulator valve; EFE heater; IAC motor; electronic
+<br>ignition module; electronic instrument panel module; ignition coil;
+<br>distributor modules; throttle position sensor; vehicle speed sensor;
+<br>map  sensor;  knock  sensor  and  barometric  pressure  sensor.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:168px; top:1939px; width:275px; height:9px;"><span style="font-family: ZapfDingbats; font-size:9px">✰     ✰     ✰     ✰     ✰     ✰     ✰     ✰     ✰     ✰
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:17px; top:1954px; width:576px; height:116px;"><span style="font-family: Helvetica-Bold; font-size:11px">*R12  AIR  CONDITIONER  CONVERSION  (Silver  and  Gold  Coverage  Only)
+<br>WE</span><span style="font-family: Helvetica; font-size:11px"> will make, or reimburse </span><span style="font-family: Helvetica-Bold; font-size:11px">YOU </span><span style="font-family: Helvetica; font-size:11px">for the cost to make, the modifications necessary to convert </span><span style="font-family: Helvetica-Bold; font-size:11px">YOUR </span><span style="font-family: Helvetica; font-size:11px">A/C system to operate on
+<br>R134A refrigerant when: (1) </span><span style="font-family: Helvetica-Bold; font-size:11px">YOUR  </span><span style="font-family: Helvetica; font-size:11px">A/C system has a covered failure requiring the addition of refrigerant and, (2) R12 refrigerant
+<br></span><span style="font-family: Helvetica; font-size:11px">is  no  longer  available  to </span><span style="font-family: Helvetica-Bold; font-size:11px">US. WE</span><span style="font-family: Helvetica; font-size:11px">  reserve  the  right  to  supply  the  parts  to  a  Servicing  Dealer  or  repair  facility.  These  parts  may
+<br></span><span style="font-family: Helvetica; font-size:11px">be  sent  at  no  charge  to  the  repair  facility  for  installation  on  the  Service  Contract  Holder's  vehicle.
+<br></span><span style="font-family: Helvetica; font-size:11px">This modification is limited to replacement of parts which are not compatible with an alternate approved replacement refrigerant,
+<br>such as R134A. </span><span style="font-family: Helvetica-Bold; font-size:11px">WE</span><span style="font-family: Helvetica; font-size:11px"> are not responsible for costs incurred to upgrade or improve an R134A air conditioning system's efficiency
+<br>to equal the same performance level of the R12 refrigerant system. (Replacement of the compressor, condensor, evaporator, to
+<br></span><span style="font-family: Helvetica; font-size:11px">improve the system's cooling capacity is not covered by this Service Contract). Should an alternate refrigerant be installed that
+<br></span><span style="font-family: Helvetica; font-size:11px">is not approved by the manufacturer or FWS, </span><span style="font-family: Helvetica-Bold; font-size:11px">WE </span><span style="font-family: Helvetica; font-size:11px">are not responsible for costs to modify the system or repair system damage.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:289px; top:2085px; width:21px; height:18px;"><span style="font-family: Helvetica-Bold; font-size:9px">A-231
+<br></span><span style="font-family: Helvetica-Bold; font-size:9px">01/01
+<br></span></div><span style="position:absolute; border: gray 1px solid; left:0px; top:2166px; width:612px; height:1008px;"></span>
+<div style="position:absolute; top:2166px;"><a name="3">Page 3</a></div>
+<div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:35px; top:2205px; width:540px; height:893px;"><span style="font-family: Helvetica-Bold; font-size:11px">RENTAL CAR COVERAGE:
+<br>POWERTRAIN  &amp; SILVER- YOU will be allowed up to $20 per day for a maximum of five days
+<br>GOLD - YOU will be allowed up to $25 per day for a maximum of ten days
+<br>Coverage is provided or car rental expense incurred if a covered Mechanical Breakdown renders YOUR vehicle
+<br>inoperative and requires YOUR vehicle to be in a shop overnight for repairs. YOU are responsible for obtaining the
+<br>rental car and rental car expense incurred must be from a licensed rental car agency or authorized dealer. WE will
+<br>then reimburse YOU. Rental car reimbursement is not provided for parts delay, shop scheduling, or for work not
+<br>covered by this Service Contract. YOU must receive prior authorization for rental expenses. Rental reimbursement
+<br>is limited to downtime repairs and ends on the date of repair completion.
+<br>TOWING COVERAGE: YOU </span><span style="font-family: Helvetica; font-size:11px">will be allowed up to $35 per covered Mechanical Breakdown for towing expense incurred if
+<br>required due to such covered Mechanical Breakdown.
+<br></span><span style="font-family: Helvetica-Bold; font-size:11px">TRAVEL BREAKDOWN:</span><span style="font-family: Helvetica; font-size:11px"> In the event of a Mechanical Breakdown of a Covered Part,</span><span style="font-family: Helvetica-Bold; font-size:11px"> WE</span><span style="font-family: Helvetica; font-size:11px"> will reimburse </span><span style="font-family: Helvetica-Bold; font-size:11px">YOU</span><span style="font-family: Helvetica; font-size:11px"> for food and
+<br>lodging, commencing the day after the claim is reported to </span><span style="font-family: Helvetica-Bold; font-size:11px">US</span><span style="font-family: Helvetica; font-size:11px">, providing </span><span style="font-family: Helvetica-Bold; font-size:11px">YOU</span><span style="font-family: Helvetica; font-size:11px"> are in excess of 100 miles from home. Such
+<br>expense shall be limited to $75 per calendar day and $375 per occurrence. Reimbursement is limited to downtime repairs and
+<br>ends at the time of repair completion.
+<br></span><span style="font-family: Helvetica-Bold; font-size:11px">DIAGNOSTICS  COVERAGE:  WE</span><span style="font-family: Helvetica; font-size:11px">  will  pay  for  reasonable,  necessary  and  customary  diagnostic  charges  incurred  in
+<br>conjunction with a covered repair, not to exceed the labor time listed in a nationally recognized parts and labor guide.
+<br></span><span style="font-family: Helvetica-Bold; font-size:11px">Diagnostic time will not be paid for those conditions where the proper repair is readily apparent to the normal
+<br>senses  of  sight,  touch,  smell  and/or  sound.
+<br>FLUID COVERAGE: WE</span><span style="font-family: Helvetica; font-size:11px"> will pay for replacement of necessary fluids, oils, greases, lubricants and approved A/C gases  that
+<br>must be replaced in conjunction with a covered repair.</span><span style="font-family: Helvetica-Bold; font-size:11px"> This coverage</span><span style="font-family: Helvetica; font-size:11px"> </span><span style="font-family: Helvetica-Bold; font-size:11px">does not apply to shop supplies.
+<br>OPTIONAL ROAD HAZARD TIRE COVERAGE: WE</span><span style="font-family: Helvetica; font-size:11px"> will pay to repair or replace a damaged tire if the tire damage is caused
+<br>by Road Hazard. Road Hazard is defined as debris on the road surface or road surface conditions such as potholes, cracks
+<br>and breaks. Coverage applies only when the Road Hazard Tire Coverage box on the front of this Service Contract is checked.
+<br>Coverage ends when the lowest tread depth reaches 3/32&quot; or when this Service Contract terminates, whichever comes first.
+<br></span><span style="font-family: Helvetica-Bold; font-size:11px">OUR </span><span style="font-family: Helvetica; font-size:11px">payment for tire replacement will be pro-rated for wear (for example, if the tire is 25% worn </span><span style="font-family: Helvetica-Bold; font-size:11px">YOU</span><span style="font-family: Helvetica; font-size:11px"> will pay 25% of the price
+<br>of the tire). This coverage will not pay for wear, tire balancing, tire defects, collision damage or vandalism. Also excluded from
+<br>coverage is the tire stem, valve, wheel, attaching hardware, wheel cover, &quot;space saver&quot; style spare tire, and any tire on a four
+<br>wheel drive vehicle. Benefits described under RENTAL CAR COVERAGE, TOWING COVERAGE and TRAVEL BREAKDOWN
+<br>do not apply to Road Hazard Tire Coverage.
+<br></span><span style="font-family: Helvetica-Bold; font-size:11px">OPTIONAL CAR CARE SERVICE PLAN COVERAGE:</span><span style="font-family: Helvetica; font-size:11px"> If </span><span style="font-family: Helvetica-Bold; font-size:11px">YOU </span><span style="font-family: Helvetica; font-size:11px">select the Car Care Service Plan, coverage will be provided
+<br>according to the Term/Mileage, service interval and service level selected by </span><span style="font-family: Helvetica-Bold; font-size:11px">YOU</span><span style="font-family: Helvetica; font-size:11px"> as noted on the front of this Service
+<br>Contract.  All services are fully detailed in</span><span style="font-family: Helvetica-Bold; font-size:11px"> YOUR </span><span style="font-family: Helvetica; font-size:11px">coupon booklet which will be mailed to </span><span style="font-family: Helvetica-Bold; font-size:11px">YOU. </span><span style="font-family: Helvetica; font-size:11px"> If </span><span style="font-family: Helvetica-Bold; font-size:11px">YOUR</span><span style="font-family: Helvetica; font-size:11px"> booklet is not received
+<br>within 45 days call FWS Customer Service at 1-800-443-9841.
+<br>Coverage is obtained by presenting the appropriate coupon for each service to a participating dealer. </span><span style="font-family: Helvetica-Bold; font-size:11px">YOUR</span><span style="font-family: Helvetica; font-size:11px"> vehicle may need
+<br>other services for </span><span style="font-family: Helvetica-Bold; font-size:11px">YOUR</span><span style="font-family: Helvetica; font-size:11px"> driving conditions; refer to your Owner's Manual for recommended services and intervals.
+<br></span><span style="font-family: Helvetica-Bold; font-size:11px">TRANSFER:  YOU </span><span style="font-family: Helvetica; font-size:11px">may transfer this Service Contract to another owner but not to another vehicle. To transfer this Service
+<br></span><span style="font-family: Helvetica; font-size:11px">Contract </span><span style="font-family: Helvetica-Bold; font-size:11px">YOU</span><span style="font-family: Helvetica; font-size:11px"> must mail the following four (4) items to FWS within 30 days of transfer of vehicle</span><span style="font-family: Helvetica-Bold; font-size:11px"> </span><span style="font-family: Helvetica; font-size:11px">ownership: (1) a completed
+<br>Transfer Form (or a letter containing the name and address of the new owner and </span><span style="font-family: Helvetica-Bold; font-size:11px">YOUR </span><span style="font-family: Helvetica; font-size:11px">authorization to transfer); (2) a legible
+<br>copy of the front page of this Service Contract;  (3) a check for $40 payable to FWS, for the transfer fee; and (4) if Optional
+<br>Car Care Service Plan is purchased, </span><span style="font-family: Helvetica-Bold; font-size:11px">YOU </span><span style="font-family: Helvetica; font-size:11px">must surrender all remaining Car Care Service Plan coupons. A new coupon book
+<br>will be sent to the new owner. This Service Contract may not be transferred to any entity in the business of selling or leasing
+<br>motor vehicles.
+<br></span><span style="font-family: Helvetica-Bold; font-size:11px">DEDUCTIBLE AND UNCOVERED COSTS:</span><span style="font-family: Helvetica; font-size:11px">  For each repair visit,</span><span style="font-family: Helvetica-Bold; font-size:11px"> YOU</span><span style="font-family: Helvetica; font-size:11px"> will be responsible for the first $100 of the cost of
+<br>covered repairs (Standard Deductible), and for any other costs not covered by this Service Contract.  If you have selected the
+<br>$250 deductible option, then </span><span style="font-family: Helvetica-Bold; font-size:11px">YOU</span><span style="font-family: Helvetica; font-size:11px"> will be responsible for the first $250 of the cost of covered repairs, and for any other costs
+<br>not covered by this Service Contract. If</span><span style="font-family: Helvetica-Bold; font-size:11px"> </span><span style="font-family: Helvetica; font-size:11px">you have selected the $50 deductible option, then</span><span style="font-family: Helvetica-Bold; font-size:11px"> YOU</span><span style="font-family: Helvetica; font-size:11px"> will be responsible for the first
+<br>$50 of the cost of covered repairs, and for any other costs not covered by this Service Contract. If the same Covered Part
+<br>previously repaired under this Service Contract fails again, the deductible will be waived.
+<br></span><span style="font-family: Helvetica-Bold; font-size:11px">CANCELLATION:</span><span style="font-family: Helvetica; font-size:11px">  This Service Contract may be cancelled by </span><span style="font-family: Helvetica-Bold; font-size:11px">YOU</span><span style="font-family: Helvetica; font-size:11px"> at any time. To cancel, </span><span style="font-family: Helvetica-Bold; font-size:11px">YOU</span><span style="font-family: Helvetica; font-size:11px"> must return this Service
+<br>Contract to </span><span style="font-family: Helvetica-Bold; font-size:11px">YOUR</span><span style="font-family: Helvetica; font-size:11px"> Selling Dealer.</span><span style="font-family: Helvetica-Bold; font-size:11px"> </span><span style="font-family: Helvetica; font-size:11px">If </span><span style="font-family: Helvetica-Bold; font-size:11px">YOU</span><span style="font-family: Helvetica; font-size:11px"> cancel during the first 60 days, a 100 percent refund of the Service Contract Price
+<br>will be made less a $50 administration fee. After 60 days, a pro-rata refund will be made based upon the greater of the time
+<br>or mileage expired, less a $50 administration fee. In the event of cancellation, </span><span style="font-family: Helvetica-Bold; font-size:11px">YOU</span><span style="font-family: Helvetica; font-size:11px"> authorize the Lienholder to receive any
+<br>refund amounts. In the event of a total loss or repossession, Lienholder is authorized to cancel this Service Contract and
+<br>Lienholder will be named as sole payee for any refund amounts and all rights and interests under this Service Contract will
+<br>immediately  transfer  to  the  Lienholder.  This  Service  Contract  is  non-cancellable  by  </span><span style="font-family: Helvetica-Bold; font-size:11px">US</span><span style="font-family: Helvetica; font-size:11px">  except  for  fraud,  material
+<br>misrepresentation, or failure to pay the Service Contract Price due.  If Optional Car Care Service Plan is selected, no refund
+<br>will be made without surrendering all unused coupons.
+<br></span><span style="font-family: Helvetica-Bold; font-size:11px">STATE  AMENDMENTS:</span><span style="font-family: Helvetica; font-size:11px">  If  this  Service  Contract  is  purchased  in  any  of  the  following  states,  the  applicable
+<br></span><span style="font-family: Helvetica; font-size:11px">amendments will apply:
+<br></span><span style="font-family: Helvetica-Bold; font-size:11px">California: </span><span style="font-family: Helvetica; font-size:11px">This Service Contract may be cancelled by </span><span style="font-family: Helvetica-Bold; font-size:11px">YOU</span><span style="font-family: Helvetica; font-size:11px"> at anytime. To cancel, </span><span style="font-family: Helvetica-Bold; font-size:11px">YOU</span><span style="font-family: Helvetica; font-size:11px"> must return this Service Contract
+<br>to </span><span style="font-family: Helvetica-Bold; font-size:11px">YOUR</span><span style="font-family: Helvetica; font-size:11px"> Selling Dealer.</span><span style="font-family: Helvetica-Bold; font-size:11px"> </span><span style="font-family: Helvetica; font-size:11px">If </span><span style="font-family: Helvetica-Bold; font-size:11px">YOU</span><span style="font-family: Helvetica; font-size:11px"> cancel during the first 60 days, a 100 percent refund of the Service Contract Price will be
+<br>made.  After  60  days,  a  pro-rata  refund  will  be  made  based  upon  the  greater  of  the  time  or  mileage  expired  less  an
+<br>administration fee of $25 or 10 percent of the unearned pro-rata Service Contract Price, whichever is less.
+<br></span><span style="font-family: Helvetica-Bold; font-size:11px">New Hampshire:  WE</span><span style="font-family: Helvetica; font-size:11px"> cannot cancel this Service Contract except for fraud, material misrepresentation or failure
+<br>to pay for this Service Contract on </span><span style="font-family: Helvetica-Bold; font-size:11px">YOUR</span><span style="font-family: Helvetica; font-size:11px"> part. </span><span style="font-family: Helvetica-Bold; font-size:11px">WE</span><span style="font-family: Helvetica; font-size:11px"> will give </span><span style="font-family: Helvetica-Bold; font-size:11px">YOU</span><span style="font-family: Helvetica; font-size:11px"> at least sixty (60) days notice of cancellation.
+<br>Cancellation and transfer fees are removed.
+<br></span><span style="font-family: Helvetica-Bold; font-size:11px">New York:  </span><span style="font-family: Helvetica; font-size:11px">If this Service Contract is cancelled by </span><span style="font-family: Helvetica-Bold; font-size:11px">YOU</span><span style="font-family: Helvetica; font-size:11px"> during the first ten days, no administration fee will be
+<br>charged.  A 10 percent penalty will be applied to any refund that is not paid within 30 days of the return of this
+<br></span><span style="font-family: Helvetica; font-size:11px">Service Contract to </span><span style="font-family: Helvetica-Bold; font-size:11px">US</span><span style="font-family: Helvetica; font-size:11px">.  If </span><span style="font-family: Helvetica-Bold; font-size:11px">WE</span><span style="font-family: Helvetica; font-size:11px"> cancel, </span><span style="font-family: Helvetica-Bold; font-size:11px">WE</span><span style="font-family: Helvetica; font-size:11px"> will give</span><span style="font-family: Helvetica-Bold; font-size:11px"> YOU</span><span style="font-family: Helvetica; font-size:11px"> at least fifteen (15) days notice of cancellation and state
+<br></span><span style="font-family: Helvetica; font-size:11px">the effective date and reason for cancellation.
+<br></span><span style="font-family: Helvetica-Bold; font-size:11px">Vermont:</span><span style="font-family: Helvetica; font-size:11px">  If this Service Contract is cancelled by </span><span style="font-family: Helvetica-Bold; font-size:11px">YOU</span><span style="font-family: Helvetica; font-size:11px"> during the first 20 days, no administration fee will be
+<br></span><span style="font-family: Helvetica; font-size:11px">charged.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:289px; top:3143px; width:21px; height:18px;"><span style="font-family: Helvetica-Bold; font-size:9px">A-231
+<br></span><span style="font-family: Helvetica-Bold; font-size:9px">01/01
+<br></span></div><span style="position:absolute; border: gray 1px solid; left:0px; top:3224px; width:612px; height:1008px;"></span>
+<div style="position:absolute; top:3224px;"><a name="4">Page 4</a></div>
+<div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:18px; top:3244px; width:390px; height:11px;"><span style="font-family: Helvetica-Bold; font-size:11px">EXCLUSIONS FROM COVERAGE:</span><span style="font-family: Helvetica; font-size:11px"> This Service Contract will not pay or reimburse </span><span style="font-family: Helvetica-Bold; font-size:11px">YOU</span><span style="font-family: Helvetica; font-size:11px"> for:
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:28px; top:3255px; width:566px; height:11px;"><span style="font-family: Helvetica; font-size:11px">1. Any loss, damage or expense caused by accidents, any alteration to the vehicle or the part, use of oversized tires or wheels, alteration
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:47px; top:3265px; width:524px; height:11px;"><span style="font-family: Helvetica; font-size:11px">to the vehicle not authorized by its manufacturer, the failure of any part not covered by this Service Contract , accidental loss;
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:28px; top:3276px; width:566px; height:32px;"><span style="font-family: Helvetica; font-size:11px">2. Any  Mechanical  Breakdown  caused  by  accidents,  collision,  upset  damage,  falling  objects,  theft,  larceny,  explosion,  lightning,
+<br>earthquakes, fire, windstorms, hail, water, floods, subfreezing temperature, malicious mischief, vandalism, civil commotion, riots, wars;
+<br>3. The repair or replacement of a Covered Part by any manufacturer warranty or for any other coverage or other reason the manufacturer,
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:47px; top:3308px; width:487px; height:11px;"><span style="font-family: Helvetica; font-size:11px">importer, distributor, seller or repairer of the vehicle will repair or replace the part at its expense or at a reduced cost;
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:28px; top:3319px; width:566px; height:22px;"><span style="font-family: Helvetica; font-size:11px">4. Any invoice presented to FWS for payment  for services not performed as described at the time of authorization;
+<br>5. Any claim if </span><span style="font-family: Helvetica-Bold; font-size:11px">YOUR</span><span style="font-family: Helvetica; font-size:11px"> vehicle’s odometer, since the Purchase Date, has been altered, disconnected, is inoperable, or actual mileage
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:47px; top:3340px; width:219px; height:11px;"><span style="font-family: Helvetica; font-size:11px">cannot be documented, or reasonably be estimated;
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:28px; top:3351px; width:566px; height:33px;"><span style="font-family: Helvetica; font-size:11px">6. Any claim if </span><span style="font-family: Helvetica-Bold; font-size:11px">YOUR</span><span style="font-family: Helvetica; font-size:11px"> vehicle is used for competitive driving or racing, police or emergency service, principally off-road use, snow removal,
+<br>carriage of passengers for hire, commercial delivery, rental purposes, towing a trailer or another vehicle unless</span><span style="font-family: Helvetica-Bold; font-size:11px"> YOUR</span><span style="font-family: Helvetica; font-size:11px"> vehicle is
+<br>equipped for this as recommended by the manufacturer;
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:28px; top:3383px; width:566px; height:22px;"><span style="font-family: Helvetica; font-size:11px">7. Any Mechanical Breakdown caused by misuse, abuse, negligence, improper towing, lack of maintenance;
+<br>8. Any Mechanical Breakdown caused by contamination, overheating, lack of coolant or lubricants, lack of oil viscosity, sludge, restricted
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:28px; top:3415px; width:565px; height:11px;"><span style="font-family: Helvetica; font-size:11px">9. The need to repair or replace a Covered Part arising or resulting from the use of </span><span style="font-family: Helvetica-Bold; font-size:11px">YOUR </span><span style="font-family: Helvetica; font-size:11px">vehicle outside of the United States, its territories
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:22px; top:3437px; width:571px; height:11px;"><span style="font-family: Helvetica; font-size:11px">10. Hazardous waste disposal charges, storage or freight charges, adjustments, core charges, shop supplies, and correction of rattles/
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:22px; top:3458px; width:571px; height:22px;"><span style="font-family: Helvetica; font-size:11px">11. Any consequential, secondary damages or unreasonable costs that </span><span style="font-family: Helvetica-Bold; font-size:11px">YOU</span><span style="font-family: Helvetica; font-size:11px"> may suffer as a result of the need to repair or  replace a part;
+<br>12. Liability for damage to property, injury to or death of any person arising out of the operation, maintenance or use of </span><span style="font-family: Helvetica-Bold; font-size:11px">YOUR</span><span style="font-family: Helvetica; font-size:11px"> vehicle
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:48px; top:3479px; width:184px; height:11px;"><span style="font-family: Helvetica; font-size:11px">whether or not related to the Covered Parts;
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:22px; top:3490px; width:571px; height:75px;"><span style="font-family: Helvetica; font-size:11px">13. Any part that is not specifically listed as covered under the coverage selected, including,  but are not limited to: brake linings, brake
+<br>drums and rotors, disc brake pads, ABS component parts, standard transmission clutch components, air bags, solar powered devices,
+<br>hinges, glass, lenses, sealed beams, trim, moldings, door handles, lock cylinders, tires, batteries, light bulbs, upholstery, paint, bright
+<br>metal, headbolts, freeze plugs, exhaust system, shock absorbers, rust and rust damage, audio, security or other systems not factory
+<br>installed, work such as front-end alignment or wheel balancing, constant velocity joint boots, safety restraint systems, cellular phones,
+<br>television/VCR, electronic transmitting devices (except for those specifically listed under Silver or Gold Coverage), radar detectors,
+<br>appliances, navigation/near object avoidance systems, vinyl and convertible tops;
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:22px; top:3565px; width:571px; height:11px;"><span style="font-family: Helvetica; font-size:11px">14. Burnt valves, worn rings, the correction of oil consumption, any repairs for reduction in engine efficiency that must be performed on
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:47px; top:3405px; width:31px; height:11px;"><span style="font-family: Helvetica; font-size:11px">oil flow;
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:48px; top:3426px; width:112px; height:11px;"><span style="font-family: Helvetica; font-size:11px">or possessions or Canada;
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:48px; top:3447px; width:162px; height:11px;"><span style="font-family: Helvetica; font-size:11px">squeaks/wind noise/odors/water leaks;
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:22px; top:3586px; width:571px; height:33px;"><span style="font-family: Helvetica; font-size:11px">15. Any maintenance on </span><span style="font-family: Helvetica-Bold; font-size:11px">YOUR</span><span style="font-family: Helvetica; font-size:11px"> vehicle, unless Optional Car Care Service Plan is selected;
+<br>16. Any personal expenses (except where noted under Travel Breakdown) arising because </span><span style="font-family: Helvetica-Bold; font-size:11px">YOUR</span><span style="font-family: Helvetica; font-size:11px"> vehicle is not available for </span><span style="font-family: Helvetica-Bold; font-size:11px">YOU</span><span style="font-family: Helvetica; font-size:11px"> to use.
+<br>17. Damages caused to</span><span style="font-family: Helvetica-Bold; font-size:11px"> YOUR</span><span style="font-family: Helvetica; font-size:11px"> engine resulting from the ingestion of water through the engine air intake system (commonly referred to
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:48px; top:3575px; width:62px; height:11px;"><span style="font-family: Helvetica-Bold; font-size:11px">YOUR</span><span style="font-family: Helvetica; font-size:11px"> vehicle;
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:48px; top:3619px; width:82px; height:11px;"><span style="font-family: Helvetica; font-size:11px">as water ingestion).
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:17px; top:3635px; width:576px; height:54px;"><span style="font-family: Helvetica-Bold; font-size:11px">HOW TO MAKE A CLAIM:</span><span style="font-family: Helvetica; font-size:11px"> When repairs are required, if possible, return </span><span style="font-family: Helvetica-Bold; font-size:11px">YOUR</span><span style="font-family: Helvetica; font-size:11px"> vehicle to </span><span style="font-family: Helvetica-Bold; font-size:11px">YOUR</span><span style="font-family: Helvetica; font-size:11px"> Selling Dealer. If </span><span style="font-family: Helvetica-Bold; font-size:11px">YOU</span><span style="font-family: Helvetica; font-size:11px"> cannot return </span><span style="font-family: Helvetica-Bold; font-size:11px">YOUR
+<br></span><span style="font-family: Helvetica; font-size:11px">vehicle to </span><span style="font-family: Helvetica-Bold; font-size:11px">YOUR</span><span style="font-family: Helvetica; font-size:11px"> Selling Dealer, </span><span style="font-family: Helvetica-Bold; font-size:11px">YOU</span><span style="font-family: Helvetica; font-size:11px"> must telephone FWS at 1-800-327-5172 during normal working hours to receive instructions. If </span><span style="font-family: Helvetica-Bold; font-size:11px">YOU
+<br></span><span style="font-family: Helvetica; font-size:11px">do not follow </span><span style="font-family: Helvetica-Bold; font-size:11px">OUR</span><span style="font-family: Helvetica; font-size:11px"> instructions, </span><span style="font-family: Helvetica-Bold; font-size:11px">WE</span><span style="font-family: Helvetica; font-size:11px"> are not obligated to reimburse </span><span style="font-family: Helvetica-Bold; font-size:11px">YOU</span><span style="font-family: Helvetica; font-size:11px"> for the cost of any repairs. Authorization must be obtained from FWS
+<br>prior to having </span><span style="font-family: Helvetica-Bold; font-size:11px">YOUR</span><span style="font-family: Helvetica; font-size:11px"> vehicle repaired. </span><span style="font-family: Helvetica-Bold; font-size:11px">WE</span><span style="font-family: Helvetica; font-size:11px"> reserve the right to inspect any vehicle before authorization of any repairs. In order to make a claim
+<br>under this Service Contract </span><span style="font-family: Helvetica-Bold; font-size:11px">YOU</span><span style="font-family: Helvetica; font-size:11px"> must:
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:28px; top:3694px; width:566px; height:33px;"><span style="font-family: Helvetica; font-size:11px">1. Have </span><span style="font-family: Helvetica-Bold; font-size:11px">YOUR</span><span style="font-family: Helvetica; font-size:11px"> vehicle serviced according to the maintenance schedule provided in the Manufacturer's Owner's Manual.  </span><span style="font-family: Helvetica-Bold; font-size:11px">YOU</span><span style="font-family: Helvetica; font-size:11px"> must keep
+<br>original copies of all repair orders, invoices and receipts from the performed services and maintenance and present the originals at
+<br></span><span style="font-family: Helvetica; font-size:11px">the time a claim is made;
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:28px; top:3726px; width:566px; height:33px;"><span style="font-family: Helvetica; font-size:11px">2. Use all means to protect </span><span style="font-family: Helvetica-Bold; font-size:11px">YOUR</span><span style="font-family: Helvetica; font-size:11px"> CAR FROM FURTHER DAMAGE IN THE EVENT OF A MECHANICAL BREAKDOWN.  WITHOUT
+<br>LIMITING THIS GENERAL RULE, SPECIFICALLY </span><span style="font-family: Helvetica-Bold; font-size:11px">YOU</span><span style="font-family: Helvetica; font-size:11px"> MUST STOP THE VEHICLE IMMEDIATELY AND HAVE IT REPAIRED
+<br>BEFORE DRIVING IT FURTHER;
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:28px; top:3759px; width:565px; height:11px;"><span style="font-family: Helvetica; font-size:11px">3. Provide  &quot;teardown authorization” when requested by </span><span style="font-family: Helvetica-Bold; font-size:11px">US</span><span style="font-family: Helvetica; font-size:11px">, so that the repair facility can provide an accurate diagnosis and estimate
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:47px; top:3770px; width:546px; height:32px;"><span style="font-family: Helvetica; font-size:11px">of repairs;
+<br>In the event of an emergency situation that occurs and FWS cannot be reached, the Service Contract Holder can proceed with repairs,
+<br>but payment will be in accordance with the other provisions of this Service Contract.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:28px; top:3780px; width:7px; height:11px;"><span style="font-family: Helvetica; font-size:11px">4.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:28px; top:3801px; width:499px; height:33px;"><span style="font-family: Helvetica; font-size:11px">5. Submit a claim for reimbursement to </span><span style="font-family: Helvetica-Bold; font-size:11px">US</span><span style="font-family: Helvetica; font-size:11px"> along with all required documents within 30 days of authorization;
+<br>6. Retain all replaced parts until </span><span style="font-family: Helvetica-Bold; font-size:11px">YOUR</span><span style="font-family: Helvetica; font-size:11px"> claim is settled, as </span><span style="font-family: Helvetica-Bold; font-size:11px">YOU</span><span style="font-family: Helvetica; font-size:11px"> may be required to submit these parts for inspection;
+<br>7. Surrender the appropriate Car Care Coupon to the Participating Dealer.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:17px; top:3840px; width:576px; height:234px;"><span style="font-family: Helvetica; font-size:11px">Failure to comply with the responsibilities outlined above may result in the denial of </span><span style="font-family: Helvetica-Bold; font-size:11px">YOUR</span><span style="font-family: Helvetica; font-size:11px"> claim. If </span><span style="font-family: Helvetica-Bold; font-size:11px">YOU</span><span style="font-family: Helvetica; font-size:11px"> have any questions which cannot
+<br>be answered by </span><span style="font-family: Helvetica-Bold; font-size:11px">YOUR</span><span style="font-family: Helvetica; font-size:11px"> Selling Dealer please contact FWS.
+<br></span><span style="font-family: Helvetica-Bold; font-size:11px">PAYMENTS:</span><span style="font-family: Helvetica; font-size:11px"> </span><span style="font-family: Helvetica-Bold; font-size:11px">YOUR</span><span style="font-family: Helvetica; font-size:11px"> Repairing Dealer should perform authorized repairs covered under this Service Contract without charge to </span><span style="font-family: Helvetica-Bold; font-size:11px">YOU</span><span style="font-family: Helvetica; font-size:11px"> for such
+<br>repairs.  If the Repairing Dealer does charge </span><span style="font-family: Helvetica-Bold; font-size:11px">YOU </span><span style="font-family: Helvetica; font-size:11px">for authorized repairs covered under this Service Contract, submit copies of all invoices
+<br>and receipts pertaining to the authorized repairs along with a copy of the front page of this Service Contract to: FWS, P.O. Box 8567, Deerfield
+<br>Beach, Florida 33443.
+<br></span><span style="font-family: Helvetica-Bold; font-size:11px">OUR OPTIONS:</span><span style="font-family: Helvetica; font-size:11px"> FWS may pay for or reimburse for the repair or replacement of any part covered by this Service Contract. </span><span style="font-family: Helvetica-Bold; font-size:11px">Replacement
+<br>parts utilized in covered repairs will be, at the discretion of FWS, new or remanufactured OEM parts, new or remanufactured
+<br>aftermarket  parts  or  used  parts  that  meet  the  quality  standards  of  the  repair  facility  or  FWS.
+<br>LIMITS OF LIABILITY:</span><span style="font-family: Helvetica; font-size:11px"> For any one repair visit, all benefits paid  or payable shall not exceed the actual cash value  of </span><span style="font-family: Helvetica-Bold; font-size:11px">YOUR</span><span style="font-family: Helvetica; font-size:11px"> vehicle at the
+<br>instant prior to the most recent  loss.  The aggregate total of all benefits  paid or  payable during the term of this Service Contract shall not
+<br>exceed the price </span><span style="font-family: Helvetica-Bold; font-size:11px">YOU</span><span style="font-family: Helvetica; font-size:11px"> paid for </span><span style="font-family: Helvetica-Bold; font-size:11px">YOUR</span><span style="font-family: Helvetica; font-size:11px"> vehicle.  The payment for or reimbursement for repair or replacement of Covered Parts and the benefit
+<br>stated  under  RENTAL  CAR  COVERAGE,  TOWING  COVERAGE,  TRAVEL  BREAKDOWN,  FLUID  COVERAGE,  OPTIONAL  ROAD
+<br>HAZARD TIRE COVERAGE,  and OPTIONAL CAR CARE SERVICE PLAN are the only remedies available to a Service Contract Holder.
+<br></span><span style="font-family: Helvetica-Bold; font-size:11px">WE</span><span style="font-family: Helvetica; font-size:11px"> assume no other obligation or responsibility with regard to the vehicle.  </span><span style="font-family: Helvetica-Bold; font-size:11px">WE</span><span style="font-family: Helvetica; font-size:11px"> neither assume, nor authorize anyone to assume for </span><span style="font-family: Helvetica-Bold; font-size:11px">US</span><span style="font-family: Helvetica; font-size:11px">, any
+<br>additional liability.
+<br></span><span style="font-family: Helvetica-Bold; font-size:11px">INSURANCE:</span><span style="font-family: Helvetica; font-size:11px"> </span><span style="font-family: Helvetica-Bold; font-size:11px">OUR</span><span style="font-family: Helvetica; font-size:11px"> obligations under this Service Contract are insured by American Bankers Insurance Company of Florida, 11222 Quail
+<br>Roost Drive, Miami, FL 33157-6596. </span><span style="font-family: Helvetica-Bold; font-size:11px">YOU</span><span style="font-family: Helvetica; font-size:11px"> may file a claim with the insurance company directly. To do so, please call 1-800-426-7517.
+<br></span><span style="font-family: Helvetica-Bold; font-size:11px">GENERAL:
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:28px; top:4073px; width:566px; height:11px;"><span style="font-family: Helvetica; font-size:11px">1. THE TERMS AND CONDITIONS OUTLINED ABOVE ARE THE FULL AND COMPLETE AGREEMENT BETWEEN THE PARTIES.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:47px; top:4084px; width:522px; height:22px;"><span style="font-family: Helvetica; font-size:11px">NO ORAL REPRESENTATION OR STATEMENT SHOULD BE RELIED UPON BY THE PURCHASER.
+<br>If it is not clear which Term/Mileage or coverage plan has been purchased, </span><span style="font-family: Helvetica-Bold; font-size:11px">YOU</span><span style="font-family: Helvetica; font-size:11px"> should contact </span><span style="font-family: Helvetica-Bold; font-size:11px">YOUR</span><span style="font-family: Helvetica; font-size:11px"> Selling Dealer or </span><span style="font-family: Helvetica-Bold; font-size:11px">US.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:28px; top:4095px; width:565px; height:32px;"><span style="font-family: Helvetica; font-size:11px">2.
+<br></span><span style="font-family: Helvetica; font-size:11px">3. This Service Contract will be governed by the laws of the state in which it is sold.
+<br>4. No amendment, supplement, or waiver of any  provision of this Service Contract will be binding against </span><span style="font-family: Helvetica-Bold; font-size:11px">US</span><span style="font-family: Helvetica; font-size:11px"> unless it is in writing and
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:47px; top:4126px; width:288px; height:11px;"><span style="font-family: Helvetica; font-size:11px">signed by one of the authorized representatives at </span><span style="font-family: Helvetica-Bold; font-size:11px">OUR</span><span style="font-family: Helvetica; font-size:11px"> home office.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:28px; top:4137px; width:565px; height:44px;"><span style="font-family: Helvetica; font-size:11px">5. </span><span style="font-family: Helvetica-Bold; font-size:11px">WE</span><span style="font-family: Helvetica; font-size:11px"> may delegate the performance of </span><span style="font-family: Helvetica-Bold; font-size:11px">OUR</span><span style="font-family: Helvetica; font-size:11px"> duties and obligations and assign </span><span style="font-family: Helvetica-Bold; font-size:11px">OUR</span><span style="font-family: Helvetica; font-size:11px"> rights and benefits hereunder.
+<br>6. </span><span style="font-family: Helvetica-Bold; font-size:11px">OUR</span><span style="font-family: Helvetica; font-size:11px"> right to recover payment: If</span><span style="font-family: Helvetica-Bold; font-size:11px"> WE</span><span style="font-family: Helvetica; font-size:11px"> make any payment under this Service Contract and </span><span style="font-family: Helvetica-Bold; font-size:11px">YOU</span><span style="font-family: Helvetica; font-size:11px"> have a right to recover against another
+<br></span><span style="font-family: Helvetica; font-size:11px">party, </span><span style="font-family: Helvetica-Bold; font-size:11px">YOUR</span><span style="font-family: Helvetica; font-size:11px"> rights shall become </span><span style="font-family: Helvetica-Bold; font-size:11px">OUR </span><span style="font-family: Helvetica; font-size:11px">rights and </span><span style="font-family: Helvetica-Bold; font-size:11px">YOU</span><span style="font-family: Helvetica; font-size:11px"> shall do whatever is necessary to enable </span><span style="font-family: Helvetica-Bold; font-size:11px">US</span><span style="font-family: Helvetica; font-size:11px"> to enforce these rights. </span><span style="font-family: Helvetica-Bold; font-size:11px">OUR
+<br></span><span style="font-family: Helvetica; font-size:11px">subrogation rights become effective after </span><span style="font-family: Helvetica-Bold; font-size:11px">YOU</span><span style="font-family: Helvetica; font-size:11px"> are made whole.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:289px; top:4201px; width:21px; height:18px;"><span style="font-family: Helvetica-Bold; font-size:9px">A-231
+<br></span><span style="font-family: Helvetica-Bold; font-size:9px">01/01
+<br></span></div><div style="position:absolute; top:0px;">Page: <a href="#1">1</a>, <a href="#2">2</a>, <a href="#3">3</a>, <a href="#4">4</a></div>
+</body></html>

@@ -108,7 +108,10 @@ contracts = list()
 
 for filename in os.listdir(PDF_DIR):
     if filename.endswith(".pdf"):
-        pdfText_2_column = convert_pdf_to_html(os.path.join(PDF_DIR, filename))
+        pdfHtml_2_column = convert_pdf_to_html(os.path.join(PDF_DIR, filename))
+        text_file = open("html/"+filename+".txt", "w")
+        text_file.write(pdfHtml_2_column)
+        text_file.close()
         continue
     else:
         continue

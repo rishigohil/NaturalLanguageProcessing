@@ -1,0 +1,1341 @@
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body>
+<span style="position:absolute; border: gray 1px solid; left:0px; top:50px; width:612px; height:1053px;"></span>
+<div style="position:absolute; top:50px;"><a name="1">Page 1</a></div>
+<div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:552px; top:79px; width:23px; height:6px;"><span style="font-family: NGLNOI+Helvetica; font-size:6px">10/07/09
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:534px; top:111px; width:35px; height:7px;"><span style="font-family: NGLNPK+Helvetica-Bold; font-size:7px">A544 (10/09)
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:59px; top:141px; width:486px; height:27px;"><span style="font-family: NGLOAN+AntiqueOlive-Black; font-size:27px">ASSOCIATED DEALERS WARRANTY CORP.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:154px; top:171px; width:296px; height:27px;"><span style="font-family: NGLOAN+AntiqueOlive-Black; font-size:27px">CAR CARE SERVICE PLAN
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:45px; top:218px; width:139px; height:14px;"><span style="font-family: NGLNPK+Helvetica-Bold; font-size:14px">VEHICLE INFORMATION
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:55px; top:236px; width:58px; height:6px;"><span style="font-family: NGLNOI+Helvetica; font-size:6px">CONTRACT NUMBER
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:63px; top:238px; width:41px; height:20px;"><span style="font-family: NGLODC+Helvetica-Condensed-Black; font-size:20px">J 0 0 0
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:56px; top:259px; width:15px; height:6px;"><span style="font-family: NGLNOI+Helvetica; font-size:6px">YEAR
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:141px; top:259px; width:16px; height:6px;"><span style="font-family: NGLNOI+Helvetica; font-size:6px">MAKE
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:43px; top:300px; width:136px; height:14px;"><span style="font-family: NGLNPK+Helvetica-Bold; font-size:14px">DEALER INFORMATION
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:56px; top:319px; width:49px; height:6px;"><span style="font-family: NGLNOI+Helvetica; font-size:6px">SELLING DEALER
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:56px; top:342px; width:52px; height:6px;"><span style="font-family: NGLNOI+Helvetica; font-size:6px">DEALER ADDRESS
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:56px; top:367px; width:37px; height:6px;"><span style="font-family: NGLNOI+Helvetica; font-size:6px">LIENHOLDER
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:56px; top:391px; width:58px; height:6px;"><span style="font-family: NGLNOI+Helvetica; font-size:6px">DEALER SIGNATURE
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:325px; top:236px; width:47px; height:6px;"><span style="font-family: NGLNOI+Helvetica; font-size:6px">SERIAL NUMBER
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:269px; top:236px; width:47px; height:30px;"><span style="font-family: NGLNOI+Helvetica; font-size:6px">FORM NUMBER
+<br></span><span style="font-family: NGLNOI+Helvetica; font-size:12px">A5441009
+<br></span><span style="font-family: NGLNOI+Helvetica; font-size:6px">MODEL
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:438px; top:259px; width:91px; height:6px;"><span style="font-family: NGLNOI+Helvetica; font-size:6px">CURRENT ODOMETER READING
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:258px; top:342px; width:13px; height:6px;"><span style="font-family: NGLNOI+Helvetica; font-size:6px">CITY
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:414px; top:342px; width:17px; height:6px;"><span style="font-family: NGLNOI+Helvetica; font-size:6px">STATE
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:465px; top:342px; width:10px; height:6px;"><span style="font-family: NGLNOI+Helvetica; font-size:6px">ZIP 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:466px; top:319px; width:28px; height:6px;"><span style="font-family: NGLNOI+Helvetica; font-size:6px">DEALER #
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:294px; top:367px; width:28px; height:6px;"><span style="font-family: NGLNOI+Helvetica; font-size:6px">ADDRESS
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:43px; top:435px; width:505px; height:26px;"><span style="font-family: NGLNPK+Helvetica-Bold; font-size:14px">OPTIONAL CAR CARE SERVICE PLAN INFORMATION
+<br></span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:9px">SEE OWNER’S MANUAL FOR YOUR VEHICLE’S ENGINE OIL SPECIFICATIONS AND COMPLETE LISTING OF FACTORY RECOMMENDED SERVICES
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:79px; top:480px; width:46px; height:9px;"><span style="font-family: NGLNOI+Helvetica; font-size:9px">3,000 MILES
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:178px; top:480px; width:46px; height:9px;"><span style="font-family: NGLNOI+Helvetica; font-size:9px">3,750 MILES
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:277px; top:480px; width:46px; height:9px;"><span style="font-family: NGLNOI+Helvetica; font-size:9px">5,000 MILES
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:377px; top:480px; width:46px; height:9px;"><span style="font-family: NGLNOI+Helvetica; font-size:9px">7,500 MILES
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:205px; top:468px; width:91px; height:10px;"><span style="font-family: NGLNPK+Helvetica-Bold; font-size:10px">NON-SYNTHETIC OIL
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:75px; top:496px; width:35px; height:10px;"><span style="font-family: NGLNOI+Helvetica; font-size:10px">2/30,000
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:106px; top:505px; width:43px; height:9px;"><span style="font-family: NGLNOI+Helvetica; font-size:9px">STANDARD
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:75px; top:516px; width:35px; height:10px;"><span style="font-family: NGLNOI+Helvetica; font-size:10px">3/36,000
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:117px; top:514px; width:22px; height:9px;"><span style="font-family: NGLNOI+Helvetica; font-size:9px">(MN3)
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:117px; top:553px; width:20px; height:18px;"><span style="font-family: NGLNOI+Helvetica; font-size:9px">PLUS
+<br>(N3+)
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:75px; top:536px; width:35px; height:10px;"><span style="font-family: NGLNOI+Helvetica; font-size:10px">3/45,000
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:75px; top:556px; width:35px; height:10px;"><span style="font-family: NGLNOI+Helvetica; font-size:10px">4/48,000
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:75px; top:576px; width:35px; height:10px;"><span style="font-family: NGLNOI+Helvetica; font-size:10px">5/60,000
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:75px; top:596px; width:35px; height:10px;"><span style="font-family: NGLNOI+Helvetica; font-size:10px">6/75,000
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:75px; top:616px; width:40px; height:10px;"><span style="font-family: NGLNOI+Helvetica; font-size:10px">7/102,000
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:174px; top:506px; width:35px; height:10px;"><span style="font-family: NGLNOI+Helvetica; font-size:10px">3/37,500
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:205px; top:516px; width:43px; height:9px;"><span style="font-family: NGLNOI+Helvetica; font-size:9px">STANDARD
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:174px; top:531px; width:35px; height:10px;"><span style="font-family: NGLNOI+Helvetica; font-size:10px">4/52,500
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:215px; top:525px; width:23px; height:9px;"><span style="font-family: NGLNOI+Helvetica; font-size:9px">(MNP)
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:174px; top:556px; width:35px; height:10px;"><span style="font-family: NGLNOI+Helvetica; font-size:10px">5/60,000
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:174px; top:581px; width:35px; height:10px;"><span style="font-family: NGLNOI+Helvetica; font-size:10px">6/75,000
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:216px; top:564px; width:21px; height:18px;"><span style="font-family: NGLNOI+Helvetica; font-size:9px">PLUS
+<br>(NP+)
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:174px; top:606px; width:40px; height:10px;"><span style="font-family: NGLNOI+Helvetica; font-size:10px">7/101,250
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:273px; top:496px; width:35px; height:10px;"><span style="font-family: NGLNOI+Helvetica; font-size:10px">2/30,000
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:306px; top:505px; width:43px; height:9px;"><span style="font-family: NGLNOI+Helvetica; font-size:9px">STANDARD
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:273px; top:516px; width:35px; height:10px;"><span style="font-family: NGLNOI+Helvetica; font-size:10px">3/35,000
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:316px; top:514px; width:22px; height:9px;"><span style="font-family: NGLNOI+Helvetica; font-size:9px">(MN5)
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:317px; top:553px; width:20px; height:18px;"><span style="font-family: NGLNOI+Helvetica; font-size:9px">PLUS
+<br>(N5+)
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:273px; top:536px; width:35px; height:10px;"><span style="font-family: NGLNOI+Helvetica; font-size:10px">3/45,000
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:273px; top:556px; width:35px; height:10px;"><span style="font-family: NGLNOI+Helvetica; font-size:10px">4/50,000
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:273px; top:576px; width:35px; height:10px;"><span style="font-family: NGLNOI+Helvetica; font-size:10px">5/60,000
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:273px; top:596px; width:35px; height:10px;"><span style="font-family: NGLNOI+Helvetica; font-size:10px">6/75,000
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:273px; top:616px; width:40px; height:10px;"><span style="font-family: NGLNOI+Helvetica; font-size:10px">7/100,000
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:372px; top:506px; width:35px; height:10px;"><span style="font-family: NGLNOI+Helvetica; font-size:10px">3/37,500
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:404px; top:516px; width:43px; height:9px;"><span style="font-family: NGLNOI+Helvetica; font-size:9px">STANDARD
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:372px; top:531px; width:35px; height:10px;"><span style="font-family: NGLNOI+Helvetica; font-size:10px">4/52,500
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:415px; top:525px; width:23px; height:9px;"><span style="font-family: NGLNOI+Helvetica; font-size:9px">(MNV)
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:372px; top:556px; width:35px; height:10px;"><span style="font-family: NGLNOI+Helvetica; font-size:10px">5/60,000
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:372px; top:581px; width:35px; height:10px;"><span style="font-family: NGLNOI+Helvetica; font-size:10px">6/75,000
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:416px; top:564px; width:21px; height:18px;"><span style="font-family: NGLNOI+Helvetica; font-size:9px">PLUS
+<br>(NV+)
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:372px; top:606px; width:40px; height:10px;"><span style="font-family: NGLNOI+Helvetica; font-size:10px">7/105,000
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:465px; top:468px; width:68px; height:10px;"><span style="font-family: NGLNPK+Helvetica-Bold; font-size:10px">SYNTHETIC OIL
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:476px; top:480px; width:46px; height:9px;"><span style="font-family: NGLNOI+Helvetica; font-size:9px">5,000 MILES
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:471px; top:496px; width:35px; height:10px;"><span style="font-family: NGLNOI+Helvetica; font-size:10px">2/30,000
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:504px; top:505px; width:43px; height:9px;"><span style="font-family: NGLNOI+Helvetica; font-size:9px">STANDARD
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:471px; top:516px; width:35px; height:10px;"><span style="font-family: NGLNOI+Helvetica; font-size:10px">3/35,000
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:514px; top:514px; width:22px; height:9px;"><span style="font-family: NGLNOI+Helvetica; font-size:9px">(MFS)
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:515px; top:553px; width:21px; height:18px;"><span style="font-family: NGLNOI+Helvetica; font-size:9px">PLUS
+<br>(MF+)
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:471px; top:536px; width:35px; height:10px;"><span style="font-family: NGLNOI+Helvetica; font-size:10px">3/45,000
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:471px; top:556px; width:35px; height:10px;"><span style="font-family: NGLNOI+Helvetica; font-size:10px">4/50,000
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:471px; top:576px; width:35px; height:10px;"><span style="font-family: NGLNOI+Helvetica; font-size:10px">5/60,000
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:471px; top:596px; width:35px; height:10px;"><span style="font-family: NGLNOI+Helvetica; font-size:10px">6/75,000
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:471px; top:616px; width:40px; height:10px;"><span style="font-family: NGLNOI+Helvetica; font-size:10px">7/100,000
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:56px; top:637px; width:80px; height:6px;"><span style="font-family: NGLNOI+Helvetica; font-size:6px">CAR CARE PURCHASE DATE
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:305px; top:637px; width:83px; height:6px;"><span style="font-family: NGLNOI+Helvetica; font-size:6px">CAR CARE PURCHASE PRICE
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:42px; top:683px; width:208px; height:14px;"><span style="font-family: NGLNPK+Helvetica-Bold; font-size:14px">CONTRACT HOLDER INFORMATION
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:52px; top:700px; width:35px; height:6px;"><span style="font-family: NGLNOI+Helvetica; font-size:6px">FIRST NAME
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:53px; top:724px; width:28px; height:6px;"><span style="font-family: NGLNOI+Helvetica; font-size:6px">ADDRESS
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:53px; top:749px; width:101px; height:6px;"><span style="font-family: NGLNOI+Helvetica; font-size:6px">(AREA CODE) TELEPHONE NUMBER
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:53px; top:773px; width:33px; height:6px;"><span style="font-family: NGLNOI+Helvetica; font-size:6px">SIGNATURE
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:316px; top:700px; width:34px; height:6px;"><span style="font-family: NGLNOI+Helvetica; font-size:6px">LAST  NAME
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:235px; top:724px; width:13px; height:6px;"><span style="font-family: NGLNOI+Helvetica; font-size:6px">CITY
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:458px; top:724px; width:17px; height:6px;"><span style="font-family: NGLNOI+Helvetica; font-size:6px">STATE
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:496px; top:724px; width:10px; height:6px;"><span style="font-family: NGLNOI+Helvetica; font-size:6px">ZIP 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:198px; top:746px; width:268px; height:25px;"><span style="font-family: NGLOAO+Helvetica-BoldOblique; font-size:14px">I UNDERSTAND THAT THE PURCHASE OF THIS PRE-PAID MAINTENANCE CONTRACT 
+<br>IS NOT REQUIRED IN ORDER TO OBTAIN FINANCING OR TO PURCHASE THIS VEHICLE. 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:472px; top:748px; width:15px; height:6px;"><span style="font-family: NGLNOI+Helvetica; font-size:6px">DATE
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:348px; top:772px; width:197px; height:22px;"><span style="font-family: NGLOCA+Helvetica-Oblique; font-size:11px">This Contract is subject to the “ARBITRATION” 
+<br>section contained herein.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:50px; top:809px; width:496px; height:23px;"><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">PARTIES TO THIS CONTRACT: </span><span style="font-family: NGLNOI+Helvetica; font-size:11px">This Contract is between </span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">YOU </span><span style="font-family: NGLNOI+Helvetica; font-size:11px">(Contract Holder) and ADWC. This is not an insur-
+<br>ance policy, a warranty, or a guaranty.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:50px; top:842px; width:499px; height:35px;"><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">CONTRACT PERIOD: </span><span style="font-family: NGLNOI+Helvetica; font-size:11px"> Coverage under this Contract begins on the “Car Care Purchase Date” shown above and 
+<br>expires according to the term or mileage of the plan selected, whichever occurs ﬁ rst.  Plan expiration is measured 
+<br>in Term/Mileage from the “Car Care Purchase Date” and “Current Odometer Reading”.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:50px; top:887px; width:499px; height:35px;"><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">CAR CARE SERVICE PLAN COVERAGE: </span><span style="font-family: NGLNOI+Helvetica; font-size:11px">Coverage will be provided according to the Term/Mileage, service inter-
+<br>val and service level selected by </span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">YOU </span><span style="font-family: NGLNOI+Helvetica; font-size:11px">above. All services are fully detailed in</span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px"> YOUR </span><span style="font-family: NGLNOI+Helvetica; font-size:11px">coupon booklet which will be 
+<br>mailed to </span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">YOU. </span><span style="font-family: NGLNOI+Helvetica; font-size:11px">If </span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">YOUR </span><span style="font-family: NGLNOI+Helvetica; font-size:11px">booklet is not received within forty-ﬁ ve (45) days call Customer Service at 1-800-327-5172.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:50px; top:932px; width:499px; height:47px;"><span style="font-family: NGLNOI+Helvetica; font-size:11px">Coverage is obtained by presenting the appropriate coupon for each service to </span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">YOUR </span><span style="font-family: NGLNOI+Helvetica; font-size:11px">Selling Dealer. If </span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">YOU</span><span style="font-family: NGLNOI+Helvetica; font-size:11px"> 
+<br>cannot  return  </span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">YOUR</span><span style="font-family: NGLNOI+Helvetica; font-size:11px">  vehicle  to  </span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">YOUR</span><span style="font-family: NGLNOI+Helvetica; font-size:11px">  Selling  Dealer,  </span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">YOU</span><span style="font-family: NGLNOI+Helvetica; font-size:11px">  must  telephone  ADWC  during  normal  working 
+<br>hours  at  1-800-327-5172  to  receive  instructions.  </span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">YOUR  </span><span style="font-family: NGLNOI+Helvetica; font-size:11px">vehicle  may  need  other  services  for  </span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">YOUR  </span><span style="font-family: NGLNOI+Helvetica; font-size:11px">driving 
+<br>conditions;  refer  to  </span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">YOUR  </span><span style="font-family: NGLNOI+Helvetica; font-size:11px">Owner's  Manual  for  recommended  services  and  intervals.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:79px; top:1011px; width:446px; height:24px;"><span style="font-family: NGLOAN+AntiqueOlive-Black; font-size:24px">ASSOCIATED DEALERS WARRANTY CORP.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:129px; top:1038px; width:346px; height:14px;"><span style="font-family: NGLOAP+Helvetica-Narrow-Bold; font-size:14px">P.O. BOX 8567 </span><span style="font-family: NGLNPL+ZapfDingbats; font-size:11px">▼</span><span style="font-family: NGLOAP+Helvetica-Narrow-Bold; font-size:14px"> DEERFIELD BEACH, FLORIDA 33443 </span><span style="font-family: NGLNPL+ZapfDingbats; font-size:11px">▼</span><span style="font-family: NGLOAP+Helvetica-Narrow-Bold; font-size:14px"> 1 - 8 00-327-5172
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:268px; top:1000px; width:67px; height:9px;"><span style="font-family: NGLNOI+Helvetica; font-size:9px">ADMINISTRATOR:
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:150px; top:1075px; width:303px; height:7px;"><span style="font-family: NGLNPK+Helvetica-Bold; font-size:7px">COPY 1 - ADWC    </span><span style="font-family: NGLNPL+ZapfDingbats; font-size:5px">▼</span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:7px">     COPIES 2 &amp; 3 - DEALER    </span><span style="font-family: NGLNPL+ZapfDingbats; font-size:5px">▼</span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:7px">     COPY 4 - LIENHOLDER    </span><span style="font-family: NGLNPL+ZapfDingbats; font-size:5px">▼</span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:7px">     COPY 5 - CUSTOMER
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:531px; top:1073px; width:37px; height:9px;"><span style="font-family: NGLNPK+Helvetica-Bold; font-size:9px">C/S# 6058
+<br></span></div><div style="position:absolute; border: figure 1px solid; writing-mode:False; left:72px; top:167px; width:612px; height:792px;"><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:411px; top:443px; width:3px; height:14px;"><span style="font-family: Arial; font-size:14px"> 
+<br></span></div><span style="position:absolute; border: black 1px solid; left:144px; top:300px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:146px; top:301px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:147px; top:302px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:149px; top:303px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:150px; top:304px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:151px; top:305px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:152px; top:305px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:153px; top:306px; width:31px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:155px; top:307px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:156px; top:308px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:156px; top:308px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:157px; top:309px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:158px; top:309px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:159px; top:310px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:159px; top:310px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:159px; top:311px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:161px; top:311px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:162px; top:312px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:162px; top:312px; width:29px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:162px; top:313px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:163px; top:314px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:164px; top:314px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:165px; top:314px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:165px; top:315px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:166px; top:315px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:168px; top:317px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:168px; top:317px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:169px; top:317px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:170px; top:318px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:171px; top:318px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:171px; top:319px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:172px; top:320px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:172px; top:320px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:173px; top:320px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:174px; top:320px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:174px; top:321px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:175px; top:321px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:176px; top:322px; width:29px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:176px; top:323px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:177px; top:323px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:177px; top:323px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:178px; top:323px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:179px; top:324px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:179px; top:325px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:180px; top:325px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:180px; top:326px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:181px; top:326px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:182px; top:326px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:183px; top:326px; width:29px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:183px; top:327px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:183px; top:328px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:184px; top:328px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:185px; top:329px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:186px; top:329px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:186px; top:329px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:186px; top:329px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:187px; top:330px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:188px; top:331px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:189px; top:331px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:189px; top:332px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:162px; top:308px; width:41px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:144px; top:300px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:146px; top:301px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:147px; top:302px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:149px; top:303px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:150px; top:304px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:151px; top:305px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:152px; top:305px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:153px; top:306px; width:31px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:155px; top:307px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:156px; top:308px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:156px; top:308px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:157px; top:309px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:158px; top:309px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:159px; top:310px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:159px; top:310px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:159px; top:311px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:161px; top:311px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:162px; top:312px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:162px; top:312px; width:29px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:162px; top:313px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:163px; top:314px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:164px; top:314px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:165px; top:314px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:165px; top:315px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:166px; top:315px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:168px; top:317px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:168px; top:317px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:169px; top:317px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:170px; top:318px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:171px; top:318px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:171px; top:319px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:172px; top:320px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:172px; top:320px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:173px; top:320px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:174px; top:320px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:174px; top:321px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:175px; top:321px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:176px; top:322px; width:29px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:176px; top:323px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:177px; top:323px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:177px; top:323px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:178px; top:323px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:179px; top:324px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:179px; top:325px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:180px; top:325px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:180px; top:326px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:181px; top:326px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:182px; top:326px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:183px; top:326px; width:29px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:183px; top:327px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:183px; top:328px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:184px; top:328px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:185px; top:329px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:186px; top:329px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:186px; top:329px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:186px; top:329px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:187px; top:330px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:188px; top:331px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:189px; top:331px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:189px; top:332px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:177px; top:290px; width:34px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:179px; top:291px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:180px; top:291px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:180px; top:292px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:180px; top:292px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:181px; top:293px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:182px; top:293px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:183px; top:294px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:183px; top:294px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:184px; top:295px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:185px; top:295px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:186px; top:296px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:186px; top:296px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:186px; top:296px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:187px; top:297px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:188px; top:297px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:189px; top:298px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:189px; top:298px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:189px; top:299px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:190px; top:299px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:191px; top:299px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:192px; top:300px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:192px; top:300px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:193px; top:301px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:193px; top:301px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:194px; top:302px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:195px; top:302px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:195px; top:302px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:196px; top:303px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:196px; top:303px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:197px; top:304px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:198px; top:304px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:198px; top:305px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:199px; top:305px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:200px; top:305px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:200px; top:306px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:201px; top:306px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:202px; top:307px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:203px; top:308px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:203px; top:308px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:204px; top:308px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:204px; top:309px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:205px; top:309px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:206px; top:310px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:206px; top:310px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:207px; top:311px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:207px; top:311px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:208px; top:311px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:209px; top:312px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:210px; top:312px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:210px; top:313px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:210px; top:313px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:211px; top:314px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:212px; top:314px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:213px; top:315px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:213px; top:315px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:214px; top:316px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:215px; top:317px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:216px; top:317px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:216px; top:317px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:216px; top:317px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:217px; top:318px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:218px; top:318px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:219px; top:319px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:219px; top:320px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:219px; top:320px; width:34px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:221px; top:320px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:222px; top:321px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:222px; top:321px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:223px; top:322px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:223px; top:323px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:224px; top:323px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:225px; top:323px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:226px; top:324px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:226px; top:324px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:227px; top:325px; width:34px; height:48px;"></span>
+<span style="position:absolute; border: black 1px solid; left:204px; top:296px; width:43px; height:60px;"></span>
+<span style="position:absolute; border: black 1px solid; left:177px; top:290px; width:34px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:179px; top:291px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:180px; top:291px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:180px; top:292px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:180px; top:292px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:181px; top:293px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:182px; top:293px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:183px; top:294px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:183px; top:294px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:184px; top:295px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:185px; top:295px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:186px; top:296px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:186px; top:296px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:186px; top:296px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:187px; top:297px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:188px; top:297px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:189px; top:298px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:189px; top:298px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:189px; top:299px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:190px; top:299px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:191px; top:299px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:192px; top:300px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:192px; top:300px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:193px; top:301px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:193px; top:301px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:194px; top:302px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:195px; top:302px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:195px; top:302px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:196px; top:303px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:196px; top:303px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:197px; top:304px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:198px; top:304px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:198px; top:305px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:199px; top:305px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:200px; top:305px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:200px; top:306px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:201px; top:306px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:202px; top:307px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:203px; top:308px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:203px; top:308px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:204px; top:308px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:204px; top:309px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:205px; top:309px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:206px; top:310px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:206px; top:310px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:207px; top:311px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:207px; top:311px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:208px; top:311px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:209px; top:312px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:210px; top:312px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:210px; top:313px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:210px; top:313px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:211px; top:314px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:212px; top:314px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:213px; top:315px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:213px; top:315px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:214px; top:316px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:215px; top:317px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:216px; top:317px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:216px; top:317px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:216px; top:317px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:217px; top:318px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:218px; top:318px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:219px; top:319px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:219px; top:320px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:219px; top:320px; width:34px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:221px; top:320px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:222px; top:321px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:222px; top:321px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:223px; top:322px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:223px; top:323px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:224px; top:323px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:225px; top:323px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:226px; top:324px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:226px; top:324px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:227px; top:325px; width:34px; height:48px;"></span>
+<span style="position:absolute; border: black 1px solid; left:212px; top:260px; width:42px; height:58px;"></span>
+<span style="position:absolute; border: black 1px solid; left:213px; top:261px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:214px; top:262px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:215px; top:262px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:216px; top:263px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:216px; top:263px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:216px; top:263px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:217px; top:264px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:218px; top:264px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:219px; top:265px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:219px; top:265px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:220px; top:266px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:220px; top:266px; width:40px; height:56px;"></span>
+<span style="position:absolute; border: black 1px solid; left:221px; top:266px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:222px; top:267px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:222px; top:267px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:223px; top:268px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:223px; top:268px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:224px; top:269px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:225px; top:269px; width:41px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:226px; top:270px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:227px; top:270px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:227px; top:271px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:228px; top:271px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:228px; top:272px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:229px; top:272px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:230px; top:272px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:230px; top:273px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:231px; top:273px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:231px; top:274px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:232px; top:274px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:233px; top:275px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:234px; top:275px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:234px; top:275px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:234px; top:276px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:235px; top:276px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:236px; top:277px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:237px; top:278px; width:40px; height:56px;"></span>
+<span style="position:absolute; border: black 1px solid; left:237px; top:278px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:237px; top:278px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:238px; top:278px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:239px; top:279px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:240px; top:279px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:240px; top:280px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:240px; top:281px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:241px; top:281px; width:41px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:243px; top:281px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:243px; top:282px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:243px; top:282px; width:41px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:245px; top:284px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:246px; top:284px; width:41px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:246px; top:284px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:247px; top:285px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:248px; top:285px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:249px; top:286px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:249px; top:287px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:250px; top:287px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:251px; top:287px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:252px; top:288px; width:41px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:253px; top:289px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:253px; top:290px; width:42px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:255px; top:290px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:256px; top:291px; width:41px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:257px; top:292px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:258px; top:293px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:258px; top:293px; width:42px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:260px; top:294px; width:41px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:261px; top:295px; width:41px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:263px; top:296px; width:41px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:264px; top:296px; width:42px; height:58px;"></span>
+<span style="position:absolute; border: black 1px solid; left:266px; top:298px; width:41px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:267px; top:299px; width:42px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:269px; top:300px; width:42px; height:58px;"></span>
+<span style="position:absolute; border: black 1px solid; left:232px; top:276px; width:57px; height:66px;"></span>
+<span style="position:absolute; border: black 1px solid; left:212px; top:260px; width:42px; height:58px;"></span>
+<span style="position:absolute; border: black 1px solid; left:213px; top:261px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:214px; top:262px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:215px; top:262px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:216px; top:263px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:216px; top:263px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:216px; top:263px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:217px; top:264px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:218px; top:264px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:219px; top:265px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:219px; top:265px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:220px; top:266px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:220px; top:266px; width:40px; height:56px;"></span>
+<span style="position:absolute; border: black 1px solid; left:221px; top:266px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:222px; top:267px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:222px; top:267px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:223px; top:268px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:223px; top:268px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:224px; top:269px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:225px; top:269px; width:41px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:226px; top:270px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:227px; top:270px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:227px; top:271px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:228px; top:271px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:228px; top:272px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:229px; top:272px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:230px; top:272px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:230px; top:273px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:231px; top:273px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:231px; top:274px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:232px; top:274px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:233px; top:275px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:234px; top:275px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:234px; top:275px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:234px; top:276px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:235px; top:276px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:236px; top:277px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:237px; top:278px; width:40px; height:56px;"></span>
+<span style="position:absolute; border: black 1px solid; left:237px; top:278px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:237px; top:278px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:238px; top:278px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:239px; top:279px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:240px; top:279px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:240px; top:280px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:240px; top:281px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:241px; top:281px; width:41px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:243px; top:281px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:243px; top:282px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:243px; top:282px; width:41px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:245px; top:284px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:246px; top:284px; width:41px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:246px; top:284px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:247px; top:285px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:248px; top:285px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:249px; top:286px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:249px; top:287px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:250px; top:287px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:251px; top:287px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:252px; top:288px; width:41px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:253px; top:289px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:253px; top:290px; width:42px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:255px; top:290px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:256px; top:291px; width:41px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:257px; top:292px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:258px; top:293px; width:40px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:258px; top:293px; width:42px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:260px; top:294px; width:41px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:261px; top:295px; width:41px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:263px; top:296px; width:41px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:264px; top:296px; width:42px; height:58px;"></span>
+<span style="position:absolute; border: black 1px solid; left:266px; top:298px; width:41px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:267px; top:299px; width:42px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:269px; top:300px; width:42px; height:58px;"></span>
+<span style="position:absolute; border: black 1px solid; left:258px; top:254px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:260px; top:256px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:261px; top:257px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:262px; top:257px; width:32px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:263px; top:257px; width:32px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:263px; top:258px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:264px; top:259px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:264px; top:259px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:266px; top:260px; width:32px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:266px; top:260px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:267px; top:260px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:268px; top:262px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:269px; top:262px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:270px; top:263px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:270px; top:263px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:271px; top:263px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:272px; top:264px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:273px; top:265px; width:32px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:273px; top:265px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:274px; top:266px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:275px; top:266px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:276px; top:267px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:276px; top:268px; width:34px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:279px; top:269px; width:32px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:279px; top:269px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:280px; top:270px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:281px; top:271px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:282px; top:271px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:283px; top:272px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:285px; top:273px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:286px; top:274px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:287px; top:275px; width:34px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:289px; top:276px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:290px; top:277px; width:34px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:292px; top:278px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:294px; top:280px; width:34px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:296px; top:281px; width:35px; height:48px;"></span>
+<span style="position:absolute; border: black 1px solid; left:300px; top:284px; width:35px; height:48px;"></span>
+<span style="position:absolute; border: black 1px solid; left:279px; top:266px; width:37px; height:60px;"></span>
+<span style="position:absolute; border: black 1px solid; left:258px; top:254px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:260px; top:256px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:261px; top:257px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:262px; top:257px; width:32px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:263px; top:257px; width:32px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:263px; top:258px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:264px; top:259px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:264px; top:259px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:266px; top:260px; width:32px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:266px; top:260px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:267px; top:260px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:268px; top:262px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:269px; top:262px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:270px; top:263px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:270px; top:263px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:271px; top:263px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:272px; top:264px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:273px; top:265px; width:32px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:273px; top:265px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:274px; top:266px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:275px; top:266px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:276px; top:267px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:276px; top:268px; width:34px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:279px; top:269px; width:32px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:279px; top:269px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:280px; top:270px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:281px; top:271px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:282px; top:271px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:283px; top:272px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:285px; top:273px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:286px; top:274px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:287px; top:275px; width:34px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:289px; top:276px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:290px; top:277px; width:34px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:292px; top:278px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:294px; top:280px; width:34px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:296px; top:281px; width:35px; height:48px;"></span>
+<span style="position:absolute; border: black 1px solid; left:300px; top:284px; width:35px; height:48px;"></span>
+<span style="position:absolute; border: black 1px solid; left:294px; top:251px; width:28px; height:38px;"></span>
+<span style="position:absolute; border: black 1px solid; left:296px; top:253px; width:26px; height:36px;"></span>
+<span style="position:absolute; border: black 1px solid; left:297px; top:254px; width:26px; height:36px;"></span>
+<span style="position:absolute; border: black 1px solid; left:297px; top:254px; width:27px; height:36px;"></span>
+<span style="position:absolute; border: black 1px solid; left:299px; top:255px; width:26px; height:36px;"></span>
+<span style="position:absolute; border: black 1px solid; left:300px; top:255px; width:27px; height:37px;"></span>
+<span style="position:absolute; border: black 1px solid; left:301px; top:257px; width:26px; height:36px;"></span>
+<span style="position:absolute; border: black 1px solid; left:302px; top:257px; width:27px; height:37px;"></span>
+<span style="position:absolute; border: black 1px solid; left:303px; top:258px; width:27px; height:37px;"></span>
+<span style="position:absolute; border: black 1px solid; left:305px; top:259px; width:27px; height:37px;"></span>
+<span style="position:absolute; border: black 1px solid; left:306px; top:260px; width:27px; height:37px;"></span>
+<span style="position:absolute; border: black 1px solid; left:308px; top:261px; width:27px; height:37px;"></span>
+<span style="position:absolute; border: black 1px solid; left:309px; top:263px; width:27px; height:37px;"></span>
+<span style="position:absolute; border: black 1px solid; left:312px; top:264px; width:27px; height:38px;"></span>
+<span style="position:absolute; border: black 1px solid; left:314px; top:266px; width:28px; height:38px;"></span>
+<span style="position:absolute; border: black 1px solid; left:316px; top:267px; width:29px; height:39px;"></span>
+<span style="position:absolute; border: black 1px solid; left:320px; top:269px; width:29px; height:39px;"></span>
+<span style="position:absolute; border: black 1px solid; left:324px; top:272px; width:30px; height:39px;"></span>
+<span style="position:absolute; border: black 1px solid; left:328px; top:275px; width:30px; height:39px;"></span>
+<span style="position:absolute; border: black 1px solid; left:333px; top:278px; width:27px; height:38px;"></span>
+<span style="position:absolute; border: black 1px solid; left:335px; top:281px; width:27px; height:37px;"></span>
+<span style="position:absolute; border: black 1px solid; left:337px; top:282px; width:28px; height:38px;"></span>
+<span style="position:absolute; border: black 1px solid; left:339px; top:284px; width:27px; height:37px;"></span>
+<span style="position:absolute; border: black 1px solid; left:342px; top:285px; width:27px; height:37px;"></span>
+<span style="position:absolute; border: black 1px solid; left:343px; top:287px; width:27px; height:37px;"></span>
+<span style="position:absolute; border: black 1px solid; left:345px; top:288px; width:27px; height:37px;"></span>
+<span style="position:absolute; border: black 1px solid; left:315px; top:257px; width:45px; height:56px;"></span>
+<span style="position:absolute; border: black 1px solid; left:294px; top:251px; width:28px; height:38px;"></span>
+<span style="position:absolute; border: black 1px solid; left:296px; top:253px; width:26px; height:36px;"></span>
+<span style="position:absolute; border: black 1px solid; left:297px; top:254px; width:26px; height:36px;"></span>
+<span style="position:absolute; border: black 1px solid; left:297px; top:254px; width:27px; height:36px;"></span>
+<span style="position:absolute; border: black 1px solid; left:299px; top:255px; width:26px; height:36px;"></span>
+<span style="position:absolute; border: black 1px solid; left:300px; top:255px; width:27px; height:37px;"></span>
+<span style="position:absolute; border: black 1px solid; left:301px; top:257px; width:26px; height:36px;"></span>
+<span style="position:absolute; border: black 1px solid; left:302px; top:257px; width:27px; height:37px;"></span>
+<span style="position:absolute; border: black 1px solid; left:303px; top:258px; width:27px; height:37px;"></span>
+<span style="position:absolute; border: black 1px solid; left:305px; top:259px; width:27px; height:37px;"></span>
+<span style="position:absolute; border: black 1px solid; left:306px; top:260px; width:27px; height:37px;"></span>
+<span style="position:absolute; border: black 1px solid; left:308px; top:261px; width:27px; height:37px;"></span>
+<span style="position:absolute; border: black 1px solid; left:309px; top:263px; width:27px; height:37px;"></span>
+<span style="position:absolute; border: black 1px solid; left:312px; top:264px; width:27px; height:38px;"></span>
+<span style="position:absolute; border: black 1px solid; left:314px; top:266px; width:28px; height:38px;"></span>
+<span style="position:absolute; border: black 1px solid; left:316px; top:267px; width:29px; height:39px;"></span>
+<span style="position:absolute; border: black 1px solid; left:320px; top:269px; width:29px; height:39px;"></span>
+<span style="position:absolute; border: black 1px solid; left:324px; top:272px; width:30px; height:39px;"></span>
+<span style="position:absolute; border: black 1px solid; left:328px; top:275px; width:30px; height:39px;"></span>
+<span style="position:absolute; border: black 1px solid; left:333px; top:278px; width:27px; height:38px;"></span>
+<span style="position:absolute; border: black 1px solid; left:335px; top:281px; width:27px; height:37px;"></span>
+<span style="position:absolute; border: black 1px solid; left:337px; top:282px; width:28px; height:38px;"></span>
+<span style="position:absolute; border: black 1px solid; left:339px; top:284px; width:27px; height:37px;"></span>
+<span style="position:absolute; border: black 1px solid; left:342px; top:285px; width:27px; height:37px;"></span>
+<span style="position:absolute; border: black 1px solid; left:343px; top:287px; width:27px; height:37px;"></span>
+<span style="position:absolute; border: black 1px solid; left:345px; top:288px; width:27px; height:37px;"></span>
+<span style="position:absolute; border: black 1px solid; left:327px; top:227px; width:38px; height:51px;"></span>
+<span style="position:absolute; border: black 1px solid; left:330px; top:230px; width:37px; height:51px;"></span>
+<span style="position:absolute; border: black 1px solid; left:333px; top:232px; width:36px; height:51px;"></span>
+<span style="position:absolute; border: black 1px solid; left:336px; top:233px; width:39px; height:52px;"></span>
+<span style="position:absolute; border: black 1px solid; left:340px; top:236px; width:39px; height:52px;"></span>
+<span style="position:absolute; border: black 1px solid; left:345px; top:239px; width:39px; height:52px;"></span>
+<span style="position:absolute; border: black 1px solid; left:348px; top:242px; width:37px; height:51px;"></span>
+<span style="position:absolute; border: black 1px solid; left:351px; top:245px; width:36px; height:51px;"></span>
+<span style="position:absolute; border: black 1px solid; left:354px; top:246px; width:37px; height:51px;"></span>
+<span style="position:absolute; border: black 1px solid; left:357px; top:248px; width:36px; height:50px;"></span>
+<span style="position:absolute; border: black 1px solid; left:358px; top:249px; width:36px; height:50px;"></span>
+<span style="position:absolute; border: black 1px solid; left:360px; top:251px; width:36px; height:50px;"></span>
+<span style="position:absolute; border: black 1px solid; left:361px; top:251px; width:36px; height:51px;"></span>
+<span style="position:absolute; border: black 1px solid; left:363px; top:253px; width:35px; height:49px;"></span>
+<span style="position:absolute; border: black 1px solid; left:364px; top:254px; width:36px; height:50px;"></span>
+<span style="position:absolute; border: black 1px solid; left:366px; top:255px; width:35px; height:49px;"></span>
+<span style="position:absolute; border: black 1px solid; left:366px; top:255px; width:36px; height:50px;"></span>
+<span style="position:absolute; border: black 1px solid; left:368px; top:257px; width:36px; height:50px;"></span>
+<span style="position:absolute; border: black 1px solid; left:369px; top:257px; width:35px; height:49px;"></span>
+<span style="position:absolute; border: black 1px solid; left:370px; top:258px; width:35px; height:49px;"></span>
+<span style="position:absolute; border: black 1px solid; left:371px; top:258px; width:36px; height:50px;"></span>
+<span style="position:absolute; border: black 1px solid; left:372px; top:259px; width:36px; height:51px;"></span>
+<span style="position:absolute; border: black 1px solid; left:374px; top:260px; width:35px; height:49px;"></span>
+<span style="position:absolute; border: black 1px solid; left:375px; top:261px; width:36px; height:49px;"></span>
+<span style="position:absolute; border: black 1px solid; left:375px; top:262px; width:35px; height:49px;"></span>
+<span style="position:absolute; border: black 1px solid; left:376px; top:262px; width:35px; height:49px;"></span>
+<span style="position:absolute; border: black 1px solid; left:377px; top:263px; width:36px; height:50px;"></span>
+<span style="position:absolute; border: black 1px solid; left:378px; top:263px; width:35px; height:49px;"></span>
+<span style="position:absolute; border: black 1px solid; left:378px; top:264px; width:35px; height:49px;"></span>
+<span style="position:absolute; border: black 1px solid; left:379px; top:264px; width:36px; height:51px;"></span>
+<span style="position:absolute; border: black 1px solid; left:347px; top:239px; width:48px; height:62px;"></span>
+<span style="position:absolute; border: black 1px solid; left:327px; top:227px; width:38px; height:51px;"></span>
+<span style="position:absolute; border: black 1px solid; left:330px; top:230px; width:37px; height:51px;"></span>
+<span style="position:absolute; border: black 1px solid; left:333px; top:232px; width:36px; height:51px;"></span>
+<span style="position:absolute; border: black 1px solid; left:336px; top:233px; width:39px; height:52px;"></span>
+<span style="position:absolute; border: black 1px solid; left:340px; top:236px; width:39px; height:52px;"></span>
+<span style="position:absolute; border: black 1px solid; left:345px; top:239px; width:39px; height:52px;"></span>
+<span style="position:absolute; border: black 1px solid; left:348px; top:242px; width:37px; height:51px;"></span>
+<span style="position:absolute; border: black 1px solid; left:351px; top:245px; width:36px; height:51px;"></span>
+<span style="position:absolute; border: black 1px solid; left:354px; top:246px; width:37px; height:51px;"></span>
+<span style="position:absolute; border: black 1px solid; left:357px; top:248px; width:36px; height:50px;"></span>
+<span style="position:absolute; border: black 1px solid; left:358px; top:249px; width:36px; height:50px;"></span>
+<span style="position:absolute; border: black 1px solid; left:360px; top:251px; width:36px; height:50px;"></span>
+<span style="position:absolute; border: black 1px solid; left:361px; top:251px; width:36px; height:51px;"></span>
+<span style="position:absolute; border: black 1px solid; left:363px; top:253px; width:35px; height:49px;"></span>
+<span style="position:absolute; border: black 1px solid; left:364px; top:254px; width:36px; height:50px;"></span>
+<span style="position:absolute; border: black 1px solid; left:366px; top:255px; width:35px; height:49px;"></span>
+<span style="position:absolute; border: black 1px solid; left:366px; top:255px; width:36px; height:50px;"></span>
+<span style="position:absolute; border: black 1px solid; left:368px; top:257px; width:36px; height:50px;"></span>
+<span style="position:absolute; border: black 1px solid; left:369px; top:257px; width:35px; height:49px;"></span>
+<span style="position:absolute; border: black 1px solid; left:370px; top:258px; width:35px; height:49px;"></span>
+<span style="position:absolute; border: black 1px solid; left:371px; top:258px; width:36px; height:50px;"></span>
+<span style="position:absolute; border: black 1px solid; left:372px; top:259px; width:36px; height:51px;"></span>
+<span style="position:absolute; border: black 1px solid; left:374px; top:260px; width:35px; height:49px;"></span>
+<span style="position:absolute; border: black 1px solid; left:375px; top:261px; width:36px; height:49px;"></span>
+<span style="position:absolute; border: black 1px solid; left:375px; top:262px; width:35px; height:49px;"></span>
+<span style="position:absolute; border: black 1px solid; left:376px; top:262px; width:35px; height:49px;"></span>
+<span style="position:absolute; border: black 1px solid; left:377px; top:263px; width:36px; height:50px;"></span>
+<span style="position:absolute; border: black 1px solid; left:378px; top:263px; width:35px; height:49px;"></span>
+<span style="position:absolute; border: black 1px solid; left:378px; top:264px; width:35px; height:49px;"></span>
+<span style="position:absolute; border: black 1px solid; left:379px; top:264px; width:36px; height:51px;"></span>
+<span style="position:absolute; border: black 1px solid; left:216px; top:389px; width:31px; height:43px;"></span>
+<span style="position:absolute; border: black 1px solid; left:219px; top:392px; width:31px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:221px; top:393px; width:31px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:223px; top:395px; width:32px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:226px; top:396px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:230px; top:399px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:234px; top:403px; width:33px; height:44px;"></span>
+<span style="position:absolute; border: black 1px solid; left:239px; top:406px; width:32px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:242px; top:407px; width:31px; height:43px;"></span>
+<span style="position:absolute; border: black 1px solid; left:244px; top:410px; width:31px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:247px; top:411px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:249px; top:413px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:250px; top:414px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:252px; top:415px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:254px; top:416px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:255px; top:417px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:256px; top:418px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:257px; top:419px; width:31px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:259px; top:420px; width:30px; height:41px;"></span>
+<span style="position:absolute; border: black 1px solid; left:260px; top:420px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:261px; top:421px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:261px; top:422px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:233px; top:398px; width:42px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:216px; top:389px; width:31px; height:43px;"></span>
+<span style="position:absolute; border: black 1px solid; left:219px; top:392px; width:31px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:221px; top:393px; width:31px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:223px; top:395px; width:32px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:226px; top:396px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:230px; top:399px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:234px; top:403px; width:33px; height:44px;"></span>
+<span style="position:absolute; border: black 1px solid; left:239px; top:406px; width:32px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:242px; top:407px; width:31px; height:43px;"></span>
+<span style="position:absolute; border: black 1px solid; left:244px; top:410px; width:31px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:247px; top:411px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:249px; top:413px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:250px; top:414px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:252px; top:415px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:254px; top:416px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:255px; top:417px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:256px; top:418px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:257px; top:419px; width:31px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:259px; top:420px; width:30px; height:41px;"></span>
+<span style="position:absolute; border: black 1px solid; left:260px; top:420px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:261px; top:421px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:261px; top:422px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:255px; top:376px; width:33px; height:44px;"></span>
+<span style="position:absolute; border: black 1px solid; left:258px; top:378px; width:31px; height:43px;"></span>
+<span style="position:absolute; border: black 1px solid; left:261px; top:380px; width:32px; height:44px;"></span>
+<span style="position:absolute; border: black 1px solid; left:263px; top:382px; width:32px; height:43px;"></span>
+<span style="position:absolute; border: black 1px solid; left:266px; top:383px; width:30px; height:43px;"></span>
+<span style="position:absolute; border: black 1px solid; left:267px; top:385px; width:31px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:269px; top:386px; width:31px; height:43px;"></span>
+<span style="position:absolute; border: black 1px solid; left:271px; top:387px; width:31px; height:43px;"></span>
+<span style="position:absolute; border: black 1px solid; left:273px; top:389px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:273px; top:389px; width:31px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:276px; top:390px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:276px; top:391px; width:31px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:278px; top:392px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:279px; top:393px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:279px; top:393px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:280px; top:394px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:282px; top:395px; width:31px; height:43px;"></span>
+<span style="position:absolute; border: black 1px solid; left:283px; top:396px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:284px; top:396px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:285px; top:397px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:285px; top:398px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:286px; top:398px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:288px; top:399px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:288px; top:399px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:289px; top:400px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:290px; top:401px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:291px; top:401px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:292px; top:402px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:292px; top:402px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:293px; top:403px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:294px; top:404px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:294px; top:404px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:295px; top:404px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:296px; top:404px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:296px; top:405px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:297px; top:405px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:297px; top:406px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:298px; top:407px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:299px; top:407px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:299px; top:407px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:300px; top:407px; width:31px; height:43px;"></span>
+<span style="position:absolute; border: black 1px solid; left:271px; top:384px; width:43px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:255px; top:376px; width:33px; height:44px;"></span>
+<span style="position:absolute; border: black 1px solid; left:258px; top:378px; width:31px; height:43px;"></span>
+<span style="position:absolute; border: black 1px solid; left:261px; top:380px; width:32px; height:44px;"></span>
+<span style="position:absolute; border: black 1px solid; left:263px; top:382px; width:32px; height:43px;"></span>
+<span style="position:absolute; border: black 1px solid; left:266px; top:383px; width:30px; height:43px;"></span>
+<span style="position:absolute; border: black 1px solid; left:267px; top:385px; width:31px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:269px; top:386px; width:31px; height:43px;"></span>
+<span style="position:absolute; border: black 1px solid; left:271px; top:387px; width:31px; height:43px;"></span>
+<span style="position:absolute; border: black 1px solid; left:273px; top:389px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:273px; top:389px; width:31px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:276px; top:390px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:276px; top:391px; width:31px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:278px; top:392px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:279px; top:393px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:279px; top:393px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:280px; top:394px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:282px; top:395px; width:31px; height:43px;"></span>
+<span style="position:absolute; border: black 1px solid; left:283px; top:396px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:284px; top:396px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:285px; top:397px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:285px; top:398px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:286px; top:398px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:288px; top:399px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:288px; top:399px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:289px; top:400px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:290px; top:401px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:291px; top:401px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:292px; top:402px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:292px; top:402px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:293px; top:403px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:294px; top:404px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:294px; top:404px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:295px; top:404px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:296px; top:404px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:296px; top:405px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:297px; top:405px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:297px; top:406px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:298px; top:407px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:299px; top:407px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:299px; top:407px; width:30px; height:42px;"></span>
+<span style="position:absolute; border: black 1px solid; left:300px; top:407px; width:31px; height:43px;"></span>
+<span style="position:absolute; border: black 1px solid; left:288px; top:360px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:289px; top:361px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:291px; top:362px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:292px; top:363px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:293px; top:364px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:294px; top:365px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:295px; top:365px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:297px; top:366px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:297px; top:367px; width:32px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:298px; top:367px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:300px; top:368px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:301px; top:369px; width:32px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:301px; top:370px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:302px; top:370px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:303px; top:371px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:304px; top:371px; width:32px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:304px; top:372px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:305px; top:372px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:306px; top:373px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:306px; top:373px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:308px; top:374px; width:32px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:308px; top:374px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:309px; top:375px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:310px; top:376px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:311px; top:377px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:312px; top:377px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:312px; top:377px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:313px; top:378px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:314px; top:378px; width:32px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:315px; top:379px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:315px; top:380px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:316px; top:380px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:317px; top:380px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:318px; top:381px; width:32px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:318px; top:381px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:318px; top:382px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:319px; top:383px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:320px; top:383px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:321px; top:383px; width:32px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:321px; top:383px; width:32px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:321px; top:384px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:322px; top:384px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:323px; top:385px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:324px; top:386px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:324px; top:386px; width:32px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:324px; top:386px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:325px; top:386px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:326px; top:387px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:327px; top:387px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:327px; top:388px; width:32px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:328px; top:389px; width:32px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:328px; top:389px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:329px; top:389px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:330px; top:389px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:330px; top:390px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:308px; top:371px; width:37px; height:59px;"></span>
+<span style="position:absolute; border: black 1px solid; left:288px; top:360px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:289px; top:361px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:291px; top:362px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:292px; top:363px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:293px; top:364px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:294px; top:365px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:295px; top:365px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:297px; top:366px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:297px; top:367px; width:32px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:298px; top:367px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:300px; top:368px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:301px; top:369px; width:32px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:301px; top:370px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:302px; top:370px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:303px; top:371px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:304px; top:371px; width:32px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:304px; top:372px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:305px; top:372px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:306px; top:373px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:306px; top:373px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:308px; top:374px; width:32px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:308px; top:374px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:309px; top:375px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:310px; top:376px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:311px; top:377px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:312px; top:377px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:312px; top:377px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:313px; top:378px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:314px; top:378px; width:32px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:315px; top:379px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:315px; top:380px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:316px; top:380px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:317px; top:380px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:318px; top:381px; width:32px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:318px; top:381px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:318px; top:382px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:319px; top:383px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:320px; top:383px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:321px; top:383px; width:32px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:321px; top:383px; width:32px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:321px; top:384px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:322px; top:384px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:323px; top:385px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:324px; top:386px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:324px; top:386px; width:32px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:324px; top:386px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:325px; top:386px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:326px; top:387px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:327px; top:387px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:327px; top:388px; width:32px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:328px; top:389px; width:32px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:328px; top:389px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:329px; top:389px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:330px; top:389px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:330px; top:390px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:326px; top:338px; width:34px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:328px; top:340px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:329px; top:340px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:329px; top:341px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:330px; top:341px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:331px; top:342px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:332px; top:342px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:333px; top:344px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:333px; top:344px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:335px; top:344px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:336px; top:345px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:336px; top:346px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:337px; top:347px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:338px; top:347px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:339px; top:347px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:339px; top:347px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:339px; top:348px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:340px; top:348px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:341px; top:349px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:342px; top:350px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:342px; top:350px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:342px; top:350px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:343px; top:350px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:344px; top:351px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:345px; top:351px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:345px; top:352px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:345px; top:353px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:346px; top:353px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:347px; top:353px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:348px; top:353px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:348px; top:354px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:349px; top:355px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:349px; top:355px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:350px; top:356px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:351px; top:356px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:352px; top:356px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:352px; top:357px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:353px; top:358px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:354px; top:358px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:354px; top:359px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:355px; top:359px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:356px; top:359px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:356px; top:359px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:357px; top:360px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:357px; top:361px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:358px; top:361px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:359px; top:362px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:359px; top:362px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:360px; top:362px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:360px; top:362px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:361px; top:363px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:362px; top:364px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:363px; top:364px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:363px; top:365px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:363px; top:365px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:364px; top:365px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:365px; top:365px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:366px; top:366px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:366px; top:367px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:366px; top:367px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:367px; top:368px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:368px; top:368px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:369px; top:368px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:369px; top:369px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:369px; top:369px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:370px; top:370px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:371px; top:370px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:372px; top:371px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:372px; top:371px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:372px; top:371px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:373px; top:372px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:374px; top:372px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:375px; top:373px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:375px; top:373px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:376px; top:374px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:376px; top:374px; width:34px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:340px; top:354px; width:42px; height:60px;"></span>
+<span style="position:absolute; border: black 1px solid; left:326px; top:338px; width:34px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:328px; top:340px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:329px; top:340px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:329px; top:341px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:330px; top:341px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:331px; top:342px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:332px; top:342px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:333px; top:344px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:333px; top:344px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:335px; top:344px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:336px; top:345px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:336px; top:346px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:337px; top:347px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:338px; top:347px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:339px; top:347px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:339px; top:347px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:339px; top:348px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:340px; top:348px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:341px; top:349px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:342px; top:350px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:342px; top:350px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:342px; top:350px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:343px; top:350px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:344px; top:351px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:345px; top:351px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:345px; top:352px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:345px; top:353px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:346px; top:353px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:347px; top:353px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:348px; top:353px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:348px; top:354px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:349px; top:355px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:349px; top:355px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:350px; top:356px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:351px; top:356px; width:33px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:352px; top:356px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:352px; top:357px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:353px; top:358px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:354px; top:358px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:354px; top:359px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:355px; top:359px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:356px; top:359px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:356px; top:359px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:357px; top:360px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:357px; top:361px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:358px; top:361px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:359px; top:362px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:359px; top:362px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:360px; top:362px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:360px; top:362px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:361px; top:363px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:362px; top:364px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:363px; top:364px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:363px; top:365px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:363px; top:365px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:364px; top:365px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:365px; top:365px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:366px; top:366px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:366px; top:367px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:366px; top:367px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:367px; top:368px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:368px; top:368px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:369px; top:368px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:369px; top:369px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:369px; top:369px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:370px; top:370px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:371px; top:370px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:372px; top:371px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:372px; top:371px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:372px; top:371px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:373px; top:372px; width:33px; height:45px;"></span>
+<span style="position:absolute; border: black 1px solid; left:374px; top:372px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:375px; top:373px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:375px; top:373px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:376px; top:374px; width:33px; height:46px;"></span>
+<span style="position:absolute; border: black 1px solid; left:376px; top:374px; width:34px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:162px; top:308px; width:41px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:204px; top:296px; width:43px; height:60px;"></span>
+<span style="position:absolute; border: black 1px solid; left:232px; top:276px; width:57px; height:66px;"></span>
+<span style="position:absolute; border: black 1px solid; left:279px; top:266px; width:37px; height:60px;"></span>
+<span style="position:absolute; border: black 1px solid; left:315px; top:257px; width:45px; height:56px;"></span>
+<span style="position:absolute; border: black 1px solid; left:347px; top:239px; width:48px; height:62px;"></span>
+<span style="position:absolute; border: black 1px solid; left:233px; top:398px; width:42px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:271px; top:384px; width:43px; height:57px;"></span>
+<span style="position:absolute; border: black 1px solid; left:308px; top:371px; width:37px; height:59px;"></span>
+<span style="position:absolute; border: black 1px solid; left:340px; top:354px; width:42px; height:60px;"></span>
+</div><span style="position:absolute; border: black 1px solid; left:52px; top:468px; width:496px; height:10px;"></span>
+<span style="position:absolute; border: black 1px solid; left:30px; top:116px; width:545px; height:963px;"></span>
+<span style="position:absolute; border: black 1px solid; left:30px; top:116px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:52px; top:366px; width:496px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:255px; top:342px; width:0px; height:24px;"></span>
+<span style="position:absolute; border: black 1px solid; left:292px; top:366px; width:0px; height:24px;"></span>
+<span style="position:absolute; border: black 1px solid; left:52px; top:342px; width:496px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:461px; top:319px; width:0px; height:47px;"></span>
+<span style="position:absolute; border: black 1px solid; left:52px; top:390px; width:496px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:52px; top:319px; width:496px; height:95px;"></span>
+<span style="position:absolute; border: black 1px solid; left:52px; top:319px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:411px; top:341px; width:0px; height:24px;"></span>
+<span style="position:absolute; border: black 1px solid; left:52px; top:235px; width:497px; height:48px;"></span>
+<span style="position:absolute; border: black 1px solid; left:52px; top:235px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:323px; top:235px; width:0px; height:23px;"></span>
+<span style="position:absolute; border: black 1px solid; left:291px; top:258px; width:0px; height:25px;"></span>
+<span style="position:absolute; border: black 1px solid; left:52px; top:258px; width:497px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:436px; top:258px; width:0px; height:25px;"></span>
+<span style="position:absolute; border: black 1px solid; left:136px; top:258px; width:0px; height:25px;"></span>
+<span style="position:absolute; border: black 1px solid; left:53px; top:467px; width:495px; height:167px;"></span>
+<span style="position:absolute; border: black 1px solid; left:53px; top:467px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:52px; top:491px; width:497px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:151px; top:479px; width:0px; height:155px;"></span>
+<span style="position:absolute; border: black 1px solid; left:251px; top:479px; width:0px; height:155px;"></span>
+<span style="position:absolute; border: black 1px solid; left:449px; top:468px; width:0px; height:166px;"></span>
+<span style="position:absolute; border: black 1px solid; left:55px; top:495px; width:13px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:55px; top:495px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:121px; top:527px; width:13px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:121px; top:527px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:121px; top:574px; width:13px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:121px; top:574px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:154px; top:504px; width:13px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:154px; top:504px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:220px; top:538px; width:13px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:220px; top:538px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:220px; top:585px; width:13px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:220px; top:585px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:420px; top:538px; width:13px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:420px; top:538px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:420px; top:585px; width:13px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:420px; top:585px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:52px; top:479px; width:497px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:52px; top:635px; width:497px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:313px; top:699px; width:0px; height:23px;"></span>
+<span style="position:absolute; border: black 1px solid; left:495px; top:723px; width:0px; height:23px;"></span>
+<span style="position:absolute; border: black 1px solid; left:50px; top:723px; width:497px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:50px; top:747px; width:497px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:50px; top:771px; width:497px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:195px; top:747px; width:0px; height:24px;"></span>
+<span style="position:absolute; border: black 1px solid; left:231px; top:723px; width:0px; height:23px;"></span>
+<span style="position:absolute; border: black 1px solid; left:456px; top:723px; width:0px; height:24px;"></span>
+<span style="position:absolute; border: black 1px solid; left:50px; top:699px; width:496px; height:97px;"></span>
+<span style="position:absolute; border: black 1px solid; left:50px; top:699px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:470px; top:747px; width:0px; height:24px;"></span>
+<span style="position:absolute; border: black 1px solid; left:55px; top:515px; width:13px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:55px; top:515px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:55px; top:535px; width:13px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:55px; top:535px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:55px; top:555px; width:13px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:55px; top:555px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:55px; top:575px; width:13px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:55px; top:575px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:254px; top:495px; width:13px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:254px; top:495px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:353px; top:504px; width:13px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:353px; top:504px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:353px; top:527px; width:13px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:353px; top:527px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:353px; top:551px; width:13px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:353px; top:551px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:254px; top:515px; width:13px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:254px; top:515px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:254px; top:535px; width:13px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:254px; top:535px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:254px; top:555px; width:13px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:254px; top:555px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:254px; top:575px; width:13px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:254px; top:575px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:321px; top:527px; width:13px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:321px; top:527px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:321px; top:574px; width:13px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:321px; top:574px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:55px; top:595px; width:13px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:55px; top:595px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:254px; top:595px; width:13px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:254px; top:595px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:55px; top:615px; width:13px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:55px; top:615px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:254px; top:615px; width:13px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:254px; top:615px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:154px; top:529px; width:13px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:154px; top:529px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:154px; top:554px; width:13px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:154px; top:554px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:154px; top:579px; width:13px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:154px; top:579px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:154px; top:604px; width:13px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:154px; top:604px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:353px; top:579px; width:13px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:353px; top:579px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:353px; top:604px; width:13px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:353px; top:604px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:406px; top:212px; width:143px; height:23px;"></span>
+<span style="position:absolute; border: black 1px solid; left:406px; top:212px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:342px; top:771px; width:0px; height:25px;"></span>
+<span style="position:absolute; border: black 1px solid; left:350px; top:479px; width:0px; height:155px;"></span>
+<span style="position:absolute; border: black 1px solid; left:300px; top:635px; width:0px; height:32px;"></span>
+<span style="position:absolute; border: black 1px solid; left:453px; top:495px; width:13px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:453px; top:495px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:453px; top:515px; width:13px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:453px; top:515px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:453px; top:535px; width:13px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:453px; top:535px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:453px; top:555px; width:13px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:453px; top:555px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:453px; top:575px; width:13px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:453px; top:575px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:519px; top:527px; width:13px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:519px; top:527px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:519px; top:574px; width:13px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:519px; top:574px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:453px; top:595px; width:13px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:453px; top:595px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:453px; top:615px; width:13px; height:13px;"></span>
+<span style="position:absolute; border: black 1px solid; left:453px; top:615px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: black 1px solid; left:52px; top:635px; width:496px; height:32px;"></span>
+<span style="position:absolute; border: black 1px solid; left:52px; top:635px; width:0px; height:0px;"></span>
+<span style="position:absolute; border: gray 1px solid; left:0px; top:1153px; width:612px; height:1053px;"></span>
+<div style="position:absolute; top:1153px;"><a name="2">Page 2</a></div>
+<div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:17px; top:1231px; width:578px; height:107px;"><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">CANCELLATION:</span><span style="font-family: NGLNOI+Helvetica; font-size:11px"> This Contract may be cancelled by </span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">YOU </span><span style="font-family: NGLNOI+Helvetica; font-size:11px">at anytime. To cancel, </span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">YOU </span><span style="font-family: NGLNOI+Helvetica; font-size:11px">must return to </span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">YOUR </span><span style="font-family: NGLNOI+Helvetica; font-size:11px">Selling Dealer or 
+<br>ADWC. If </span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">YOU </span><span style="font-family: NGLNOI+Helvetica; font-size:11px">cancel during the ﬁ rst sixty (60) days, a 100 percent refund of the Car Care Purchase Price will be made, less a $50 
+<br>administration fee if </span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">YOU </span><span style="font-family: NGLNOI+Helvetica; font-size:11px">cancel after the ﬁ rst thirty (30) days. After sixty (60) days, a pro-rata refund will be made based upon the 
+<br>greater of the time or mileage expired from the Car Care Purchase Date and odometer reading at Car Care Purchase Date, less a 
+<br>$50 administration fee. In the event of cancellation, </span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">YOU </span><span style="font-family: NGLNOI+Helvetica; font-size:11px">authorize the Lienholder to receive any refund amounts. Upon </span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">OUR </span><span style="font-family: NGLNOI+Helvetica; font-size:11px">receipt 
+<br>of notiﬁ cation of a total loss or repossession this Contract will be terminated, and all rights and interest to a refund under this Contract 
+<br>will immediately transfer to the Lienholder and the Lienholder will be named sole payee for any refund amounts. This Contract is 
+<br>non-cancellable by ADWC except for fraud, material misrepresentation, or failure to pay the Car Care Purchase Price. No refund will 
+<br>be made without surrendering all unused coupons.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:17px; top:1345px; width:578px; height:71px;"><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">TRANSFER: YOU</span><span style="font-family: NGLNOI+Helvetica; font-size:11px"> may transfer the Car Care Service Plan to another owner but not to another vehicle. To transfer this Contract, 
+<br></span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">YOU </span><span style="font-family: NGLNOI+Helvetica; font-size:11px">must mail the following four (4) items to ADWC within thirty (30) days of transfer of vehicle ownership: 1.) a completed Transfer 
+<br>Form (or a letter containing the name and address of the new owner and </span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">YOUR </span><span style="font-family: NGLNOI+Helvetica; font-size:11px">authorization to transfer); 2.) a legible copy of the 
+<br>front page of this Contract; 3.) a check for $40 payable to ADWC, for the transfer fee; and, 4.) all remaining Car Care Service Plan 
+<br>coupons. A new coupon book will be sent to the new owner. This Contract may not be transferred to any entity in the business of 
+<br>selling or leasing motor vehicles.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:18px; top:1423px; width:102px; height:11px;"><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">LIMITS OF LIABILITY:
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:36px; top:1436px; width:560px; height:11px;"><span style="font-family: NGLNOI+Helvetica; font-size:11px">1.  This Contract will not pay for Mechanical Breakdown repairs, whether associated with or not associated with a prescribed 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:54px; top:1448px; width:34px; height:11px;"><span style="font-family: NGLNOI+Helvetica; font-size:11px">service.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:36px; top:1460px; width:560px; height:71px;"><span style="font-family: NGLNOI+Helvetica; font-size:11px">2.  This Contract will not pay for any type of state or local taxes required on any prescribed services.
+<br>3.  This Contract will not pay for any upgraded or extra cost products used during a prescribed service.
+<br>4.  The payment for prescribed services as stated under CAR CARE SERVICE PLAN COVERAGE and </span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">YOUR </span><span style="font-family: NGLNOI+Helvetica; font-size:11px">service coupons 
+<br>are the only remedy available to a Contract Holder. ADWC neither has nor assumes any other obligation or responsibility 
+<br>with regard to this Contract and </span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">YOUR </span><span style="font-family: NGLNOI+Helvetica; font-size:11px">vehicle. The Selling Dealer has sole responsibility for any Service Discount Coupons. 
+<br>ADWC neither assumes, nor authorizes anyone to assume for them, any additional liability.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:36px; top:1532px; width:560px; height:35px;"><span style="font-family: NGLNOI+Helvetica; font-size:11px">5.  ADWC may pay for or reimburse for any prescribed services covered by this Contract. Replacement ﬁ lters, at our option, 
+<br>may be either Original Equipment Manufacturer (OEM) or of like kind and quality for </span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">YOUR </span><span style="font-family: NGLNOI+Helvetica; font-size:11px">vehicle. Charges for ﬁ lters, labor 
+<br>and ﬂ uids charges must be at the usual and customary or discounted price applicable when the services are performed.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:18px; top:1573px; width:127px; height:11px;"><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">YOUR RESPONSIBILITIES:
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:36px; top:1586px; width:560px; height:11px;"><span style="font-family: NGLNOI+Helvetica; font-size:11px">1.  Keep all original copies of all repair orders, invoices and receipts for all services performed to the vehicle described on the 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:54px; top:1598px; width:328px; height:11px;"><span style="font-family: NGLNOI+Helvetica; font-size:11px">front of this Contract that in any way relate to any prescribed services; and
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:36px; top:1610px; width:560px; height:11px;"><span style="font-family: NGLNOI+Helvetica; font-size:11px">2.  Submit a claim for reimbursement to ADWC along with all required documents within sixty (60) days from the date the service 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:54px; top:1622px; width:68px; height:11px;"><span style="font-family: NGLNOI+Helvetica; font-size:11px">was performed.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:18px; top:1639px; width:578px; height:23px;"><span style="font-family: NGLNOI+Helvetica; font-size:11px">Failure to comply with the responsibilities outlined above will result in the denial of </span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">YOUR </span><span style="font-family: NGLNOI+Helvetica; font-size:11px">reimbursement. If </span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">YOU </span><span style="font-family: NGLNOI+Helvetica; font-size:11px">have any questions, 
+<br>please contact Customer Service at the following number, 1-800-327-5172.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:18px; top:1669px; width:578px; height:47px;"><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">HOW TO SEEK REIMBURSEMENT: </span><span style="font-family: NGLNOI+Helvetica; font-size:11px">When prescribed services are required, </span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">YOU </span><span style="font-family: NGLNOI+Helvetica; font-size:11px">must return </span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">YOUR </span><span style="font-family: NGLNOI+Helvetica; font-size:11px">vehicle for service to </span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">YOUR 
+<br></span><span style="font-family: NGLNOI+Helvetica; font-size:11px">Selling Dealer. If </span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">YOU </span><span style="font-family: NGLNOI+Helvetica; font-size:11px">cannot return </span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">YOUR </span><span style="font-family: NGLNOI+Helvetica; font-size:11px">vehicle to </span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">YOUR </span><span style="font-family: NGLNOI+Helvetica; font-size:11px">Selling Dealer, </span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">YOU </span><span style="font-family: NGLNOI+Helvetica; font-size:11px">must telephone ADWC during normal working 
+<br></span><span style="font-family: NGLNOI+Helvetica; font-size:11px">hours at 1-800-327-5172 to receive instructions. IF </span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">YOU </span><span style="font-family: NGLNOI+Helvetica; font-size:11px">DO NOT FOLLOW OUR INSTRUCTIONS, </span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">WE </span><span style="font-family: NGLNOI+Helvetica; font-size:11px">ARE NOT OBLIGATED TO 
+<br>REIMBURSE </span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">YOU </span><span style="font-family: NGLNOI+Helvetica; font-size:11px">FOR THE COST OF ANY SERVICES.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:18px; top:1723px; width:578px; height:47px;"><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">PAYMENTS: </span><span style="font-family: NGLNOI+Helvetica; font-size:11px">Any participating dealer may perform prescribed services covered under this Contract without charge to </span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">YOU </span><span style="font-family: NGLNOI+Helvetica; font-size:11px">for such 
+<br>services (except for any state or local taxes). If a participating dealer does charge </span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">YOU </span><span style="font-family: NGLNOI+Helvetica; font-size:11px">for prescribed services covered under this 
+<br>Contract, submit copies for all invoices and receipts pertaining to the authorized services, along with a copy of the front of </span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">YOUR 
+<br></span><span style="font-family: NGLNOI+Helvetica; font-size:11px">Contract to: Customer Service, P.O. Box 8567, Deerﬁ eld Beach, FL 33443.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:18px; top:1777px; width:52px; height:11px;"><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">GENERAL:
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:36px; top:1790px; width:560px; height:35px;"><span style="font-family: NGLNOI+Helvetica; font-size:11px">1.  THE TERMS AND CONDITIONS OUTLINED ABOVE ARE THE FULL AND COMPLETE AGREEMENT BETWEEN THE 
+<br>PARTIES. NO ORAL REPRESENTATION OR STATEMENTS SHOULD BE RELIED UPON BY THE CONTRACT HOLDER 
+<br>INCLUDING ANY ORAL REPRESENTATIONS BY THE SELLING DEALER.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:36px; top:1825px; width:560px; height:35px;"><span style="font-family: NGLNOI+Helvetica; font-size:11px">2.  If it is not clear what Term/Mileage or coverage plan has been purchased, </span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">YOU </span><span style="font-family: NGLNOI+Helvetica; font-size:11px">should contact </span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">YOUR </span><span style="font-family: NGLNOI+Helvetica; font-size:11px">Selling Dealer.
+<br>3.  This Contract will be governed by the laws of the state in which it is sold.
+<br>4.  No amendment, supplement, or waiver of any of the provisions of this Contract will be binding against the Selling Dealer or 
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:54px; top:1862px; width:506px; height:11px;"><span style="font-family: NGLNOI+Helvetica; font-size:11px">ADWC unless it is in writing and is signed by one of the authorized representatives at our home ofﬁ ce listed above.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:36px; top:1874px; width:502px; height:11px;"><span style="font-family: NGLNOI+Helvetica; font-size:11px">5.  We may delegate the performance of our duties and obligations and assign our rights and beneﬁ ts hereunder.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:18px; top:1891px; width:578px; height:239px;"><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">ARBITRATION: YOU</span><span style="font-family: NGLNOI+Helvetica; font-size:11px"> agree that all individual, class action, or other claims arising from or relating to this Contract, whether in contract, 
+<br>tort, pursuant to statute, regulation, ordinance or in equity or otherwise, are subject, at </span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">YOUR,</span><span style="font-family: NGLNOI+Helvetica; font-size:11px"> the Selling Dealer’s, or Associated 
+<br>Dealers Warranty Corp. (“ADWC”) election, to neutral binding arbitration by The American Arbitration Association under the applicable 
+<br>AAA rules then in effect as modiﬁ ed by this Arbitration Provision. This includes, but is not limited to, claims asserted by </span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">YOU </span><span style="font-family: NGLNOI+Helvetica; font-size:11px">against 
+<br>the Selling Dealer, ADWC, their afﬁ liates, and/or their and their afﬁ liates’ employees, ofﬁ cers, successors, or assigns. Any arbitration 
+<br>hereunder shall be governed by the Federal Arbitration Act (9 U.S.C. § 1 et seq.) and not by any state law concerning arbitration. The 
+<br>Arbitrator shall follow applicable statutes of limitations, shall honor claims of privilege recognized at law, and, if timely requested by 
+<br>either party, shall provide a brief written explanation of the award’s basis. Each party shall be responsible for its own attorney, expert, 
+<br>or other fees unless applicable law provides otherwise. </span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">Any claim or dispute is to be arbitrated on an individual basis and not as 
+<br>a class action. YOU expressly waive any right to arbitrate a class action or in a private attorney general capacity, and there 
+<br>shall be no joinder or consolidation of parties, except for parties to the same contract.</span><span style="font-family: NGLNOI+Helvetica; font-size:11px"> In the event of a conﬂ ict between this 
+<br>Arbitration Provision and any other applicable arbitration provision, the other provision’s terms shall apply; provided however, that this 
+<br>Arbitration Provision’s prohibition on classwide arbitration shall apply. If any portion of this Arbitration Provision is deemed invalid or 
+<br>unenforceable, it shall not invalidate the other provisions or the Contract; provided however, that if the provision prohibiting classwide 
+<br>arbitration is deemed invalid, then this entire Arbitration Provision shall be null and void. This Arbitration Provision shall not apply 
+<br>to any individual claim brought by </span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">YOU </span><span style="font-family: NGLNOI+Helvetica; font-size:11px">in small claims court, unless such claim is transferred, removed or appealed to a different 
+<br></span><span style="font-family: NGLNOI+Helvetica; font-size:11px">court. </span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:11px">Neither YOU, the Selling Dealer, nor ADWC will have the right to have a jury trial on any claim for which arbitration is 
+<br>elected. Discovery and rights to appeal are generally more limited than in a lawsuit, and other rights applicable in court may 
+<br>not be available in arbitration.</span><span style="font-family: NGLNOI+Helvetica; font-size:11px"> This Arbitration Provision will survive any termination, payoff, or transfer of this Contract. Information 
+<br>regarding AAA and its procedures for ﬁ ling a claim can be found at www.adr.org.
+<br></span></div><div style="position:absolute; border: textbox 1px solid; writing-mode:lr-tb; left:290px; top:2175px; width:25px; height:18px;"><span style="font-family: NGLNPK+Helvetica-Bold; font-size:9px">A544
+<br></span><span style="font-family: NGLNPK+Helvetica-Bold; font-size:9px">(10/09)
+<br></span></div><div style="position:absolute; top:0px;">Page: <a href="#1">1</a>, <a href="#2">2</a></div>
+</body></html>
